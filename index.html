@@ -56,7 +56,8 @@ a{color:var(--or);text-decoration:none}
 .station.vis{opacity:1;transform:none}
 .station.g{left:0;text-align:right}
 .station.d{left:50%;text-align:left}
-@media(min-width:761px){.station + .station.d{margin-top:-8rem}}
+/* Le chevauchement des colonnes est calculé en JS (layoutStagger) proportionnellement
+   à la hauteur des cartes, pour un rythme régulier le long du fil. */
 .station .dot{position:absolute;top:3.4rem;width:13px;height:13px;border-radius:50%;background:var(--noir);border:2px solid var(--or);transition:box-shadow .6s,background .6s}
 .station.vis .dot{background:var(--or);box-shadow:0 0 22px 2px rgba(201,169,98,.45)}
 .station.vis .dot::after{content:"";position:absolute;inset:-7px;border-radius:50%;border:1px solid rgba(201,169,98,.4);animation:pulse 2.6s ease-out infinite}
@@ -379,6 +380,35 @@ PROPHETES.forEach((p,i)=>{
     </button>`;
   tl.appendChild(s);
 });
+
+/* ============ RYTHME DE LA CHAÎNE (desktop) ============
+   Chaque carte remonte de 45 % de la hauteur de la précédente (colonne opposée),
+   au lieu d'un décalage fixe : l'espacement le long du fil reste régulier même
+   quand les cartes ont des hauteurs très différentes. Un minimum de 56px est
+   garanti entre deux cartes d'une même colonne. */
+const stations=[...tl.querySelectorAll(".station")];
+function layoutStagger(){
+  stations.forEach(s=>s.style.marginTop="");
+  if(!matchMedia("(min-width:761px)").matches)return;
+  const MINGAP=56;
+  for(let k=1;k<stations.length;k++){
+    const s=stations[k];
+    if(s.previousElementSibling&&s.previousElementSibling.classList.contains("era"))continue;
+    const prev=stations[k-1];
+    let mt=-Math.round(prev.offsetHeight*.45);
+    s.style.marginTop=mt+"px";
+    const back=stations[k-2];
+    if(back&&back.classList.contains(s.classList.contains("d")?"d":"g")){
+      const need=back.offsetTop+back.offsetHeight+MINGAP-s.offsetTop;
+      if(need>0){mt+=need;s.style.marginTop=mt+"px";}
+    }
+  }
+  dispatchEvent(new Event("scroll"));
+}
+layoutStagger();
+addEventListener("load",layoutStagger);
+document.fonts&&document.fonts.ready.then(layoutStagger);
+let rsz;addEventListener("resize",()=>{clearTimeout(rsz);rsz=setTimeout(layoutStagger,150)});
 
 /* ============ LECTEUR ============ */
 const reader=document.getElementById("reader"),panel=document.getElementById("panel"),pbody=document.getElementById("pbody"),
