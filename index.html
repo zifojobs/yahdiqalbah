@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Chaîne des Prophètes — de Adam à Muhammad ﷺ | Yahdi Qalbah</title>
+<meta name="description" content="Un voyage interactif à travers les 25 prophètes cités dans le Coran, de Adam à Muhammad ﷺ. Lisez leur histoire — chaque récit est relié à ses versets, cliquez et vérifiez à la source.">
+<meta property="og:title" content="La Chaîne des Prophètes — de Adam à Muhammad ﷺ">
+<meta property="og:description" content="25 messagers, un seul message. Un voyage interactif sourcé verset par verset — Yahdi Qalbah.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --noir:#0D0B07; --noir-2:#161209; --or:#C9A962; --or-vif:#E8D5A3; --or-sombre:#8a7038;
+  --creme:#F5EEDF; --muted:#9c937e; --line:rgba(201,169,98,.25);
+  --serif:'Cormorant Garamond',serif; --sans:'Plus Jakarta Sans',sans-serif; --ar:'Amiri',serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--noir);color:var(--creme);font-family:var(--sans);font-weight:300;line-height:1.7;overflow-x:hidden}
+::selection{background:var(--or);color:var(--noir)}
+::-webkit-scrollbar{width:9px}
+::-webkit-scrollbar-track{background:var(--noir)}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--or-sombre),var(--or));border-radius:99px}
+#stars{position:fixed;inset:0;z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1}
+a{color:var(--or);text-decoration:none}
+
+/* ---------- HERO ---------- */
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:6rem 1.5rem 4rem;position:relative}
+@keyframes fadeUp{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.hero>*{animation:fadeUp 1.1s cubic-bezier(.16,1,.3,1) both}
+.hero .bismillah{animation-delay:.1s;font-family:var(--ar);font-size:clamp(1.6rem,3vw,2.4rem);color:var(--or);opacity:.9;margin-bottom:2.5rem}
+.hero .kicker{animation-delay:.25s;font-size:.75rem;letter-spacing:.35em;text-transform:uppercase;color:var(--muted);margin-bottom:1.2rem}
+.hero h1{animation-delay:.4s;font-family:var(--serif);font-weight:600;font-size:clamp(2.6rem,7vw,5.5rem);line-height:1.05;letter-spacing:-.01em;max-width:16ch;
+  background:linear-gradient(110deg,var(--creme) 15%,var(--or) 40%,var(--or-vif) 50%,var(--or) 60%,var(--creme) 85%);
+  background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:fadeUp 1.1s cubic-bezier(.16,1,.3,1) .4s both,shimmer 9s ease-in-out 2s infinite}
+@keyframes shimmer{0%,100%{background-position:0% 0}50%{background-position:100% 0}}
+.hero .sub{animation-delay:.55s;margin-top:1.8rem;max-width:46ch;color:var(--muted);font-size:1.05rem}
+.hero .verse{animation-delay:.7s;margin-top:2.6rem;max-width:56ch}
+.hero .verse p{font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,2vw,1.4rem);color:var(--creme)}
+.pill{display:inline-block;margin-top:.6rem;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;border:1px solid var(--line);padding:.35rem .95rem;border-radius:999px;color:var(--or);transition:border-color .3s,background .3s,transform .3s}
+.pill:hover{border-color:var(--or);background:rgba(201,169,98,.09);transform:translateY(-1px)}
+.scroll-cue{margin-top:4.5rem;color:var(--muted);font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:.7rem;animation:fadeUp 1.1s 1s both}
+.scroll-cue::after{content:"";width:1px;height:52px;background:linear-gradient(var(--or),transparent);animation:cue 2.2s ease-in-out infinite}
+@keyframes cue{0%,100%{opacity:.25}50%{opacity:1}}
+
+/* ---------- TIMELINE ---------- */
+.timeline{position:relative;max-width:1080px;margin:0 auto;padding:5rem 1.5rem 8rem}
+.thread{position:absolute;top:0;bottom:0;left:50%;width:2px;transform:translateX(-50%);background:rgba(201,169,98,.12)}
+.thread .fill{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(var(--or-vif),var(--or) 60%,var(--or-sombre));transform-origin:top;transform:scaleY(0);box-shadow:0 0 18px rgba(201,169,98,.55)}
+.thread .comet{position:absolute;left:50%;top:0;width:11px;height:11px;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,#fff8e6 0%,var(--or-vif) 35%,rgba(201,169,98,0) 75%);box-shadow:0 0 26px 6px rgba(232,213,163,.5);opacity:0;transition:opacity .4s}
+.station{position:relative;width:50%;padding:2.6rem 3.2rem;opacity:0;transform:translateY(36px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.station.vis{opacity:1;transform:none}
+.station.g{left:0;text-align:right}
+.station.d{left:50%;text-align:left}
+@media(min-width:761px){.station + .station.d{margin-top:-8rem}}
+.station .dot{position:absolute;top:3.4rem;width:13px;height:13px;border-radius:50%;background:var(--noir);border:2px solid var(--or);transition:box-shadow .6s,background .6s}
+.station.vis .dot{background:var(--or);box-shadow:0 0 22px 2px rgba(201,169,98,.45)}
+.station.vis .dot::after{content:"";position:absolute;inset:-7px;border-radius:50%;border:1px solid rgba(201,169,98,.4);animation:pulse 2.6s ease-out infinite}
+@keyframes pulse{0%{transform:scale(.6);opacity:.9}70%,100%{transform:scale(1.5);opacity:0}}
+.station.g .dot{right:-7.5px}
+.station.d .dot{left:-7.5px}
+.station .num{font-size:.7rem;letter-spacing:.3em;color:var(--or-sombre);text-transform:uppercase}
+.station .ar{font-family:var(--ar);font-size:clamp(2.2rem,4.5vw,3.4rem);color:var(--or);line-height:1.7;margin-top:.3rem}
+.station h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,3vw,2.1rem);color:var(--creme);line-height:1.1}
+.station .epoque{font-size:.82rem;color:var(--muted);margin-top:.35rem}
+.badge{display:inline-block;margin-top:.6rem;font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--noir);background:linear-gradient(135deg,var(--or),var(--or-vif));padding:.28rem .7rem;border-radius:999px;font-weight:600}
+.station ul{list-style:none;margin-top:1.1rem;display:flex;flex-direction:column;gap:.7rem}
+.station.g ul{align-items:flex-end}
+.station li{font-size:.95rem;color:#cfc6b0;max-width:40ch}
+.refs{margin-top:1rem;display:flex;flex-wrap:wrap;gap:.45rem}
+.station.g .refs{justify-content:flex-end}
+.refs a{font-size:.72rem;letter-spacing:.08em;border:1px solid var(--line);padding:.22rem .65rem;border-radius:999px;color:var(--or);transition:border-color .3s,background .3s,transform .3s}
+.refs a:hover{border-color:var(--or);background:rgba(201,169,98,.1);transform:translateY(-1px)}
+.mentions{margin-top:.9rem;font-size:.72rem;color:var(--muted);letter-spacing:.05em}
+.lire{margin-top:1.3rem;display:inline-flex;align-items:center;gap:.55rem;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--noir);background:linear-gradient(135deg,var(--or),var(--or-vif));padding:.65rem 1.25rem;border-radius:999px;border:0;cursor:pointer;font-family:var(--sans);font-weight:600;transition:transform .3s,box-shadow .3s}
+.lire:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(201,169,98,.35)}
+.lire svg{width:13px;height:13px}
+
+/* Époques */
+.era{position:relative;width:100%;text-align:center;padding:4.5rem 1rem;opacity:0;transition:opacity 1.2s}
+.era.vis{opacity:1}
+.era span{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--or-sombre);background:var(--noir);padding:0 1.4rem;position:relative;z-index:1}
+
+/* ---------- HUD & BARRE ---------- */
+.hud{position:fixed;right:1.4rem;top:50%;transform:translateY(-50%);z-index:5;text-align:right;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);opacity:0;transition:opacity .5s;pointer-events:none}
+.hud.on{opacity:1}
+.hud .cur{display:block;font-family:var(--serif);font-size:1.25rem;letter-spacing:.02em;text-transform:none;color:var(--or);font-style:italic}
+.pbar{position:fixed;top:0;left:0;height:2px;width:100%;z-index:6}
+.pbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--or-sombre),var(--or-vif));box-shadow:0 0 10px rgba(201,169,98,.6)}
+
+/* ---------- LECTEUR (modal histoire) ---------- */
+.reader{position:fixed;inset:0;z-index:40;display:none;align-items:center;justify-content:center;padding:2.2rem 1.2rem}
+.reader.open{display:flex}
+.reader .veil{position:absolute;inset:0;background:rgba(8,6,3,.78);backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);opacity:0;transition:opacity .45s}
+.reader.show .veil{opacity:1}
+.panel{position:relative;width:min(700px,100%);max-height:88svh;overflow-y:auto;background:linear-gradient(160deg,#1a1409,#0f0c06 55%);border:1px solid rgba(201,169,98,.32);border-radius:22px;padding:3.2rem 3rem 2.6rem;box-shadow:0 30px 90px rgba(0,0,0,.7),0 0 60px rgba(201,169,98,.12);opacity:0;transform:translateY(34px) scale(.985);transition:opacity .5s cubic-bezier(.16,1,.3,1),transform .5s cubic-bezier(.16,1,.3,1)}
+.reader.show .panel{opacity:1;transform:none}
+.panel .wm{position:absolute;top:.4rem;right:1.4rem;font-family:var(--ar);font-size:7rem;line-height:1;color:rgba(201,169,98,.08);pointer-events:none;user-select:none}
+.panel .p-num{font-size:.68rem;letter-spacing:.3em;color:var(--or-sombre);text-transform:uppercase}
+.panel h3{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,4vw,2.8rem);color:var(--creme);line-height:1.05;margin-top:.3rem}
+.panel .p-ar{font-family:var(--ar);color:var(--or);font-size:1.7rem;margin-top:.2rem}
+.panel .p-epoque{font-size:.85rem;color:var(--muted);margin-top:.5rem}
+.panel .orn{text-align:center;color:var(--or);font-size:1.25rem;margin:1.8rem 0 1.4rem;letter-spacing:.6em;opacity:.85}
+.histoire p{font-size:1rem;color:#ddd3bc;margin-bottom:1.15rem}
+.histoire p:first-of-type::first-letter{font-family:var(--serif);font-size:3.1em;line-height:.82;float:left;padding:.08em .12em 0 0;color:var(--or);font-weight:600}
+.histoire em{font-family:var(--serif);font-style:italic;color:var(--creme);font-size:1.08em}
+.iref{font-size:.7rem;letter-spacing:.06em;border:1px solid var(--line);padding:.1rem .5rem;border-radius:999px;margin:0 .15rem;white-space:nowrap;vertical-align:2px;transition:border-color .3s,background .3s}
+.iref:hover{border-color:var(--or);background:rgba(201,169,98,.1)}
+.panel .p-mentions{font-size:.74rem;color:var(--muted);margin-top:1.6rem;padding-top:1.4rem;border-top:1px solid rgba(201,169,98,.15)}
+.p-nav{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:1.6rem}
+.p-nav button{background:none;border:1px solid var(--line);color:var(--or);font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;padding:.55rem 1.1rem;border-radius:999px;cursor:pointer;transition:border-color .3s,background .3s}
+.p-nav button:hover:not(:disabled){border-color:var(--or);background:rgba(201,169,98,.09)}
+.p-nav button:disabled{opacity:.3;cursor:default}
+.p-close{position:absolute;top:1.1rem;right:1.1rem;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(13,11,7,.6);color:var(--or);font-size:1rem;cursor:pointer;transition:border-color .3s,background .3s;z-index:2}
+.p-close:hover{border-color:var(--or);background:rgba(201,169,98,.12)}
+.panel::-webkit-scrollbar{width:6px}
+.panel::-webkit-scrollbar-thumb{background:var(--or-sombre);border-radius:99px}
+
+/* ---------- FINAL ---------- */
+.final{min-height:80svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:6rem 1.5rem}
+.final .ar-big{font-family:var(--ar);font-size:clamp(2rem,5vw,3.6rem);color:var(--or);margin-bottom:1.6rem}
+.final p{max-width:52ch;color:var(--muted)}
+.final .verse{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,2.4vw,1.7rem);color:var(--creme);max-width:44ch;margin-bottom:1rem}
+footer{border-top:1px solid rgba(201,169,98,.15);padding:2.5rem 1.5rem;text-align:center;font-size:.78rem;color:var(--muted)}
+footer .logo{font-family:var(--serif);font-size:1.1rem;color:var(--or);letter-spacing:.06em}
+footer .note{max-width:64ch;margin:.8rem auto 0}
+
+/* ---------- MOBILE ---------- */
+@media (max-width:760px){
+  .thread{left:1.1rem}
+  .station{width:100%;left:0!important;text-align:left!important;padding:2.2rem .6rem 2.2rem 2.9rem}
+  .station .dot{left:calc(1.1rem - 6.5px)!important;right:auto!important}
+  .station ul{align-items:flex-start!important}
+  .station .refs{justify-content:flex-start!important}
+  .hud{display:none}
+  .reader{padding:0}
+  .panel{max-height:100svh;height:100svh;border-radius:0;padding:3.4rem 1.4rem 2.2rem;border:0}
+  .panel .wm{font-size:4.6rem}
+}
+@media (prefers-reduced-motion:reduce){
+  .station,.era{opacity:1!important;transform:none!important;transition:none}
+  .thread .fill{transform:none!important}
+  .scroll-cue::after,.station.vis .dot::after{animation:none}
+  .hero>*,.hero h1{animation:none}
+}
+</style>
+</head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="pbar" aria-hidden="true"><i id="pfill"></i></div>
+<div class="hud" id="hud" aria-hidden="true"><span id="hudNum"></span><span class="cur" id="hudName"></span></div>
+
+<div class="wrap">
+<header class="hero">
+  <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+  <p class="kicker">Yahdi Qalbah · Institut</p>
+  <h1>La Chaîne des Prophètes</h1>
+  <p class="sub">De Adam à Muhammad ﷺ — vingt-cinq messagers cités dans le Coran, un seul message. Descendez le fil, lisez leurs histoires, et vérifiez chaque parole à la source : chaque référence est cliquable.</p>
+  <div class="verse">
+    <p>« Et Nous n'avons envoyé avant toi aucun messager sans lui révéler : “Nul n'est digne d'adoration à part Moi. Adorez-Moi donc.” »</p>
+    <a class="pill" href="https://quran.com/21/25" target="_blank" rel="noopener">Coran 21 : 25 ↗</a>
+  </div>
+  <div class="scroll-cue">Descendre le fil</div>
+</header>
+
+<main class="timeline" id="tl">
+  <div class="thread" aria-hidden="true"><div class="fill" id="tfill"></div><div class="comet" id="comet"></div></div>
+</main>
+
+<section class="final">
+  <p class="ar-big">صَلَّى اللهُ عَلَيْهِمْ أَجْمَعِين</p>
+  <p class="verse">« Dis : Nous croyons en Allah et en ce qu'on a fait descendre sur nous… Nous ne faisons aucune distinction entre eux. »</p>
+  <a class="pill" href="https://quran.com/2/136" target="_blank" rel="noopener">Coran 2 : 136 ↗</a>
+  <p style="margin-top:2.4rem">Cette chaîne n'est pas de l'histoire ancienne : c'est le même appel, transmis de cœur en cœur jusqu'à toi.</p>
+</section>
+
+<footer>
+  <p class="logo">Yahdi Qalbah</p>
+  <p class="note">Récits établis à partir du Coran — chaque affirmation renvoie à ses versets (quran.com, traduction française consultable sur place). L'ordre de la chaîne suit la tradition ; certaines précisions relèvent du récit rapporté et non du texte. Que la paix d'Allah soit sur eux tous.</p>
+</footer>
+</div>
+
+<!-- Lecteur d'histoire -->
+<div class="reader" id="reader" role="dialog" aria-modal="true" aria-label="Histoire du prophète">
+  <div class="veil" id="veil"></div>
+  <article class="panel" id="panel">
+    <button class="p-close" id="pclose" aria-label="Fermer">✕</button>
+    <div id="pbody"></div>
+    <div class="p-nav">
+      <button id="pprev">← Précédent</button>
+      <span id="pcount" style="font-size:.7rem;letter-spacing:.2em;color:var(--muted)"></span>
+      <button id="pnext">Suivant →</button>
+    </div>
+  </article>
+</div>
+
+<script>
+/* ============ DONNÉES — 25 prophètes ============
+   faits = accroches de la timeline · histoire = récit lisible (lecteur)
+   [[s:v]] devient une référence cliquable vers quran.com                */
+const P=(fr,ar,epoque,faits,refs,mentions,histoire,badge)=>({fr,ar,epoque,faits,refs,mentions,histoire,badge});
+const ERAS={0:"Les origines",5:"Le père des prophètes et sa descendance",13:"Les fils d'Israël",21:"Vers le sceau des prophètes"};
+const PROPHETES=[
+P("Adam","آدَم","Le premier homme, père de l'humanité",
+["Allah lui enseigna le nom de toutes choses, et les anges se prosternèrent devant lui.","Après la faute, il reçut de son Seigneur des paroles — et Allah accueillit son repentir."],
+[["2:31","2/31"],["2:37","2/37"],["38:75","38/75"]],"Cité 25 fois",
+`<p>Allah annonce aux anges qu'Il va établir sur terre un vicaire — et Il crée Adam de Ses deux Mains [[38:75]], lui insuffle de Son esprit, puis lui enseigne le nom de toutes choses [[2:31]]. Quand les anges reconnaissent la limite de leur savoir, l'ordre tombe : prosternez-vous devant Adam. Tous obéissent — sauf Iblîs, dévoré d'orgueil : <em>« Je suis meilleur que lui »</em> [[7:12]].</p>
+<p>Installé au Paradis avec son épouse, Adam reçoit une seule interdiction : ne pas approcher l'arbre [[2:35]]. Le chuchoteur jure leur vouloir du bien, et ils goûtent à l'arbre. Mais là où Iblîs s'était justifié, Adam se tourne : il reçoit de son Seigneur des paroles, et Allah accueille son repentir [[2:37]] — <em>« Notre Seigneur, nous nous sommes fait du tort à nous-mêmes… »</em> [[7:23]].</p>
+<p>Toute la condition humaine est déjà là : l'honneur d'avoir été choisi [[3:33]], la chute, et le chemin du retour. La descente sur terre n'est pas une malédiction — elle vient avec une promesse : <em>« quiconque suivra Ma guidée n'aura rien à craindre »</em> [[2:38]].</p>`),
+P("Idrîs","إِدْرِيس","Parmi les premiers, avant le déluge",
+["« Véridique et prophète » — et Allah l'éleva à une place sublime."],
+[["19:56-57","19/56-57"],["21:85","21/85"]],"Cité 2 fois",
+`<p>Le Coran parle d'Idrîs avec une sobriété volontaire — deux mentions, et chacune est un éloge. <em>« C'était un véridique et un prophète, et Nous l'avons élevé à une place sublime »</em> [[19:56-57]].</p>
+<p>Il est compté parmi les endurants, admis dans la miséricorde d'Allah, aux côtés d'Ismâʿîl et de Dhul-Kifl [[21:85-86]]. La tradition le situe entre Adam et Nûh, parmi les tout premiers maillons de la chaîne.</p>
+<p>Sa leçon tient dans la discrétion même du texte : on peut traverser l'histoire presque sans bruit et être « élevé à une place sublime ». Ce que pèse une vie ne se mesure pas au volume qu'elle occupe, mais à sa véracité — <em>siddîq</em>, l'homme dont l'intérieur et l'extérieur disent la même chose.</p>`),
+P("Nûh","نُوح","Envoyé à son peuple — des siècles d'appel",
+["Il appela son peuple 950 ans, nuit et jour, en secret et en public.","Sur ordre d'Allah il construisit l'arche ; les moqueurs furent engloutis, les croyants sauvés."],
+[["29:14","29/14"],["71:5-9","71/5-9"],["11:37-44","11/37-44"]],"Cité 43 fois · une sourate porte son nom",
+`<p>Neuf cent cinquante ans [[29:14]]. C'est la durée que le Coran donne à l'appel de Nûh — nuit et jour, en secret et en public, par la promesse et par l'avertissement [[71:5-9]]. Réponse de son peuple : les doigts dans les oreilles, les vêtements rabattus sur la tête, et l'orgueil [[71:7]].</p>
+<p>Vient alors l'ordre déroutant : construire un navire, loin de toute mer, sous les moqueries des notables [[11:38]]. Quand les eaux jaillissent du ciel et de la terre, l'arche porte les croyants — une poignée, après dix siècles d'efforts [[11:40]].</p>
+<p>Au cœur du récit, un déchirement : son propre fils refuse de monter, sûr qu'une montagne le sauvera. <em>« Rien aujourd'hui ne protège de l'ordre d'Allah »</em> [[11:43]]. Et quand Nûh implore pour lui, la réponse recadre tout : <em>« il n'est pas de ta famille, car il est l'œuvre d'un non-juste »</em> [[11:46]]. Le lien qui compte n'est pas le sang — c'est la foi. Nûh est le premier des cinq messagers « doués de fermeté » [[46:35]].</p>`,"Ulul ʿAzm"),
+P("Hûd","هُود","Envoyé aux ʿÂd, le peuple des colonnes",
+["Il rappela à un peuple puissant que la force vient d'Allah ; un vent dévastateur emporta ceux qui nièrent."],
+[["7:65","7/65"],["69:6-8","69/6-8"],["41:15","41/15"]],"Cité 7 fois · une sourate porte son nom",
+`<p>Après le déluge, les ʿÂd dominent leur monde : bâtisseurs d'<em>« Iram aux colonnes, dont jamais pareille ne fut créée parmi les cités »</em> [[89:7-8]]. Leur certitude tient en une phrase : <em>« Qui est plus fort que nous ? »</em> [[41:15]].</p>
+<p>Hûd, l'un des leurs, leur répond sans détour : Celui qui vous a créés est plus fort que vous. Il ne demande aucun salaire [[11:51]], rappelle les bienfaits, appelle au pardon d'Allah qui accroît la force [[11:52]] — et se heurte au mépris des notables.</p>
+<p>Le châtiment vient par où ils se croyaient invincibles : le vent. Sept nuits et huit jours d'un vent mugissant et stérile, qui couche les hommes <em>« comme des troncs de palmiers évidés »</em> [[69:7]]. La puissance matérielle sans soumission n'a jamais protégé personne — c'est la leçon gravée de Hûd.</p>`),
+P("Sâlih","صَالِح","Envoyé aux Thamûd, sculpteurs des montagnes",
+["La chamelle sortie du roc fut un signe éclatant — ils la tuèrent, et le Cri les saisit."],
+[["7:73","7/73"],["11:64-67","11/64-67"],["91:13-14","91/13-14"]],"Cité 9 fois",
+`<p>Les Thamûd taillent leurs demeures dans la montagne, en pleine sécurité [[15:82]]. À ce peuple d'artisans virtuoses, Allah envoie Sâlih — et, quand ils réclament une preuve, un signe à leur mesure : une chamelle, sortie du roc, <em>« chamelle d'Allah »</em> [[7:73]].</p>
+<p>La consigne est simple : la laisser boire à son tour, ne pas lui faire de mal [[91:13]]. Mais le signe vivant dérange les habitudes. Les plus misérables d'entre eux la tuent [[91:14]] — puis défient Sâlih d'apporter le châtiment promis.</p>
+<p>Trois jours de sursis [[11:65]], puis le Cri : au matin, ils gisent dans leurs demeures, comme s'ils n'y avaient jamais prospéré [[11:67-68]]. Reste, dans la pierre de leurs maisons vides, un avertissement que le Coran invite encore à méditer.</p>`),
+P("Ibrâhîm","إِبْرَاهِيم","Le père des prophètes, l'ami intime d'Allah",
+["Allah l'a pris pour ami intime (khalîl) ; à lui seul il était une communauté.","Il brisa les idoles de son peuple, fut jeté au feu — et le feu fut fraîcheur et paix.","Avec Ismâʿîl, il éleva les fondations de la Kaʿba."],
+[["4:125","4/125"],["21:57-69","21/57-69"],["2:127","2/127"]],"Cité 69 fois · une sourate porte son nom",
+`<p>Tout commence par une question honnête. Devant l'étoile, la lune, le soleil : <em>« Je n'aime pas ce qui disparaît »</em> [[6:76-79]]. Fils d'un sculpteur d'idoles, Ibrâhîm cherche — et Allah le guide, puis fait de lui l'adversaire le plus doux et le plus ferme de l'idolâtrie.</p>
+<p>Il brise les statues de son peuple, laissant la plus grande debout, hache à l'épaule, pour que leur propre logique les confonde [[21:57-67]]. Condamné au bûcher, il y est jeté — et l'ordre tombe : <em>« Ô feu, sois fraîcheur et paix pour Ibrâhîm »</em> [[21:69]].</p>
+<p>Sa vie entière est remise : quitter les siens, installer femme et nourrisson dans une vallée sans culture près de la Maison sacrée [[14:37]], puis — épreuve suprême — le songe du sacrifice de son fils. Le père et le fils se soumettent ensemble, et Allah rachète l'enfant par une immolation majestueuse [[37:102-107]]. Avec Ismâʿîl, il élève les fondations de la Kaʿba [[2:127]]. Allah l'a pris pour ami intime [[4:125]] et dit de lui : <em>« Ibrâhîm était à lui seul une communauté »</em> [[16:120]]. Toutes les prières de cette page descendent de la sienne.</p>`,"Ulul ʿAzm"),
+P("Lût","لُوط","Contemporain d'Ibrâhîm, envoyé à Sodome",
+["Il affronta un peuple d'une transgression inédite ; lui et les siens furent sauvés, sauf sa femme."],
+[["7:80-84","7/80-84"],["11:77-83","11/77-83"]],"Cité 27 fois",
+`<p>Neveu d'Ibrâhîm selon le récit, Lût est envoyé à un peuple qui commet <em>« une turpitude qu'aucun peuple avant lui n'avait commise »</em> [[7:80]] — et qui y ajoute le brigandage et le mal affiché en pleine assemblée [[29:29]].</p>
+<p>Il appelle, avertit, tient bon dans une cité où il n'a « ni force ni appui puissant » [[11:80]]. Quand les émissaires célestes arrivent sous forme d'hommes, la ville accourt — et l'angoisse de Lût pour ses hôtes dit toute sa solitude [[11:77-78]].</p>
+<p>L'ordre de départ tombe : pars avec ta famille à la fin de la nuit, et que nul ne se retourne — sauf ta femme, restée du côté des transgresseurs [[11:81]]. Au matin, la cité est renversée, une pluie de pierres marquées scelle son sort [[11:82-83]]. Rester droit quand tout un environnement a normalisé le mal : c'est l'épreuve de Lût.</p>`),
+P("Ismâʿîl","إِسْمَاعِيل","Fils aîné d'Ibrâhîm, l'enfant du désert",
+["« Véridique en sa promesse » — il se soumit au sacrifice, et Allah le racheta par une immolation majestueuse."],
+[["19:54","19/54"],["37:102-107","37/102-107"],["2:127","2/127"]],"Cité 12 fois",
+`<p>Enfant, il est déposé avec sa mère dans une vallée aride, près d'une Maison qui n'existe pas encore — sur ordre d'Allah, et par la duʿâ de son père : <em>« Ô notre Seigneur, j'ai établi une partie de ma descendance dans une vallée sans culture, près de Ta Maison sacrée… fais que les cœurs penchent vers eux »</em> [[14:37]]. La réponse à cette prière dure encore.</p>
+<p>Devenu l'âge de l'effort, son père lui confie le songe du sacrifice. La réponse d'Ismâʿîl est d'une pureté totale : <em>« Ô mon père, fais ce qui t'est ordonné. Tu me trouveras, si Allah le veut, parmi les endurants »</em> [[37:102]]. Front contre terre, la soumission des deux est acceptée — et l'enfant racheté [[37:103-107]].</p>
+<p>Avec son père, il élève ensuite les fondations de la Kaʿba [[2:127]]. Le Coran le loue d'un trait rare : <em>« véridique en sa promesse »</em>, et il ordonnait à sa famille la prière et la zakât [[19:54-55]]. De sa descendance viendra Muhammad ﷺ.</p>`),
+P("Ishâq","إِسْحَاق","Fils d'Ibrâhîm et Sârah, annoncé par les anges",
+["Bonne nouvelle donnée à des parents âgés — un prophète parmi les gens vertueux."],
+[["11:71-73","11/71-73"],["37:112-113","37/112-113"]],"Cité 17 fois",
+`<p>La nouvelle arrive par des hôtes étranges qui ne touchent pas au veau rôti : des anges, en route vers le peuple de Lût. Debout derrière eux, Sârah rit — et reçoit l'annonce d'Ishâq, puis, au-delà, de Yaʿqûb son petit-fils [[11:71]].</p>
+<p>Son étonnement est le nôtre : <em>« Vais-je enfanter, alors que je suis vieille et que mon mari est un vieillard ? »</em> La réponse ferme la discussion : <em>« T'étonnes-tu de l'ordre d'Allah ? »</em> [[11:72-73]]. Rien n'est tard quand Allah décide.</p>
+<p>Le Coran le confirme : <em>« Nous lui annonçâmes Ishâq comme prophète, parmi les gens vertueux »</em> [[37:112]]. Par lui se déploie la seconde branche de la descendance bénie d'Ibrâhîm — les prophètes des fils d'Israël, jusqu'à ʿÎsâ.</p>`),
+P("Yaʿqûb","يَعْقُوب","Isrâ'îl — père des douze tribus",
+["Face à la perte de Yûsuf : « une belle patience » (sabrun jamîl).","Sur son lit de mort, il fit promettre à ses fils de n'adorer qu'Allah."],
+[["12:18","12/18"],["2:132-133","2/132-133"]],"Cité 16 fois",
+`<p>Petit-fils d'Ibrâhîm, aussi nommé Isrâ'îl, Yaʿqûb est le père des douze tribus — et l'homme de la plus célèbre patience du Coran. Quand ses fils reviennent avec la tunique de Yûsuf au faux sang, il ne se laisse tromper ni par le récit ni par le désespoir : <em>« Belle patience ! Et c'est Allah qu'il faut appeler au secours »</em> [[12:18]].</p>
+<p>Des années durant, il porte ce chagrin sans le retourner contre Allah. Ses yeux blanchissent de tristesse [[12:84]], mais sa boussole ne bouge pas : <em>« Je ne me plains de mon déchirement et de mon chagrin qu'à Allah »</em> [[12:86]] — et il interdit à ses fils de désespérer de la miséricorde divine [[12:87]].</p>
+<p>Sa dernière scène est un testament : <em>« Qu'adorerez-vous après moi ? »</em> demande-t-il à ses fils réunis. — <em>« Nous adorerons ton Dieu et le Dieu de tes pères, Ibrâhîm, Ismâʿîl et Ishâq »</em> [[2:133]]. Transmettre le tawhîd : la seule inquiétude d'un père au moment de partir.</p>`),
+P("Yûsuf","يُوسُف","Du puits au trône d'Égypte",
+["Son histoire est appelée par Allah « le plus beau des récits ».","« Pas de reproche contre vous aujourd'hui » : le pardon au sommet de la puissance."],
+[["12:3","12/3"],["12:92","12/92"],["12:100","12/100"]],"Cité 27 fois · une sourate entière lui est consacrée",
+`<p>Un rêve d'enfant ouvre le récit : onze étoiles, le soleil et la lune prosternés [[12:4]]. Puis tout semble le contredire — la jalousie des frères, le puits, la caravane qui le vend <em>« à vil prix »</em> [[12:20]], l'esclavage en Égypte.</p>
+<p>Dans la maison de son maître, la beauté de Yûsuf devient son épreuve : sollicité avec insistance, portes verrouillées, il répond <em>« qu'Allah me protège ! »</em> [[12:23]] et choisit la prison plutôt que la faute [[12:33]]. Même au cachot, il reste daʿi : il interprète les rêves de ses codétenus en commençant par le tawhîd [[12:37-40]]. Le rêve du roi le fait sortir — innocenté d'abord, car il refuse de sortir avant que la vérité éclate [[12:50-51]] — puis intendant des greniers d'Égypte [[12:55]].</p>
+<p>Et quand ses frères, poussés par la famine, se tiennent devant lui sans le reconnaître, l'homme le plus puissant du pays lâche la phrase qui résume sa vie : <em>« Pas de reproche contre vous aujourd'hui. Qu'Allah vous pardonne »</em> [[12:92]]. Le rêve s'accomplit [[12:100]] — et Allah nomme cette sourate <em>« le plus beau des récits »</em> [[12:3]].</p>`),
+P("Ayyûb","أَيُّوب","L'endurance faite homme",
+["Éprouvé dans son corps et ses biens, il n'a jamais désespéré : « Quel bon serviteur ! Toujours revenant vers Allah. »"],
+[["21:83-84","21/83-84"],["38:41-44","38/41-44"]],"Cité 4 fois",
+`<p>Comblé puis dépouillé — biens, santé, entourage — Ayyûb traverse l'épreuve longue, celle qui use. Sa plainte tient en une phrase d'une pudeur inouïe : <em>« Le mal m'a touché, et Tu es le plus Miséricordieux des miséricordieux »</em> [[21:83]]. Pas une revendication ; un constat, et un éloge.</p>
+<p>La réponse est à la mesure de la patience : <em>« Frappe du pied : voici une eau fraîche pour te laver et pour boire »</em> [[38:42]]. Allah le guérit, lui rend les siens et autant encore avec eux — <em>« miséricorde de Notre part, et rappel pour ceux qui adorent »</em> [[21:84]].</p>
+<p>Un détail du récit dit tout de la délicatesse divine : lié par un serment prononcé dans l'épreuve contre son épouse fidèle, Ayyûb reçoit le moyen de l'honorer sans la blesser [[38:44]]. Et le verdict du ciel tombe : <em>« Quel bon serviteur ! Il était toujours revenant [vers Allah] »</em> [[38:44]].</p>`),
+P("Shuʿayb","شُعَيْب","Envoyé à Madyan — la justice dans la balance",
+["Il appela à la justice dans la mesure et le poids — l'honnêteté commerciale comme acte de foi."],
+[["11:84-85","11/84-85"],["11:88","11/88"]],"Cité 11 fois",
+`<p>Madyan vit de commerce — et triche sur la mesure et le poids. Shuʿayb commence là où son peuple pèche : <em>« Donnez la pleine mesure et le plein poids, et ne dépréciez pas aux gens leurs biens »</em> [[11:85]]. La religion descend jusque dans la balance du marchand.</p>
+<p>On le raille : <em>« Est-ce ta prière qui te commande de nous faire abandonner ce qu'adoraient nos pères, ou de ne plus faire de nos biens ce que nous voulons ? »</em> [[11:87]]. Sa réponse est un modèle de daʿwa : <em>« Je ne veux pas vous contredire en faisant moi-même ce que je vous interdis. Je ne veux que la réforme, autant que je le puis. Ma réussite ne dépend que d'Allah »</em> [[11:88]].</p>
+<p>Menacé de lapidation, protégé seulement par son clan [[11:91]], il tient — jusqu'au Cri qui saisit les fraudeurs [[11:94]]. La tradition l'appelle « l'orateur des prophètes » : chez lui, la parole la plus belle porte l'exigence la plus concrète.</p>`),
+P("Mûsâ","مُوسَى","Le plus cité du Coran, envoyé à Pharaon",
+["Allah lui a parlé directement — kalîmullâh.","Le bâton, la mer fendue « comme une immense montagne », la Torah reçue au mont Sinaï."],
+[["4:164","4/164"],["26:63","26/63"],["20:41-44","20/41-44"]],"Cité ≈136 fois — le plus mentionné du Coran",
+`<p>Sa vie commence par un miracle de confiance : une mère qui, sur inspiration divine, dépose son bébé dans le fleuve [[28:7]] — et le fleuve le porte jusqu'au palais de celui qui égorge les nouveau-nés. Allah le fait grandir chez son ennemi, puis le fait fuir à Madyan, où dix ans de bergerie polissent l'homme [[28:22-28]].</p>
+<p>Dans la vallée sacrée de Tuwâ, le feu aperçu au loin devient rendez-vous : <em>« Moi, Je suis ton Seigneur. Retire tes sandales »</em> [[20:12]]. Mission : Pharaon. Bagage : un bâton, une main lumineuse, un frère obtenu par duʿâ [[20:29-32]] — et cette consigne éternelle : <em>« Parlez-lui un langage doux »</em> [[20:44]]. Les magiciens convoqués pour l'écraser tombent prosternés les premiers [[20:70]].</p>
+<p>Puis la mer, l'armée derrière, les siens qui crient « nous sommes rejoints ! » — et la certitude tranquille : <em>« Non ! Mon Seigneur est avec moi, Il va me guider »</em> [[26:62]]. La mer se fend, chaque pan <em>« comme une immense montagne »</em> [[26:63]]. Au Sinaï, il reçoit la Torah [[7:145]] ; au retour, le veau d'or l'attend — l'épreuve continue même après la victoire. Allah lui a parlé directement [[4:164]] : kalîmullâh, le plus présent de tous les prophètes dans le Coran.</p>`,"Ulul ʿAzm"),
+P("Hârûn","هَارُون","Frère de Mûsâ, donné en réponse à sa duʿâ",
+["« Fais-lui partager ma mission » : Allah exauça Mûsâ et fit de son frère un prophète."],
+[["20:29-32","20/29-32"],["28:34","28/34"]],"Cité 20 fois",
+`<p>Hârûn est peut-être le seul prophète devenu prophète… par la duʿâ d'un autre. Mûsâ, conscient de sa parole nouée, demande : <em>« Donne-moi un assistant de ma famille — Hârûn, mon frère. Accrois par lui ma force, et fais-le participer à ma mission »</em> [[20:29-32]]. Allah répond : <em>« Ta demande est exaucée, ô Mûsâ »</em> [[20:36]].</p>
+<p>Plus éloquent que son frère [[28:34]], il porte avec lui la confrontation avec Pharaon, puis la charge du peuple pendant les quarante nuits du Sinaï. Face au veau d'or, il choisit de préserver l'unité des rangs plutôt que de briser — quitte à être malmené : <em>« Ô fils de ma mère ! Ne me prends ni par la barbe ni par la tête… »</em> [[20:94]].</p>
+<p>Son histoire enseigne la grandeur du second rôle : soutenir sans jalousie, porter sans paraître. Deux frères, une mission — et Allah les cite ensemble en miséricorde [[37:114-122]].</p>`),
+P("Dhul-Kifl","ذُو الكِفْل","Parmi les endurants",
+["Compté avec Ismâʿîl et Idrîs : « tous parmi les endurants », admis dans la miséricorde d'Allah."],
+[["21:85-86","21/85-86"],["38:48","38/48"]],"Cité 2 fois",
+`<p>Deux mentions, deux éloges — et c'est tout. <em>« Et Ismâʿîl, Idrîs et Dhul-Kifl : tous étaient du nombre des endurants. Nous les avons admis en Notre miséricorde, car ils étaient vraiment du nombre des gens de bien »</em> [[21:85-86]].</p>
+<p>Son nom même — « l'homme à la garantie » — suggère, selon les commentateurs, un engagement tenu : une charge acceptée et honorée jusqu'au bout. Le Coran ne détaille pas ; il certifie le résultat : endurance, droiture, miséricorde [[38:48]].</p>
+<p>Il y a une pédagogie dans ce silence : toutes les vies fidèles ne laissent pas de grands récits. Certaines ne laissent qu'une attestation — mais quelle attestation, quand c'est Allah qui la signe.</p>`),
+P("Dâwûd","دَاوُود","Roi et prophète, à qui fut donné le Zabûr",
+["Les montagnes et les oiseaux glorifiaient Allah avec lui ; le fer fut assoupli entre ses mains.","Allah lui donna la royauté, la sagesse, et un jugement décisif."],
+[["34:10","34/10"],["38:17-20","38/17-20"],["2:251","2/251"]],"Cité 16 fois",
+`<p>Il entre dans l'histoire en jeune homme qui s'avance contre le géant : <em>« Dâwûd tua Jâlût, et Allah lui donna la royauté et la sagesse »</em> [[2:251]]. Rare cumul : roi et prophète, pouvoir et révélation — le Zabûr lui est confié [[4:163]].</p>
+<p>Sa grâce propre est la glorification : les montagnes reprennent ses louanges au soir et au matin, les oiseaux rassemblés avec lui [[38:18-19]] — et le fer, dur entre toutes les matières, s'assouplit entre ses mains [[34:10]]. Allah lui commande d'œuvrer : des cottes de mailles bien mesurées, le travail comme gratitude [[34:11]].</p>
+<p>Mais le Coran retient surtout son cœur de juge : la nuit où deux plaideurs escaladent son sanctuaire et où il comprend, à travers leur litige de brebis, qu'il vient d'être éprouvé — il tombe prosterné et revient à son Seigneur [[38:21-24]]. Le verdict divin : <em>« awwâb »</em> — celui qui, toujours, revient [[38:17]].</p>`),
+P("Sulaymân","سُلَيْمَان","Fils de Dâwûd — un règne sans équivalent",
+["Le vent, les jinns, la langue des oiseaux : un royaume demandé à Allah et jamais redonné à un autre.","Avec la reine de Saba', la puissance mise au service du tawhîd."],
+[["38:35-37","38/35-37"],["27:16-19","27/16-19"],["27:44","27/44"]],"Cité 17 fois",
+`<p>Héritier de Dâwûd [[27:16]], Sulaymân demande à Allah un royaume <em>« tel que nul après moi n'aura de pareil »</em> [[38:35]] — et le reçoit : le vent courant sur son ordre [[38:36]], les jinns bâtisseurs et plongeurs [[38:37]], la langue des oiseaux enseignée [[27:16]].</p>
+<p>Le plus étonnant est ce que ce pouvoir n'abîme pas. Entendant une fourmi avertir les siennes, il sourit et prie : <em>« Seigneur, permets-moi de rendre grâce pour Ton bienfait »</em> [[27:18-19]]. La huppe manque à l'appel, revient de Saba' avec la nouvelle d'un peuple qui se prosterne devant le soleil [[27:22-24]] — et tout l'appareil du royaume se met au service d'une seule chose : amener une reine au tawhîd. Devant le palais de cristal, Bilqîs conclut d'elle-même : <em>« Je me soumets, avec Sulaymân, à Allah, Seigneur des mondes »</em> [[27:44]].</p>
+<p>Jusqu'à sa mort, discrète, que seule une bête rongeant son bâton révèle aux jinns — preuve qu'ils ne connaissent pas l'invisible [[34:14]]. La puissance totale, sans une once d'orgueil : voilà Sulaymân.</p>`),
+P("Ilyâs","إِلْيَاس","Contre le culte de Baʿl",
+["« Invoquez-vous Baʿl et délaissez-vous le Meilleur des créateurs ? » — paix sur Ilyâsîn."],
+[["37:123-130","37/123-130"]],"Cité 2 fois",
+`<p>Envoyé aux fils d'Israël quand ils glissent vers l'idole Baʿl, Ilyâs pose la question qui renverse tout : <em>« Ne craignez-vous pas [Allah] ? Invoquez-vous Baʿl et délaissez-vous le Meilleur des créateurs — Allah, votre Seigneur et le Seigneur de vos plus anciens ancêtres ? »</em> [[37:124-126]].</p>
+<p>Son peuple le traite de menteur ; le Coran scelle leur rendez-vous : <em>« ils seront emmenés [au châtiment] — sauf les serviteurs élus d'Allah »</em> [[37:127-128]].</p>
+<p>Et pour lui, cette salutation que le texte fait durer à travers les générations : <em>« Paix sur Ilyâsîn ! C'est ainsi que Nous récompensons les bienfaisants »</em> [[37:129-131]]. Un seul combat, une seule question, et une paix éternelle en héritage.</p>`),
+P("Al-Yasaʿ","اليَسَع","Parmi les meilleurs",
+["Mentionné avec Ismâʿîl et Dhul-Kifl : « tous parmi les meilleurs »."],
+[["38:48","38/48"],["6:86","6/86"]],"Cité 2 fois",
+`<p>Successeur d'Ilyâs selon la tradition, Al-Yasaʿ apparaît deux fois dans le Coran, toujours en bonne compagnie : <em>« Et Ismâʿîl, Al-Yasaʿ, Yûnus et Lût — chacun d'eux, Nous l'avons favorisé par-dessus le reste du monde »</em> [[6:86]].</p>
+<p>Et encore : <em>« Rappelle-toi Ismâʿîl, Al-Yasaʿ et Dhul-Kifl : tous parmi les meilleurs »</em> [[38:48]]. Être « rappelé » par Allah Lui-même — le texte fait de sa simple mention un acte d'honneur.</p>
+<p>Sa présence dans la chaîne rappelle que la prophétie fut continue chez les fils d'Israël : après chaque maillon éclatant, un maillon discret maintient la corde tendue, pour que l'appel ne s'interrompe jamais.</p>`),
+P("Yûnus","يُونُس","Dhun-Nûn — l'homme au poisson",
+["Du ventre du poisson, dans les ténèbres : « Nul n'est digne d'adoration à part Toi ! Gloire à Toi, j'étais du nombre des injustes. »","Son peuple entier crut — le seul cas du Coran."],
+[["21:87-88","21/87-88"],["37:139-148","37/139-148"],["10:98","10/98"]],"Cité 4 fois · une sourate porte son nom",
+`<p>Lassé d'un peuple qui ne répond pas, Yûnus part <em>« en colère, pensant que Nous ne le mettrions pas à l'épreuve »</em> [[21:87]]. Le navire surchargé tire au sort ; le sort le désigne ; la mer le prend — et le poisson l'avale, <em>« alors qu'il était blâmable »</em> [[37:142]].</p>
+<p>Dans les ténèbres superposées — nuit, mer, ventre — monte alors l'une des invocations les plus puissantes jamais enseignées : <em>« Nul n'est digne d'adoration à part Toi ! Gloire à Toi ! J'étais vraiment du nombre des injustes »</em> [[21:87]]. Et la réponse : <em>« Nous l'avons sauvé de l'angoisse — et c'est ainsi que Nous sauvons les croyants »</em> [[21:88]]. Rejeté sur le rivage, malade, une plante de courge étendue sur lui [[37:145-146]] : la convalescence est signée de douceur.</p>
+<p>Le plus beau reste la fin : son peuple, lui, crut — cent mille âmes ou davantage, seule cité du Coran sauvée entière par sa foi [[10:98]] [[37:147-148]]. Et pour nous, l'avertissement tendre fait au Prophète ﷺ : <em>« Ne sois pas comme l'homme au poisson »</em> [[68:48]] — ne jamais abandonner les cœurs avant l'heure d'Allah.</p>`),
+P("Zakariyyâ","زَكَرِيَّا","Gardien de Maryam, l'invocateur discret",
+["Un appel secret à son Seigneur, aux cheveux blancs : « ne me laisse pas seul » — et Yahyâ lui fut annoncé."],
+[["19:2-6","19/2-6"],["3:38-39","3/38-39"],["21:89-90","21/89-90"]],"Cité 7 fois",
+`<p>Chargé de Maryam, il découvre chez elle des fruits hors saison : <em>« D'où cela te vient-il ? » — « Cela vient d'Allah. Il donne sans compter à qui Il veut »</em> [[3:37]]. Cette réponse d'enfant réveille chez le vieil homme une espérance qu'il croyait éteinte : <em>« C'est là que Zakariyyâ invoqua son Seigneur »</em> [[3:38]].</p>
+<p>Sa duʿâ est un modèle d'intimité : <em>« un appel secret »</em> [[19:3]] — les os affaiblis, la tête embrasée de blancheur, et cet argument bouleversant : <em>« jamais, en Te priant, je n'ai été malheureux, Seigneur »</em> [[19:4]]. Il ne réclame pas ; il raconte à Celui qui sait déjà.</p>
+<p>La réponse dépasse la demande : Yahyâ — un nom que nul n'a porté avant lui [[19:7]]. Et quand la nature semble dire l'impossible, le rappel : <em>« Cela M'est facile : Je t'ai bien créé auparavant alors que tu n'étais rien »</em> [[19:9]]. Le Coran résume ce foyer d'une phrase : <em>« ils s'empressaient au bien, Nous invoquaient par désir et par crainte, et étaient humbles devant Nous »</em> [[21:90]].</p>`),
+P("Yahyâ","يَحْيَى","Un nom jamais porté avant lui",
+["« Ô Yahyâ, tiens le Livre avec force » — la sagesse lui fut donnée dès l'enfance."],
+[["19:7","19/7"],["19:12-15","19/12-15"]],"Cité 5 fois",
+`<p>Fruit de la duʿâ de Zakariyyâ, il arrive avec un nom neuf, choisi par Allah Lui-même : <em>« Nous t'annonçons un fils du nom de Yahyâ, à qui Nous n'avons jamais donné d'homonyme »</em> [[19:7]] — et il confirmera « une Parole d'Allah », ʿÎsâ [[3:39]].</p>
+<p>L'adresse qui lui est faite tient en une ligne de feu : <em>« Ô Yahyâ, tiens le Livre avec force ! » Et Nous lui donnâmes la sagesse alors qu'il était enfant</em> [[19:12]]. Puis le portrait, d'une tendresse rare : compassion et pureté venues d'Allah, piété, bonté envers ses deux parents — <em>« ni violent, ni désobéissant »</em> [[19:13-14]].</p>
+<p>Et cette salutation divine sur ses trois passages les plus vulnérables : <em>« Paix sur lui le jour où il naquit, le jour où il mourra, et le jour où il sera ressuscité vivant »</em> [[19:15]]. Une vie courte selon les récits — mais couverte de paix aux trois instants où nul ne peut rien pour lui-même.</p>`),
+P("ʿÎsâ","عِيسَى","Fils de Maryam — parole d'Allah et miracle vivant",
+["Il parla au berceau : « Je suis le serviteur d'Allah, Il m'a donné le Livre et m'a fait prophète. »","Il guérissait et ranimait — par la permission d'Allah ; il ne fut ni tué ni crucifié, mais élevé vers Lui."],
+[["19:29-33","19/29-33"],["3:49","3/49"],["4:157-158","4/157-158"]],"Cité 25 fois",
+`<p>Sa naissance est un signe voulu tel : Maryam, la plus véridique des femmes, reçoit l'annonce d'un fils sans qu'aucun homme ne l'ait touchée — <em>« Ainsi sera-t-il, dit Allah : Je crée ce que Je veux »</em> [[3:47]]. Sous le palmier, dans la douleur et la solitude, elle est nourrie et consolée [[19:23-26]] ; et quand elle revient, l'enfant au bras, face aux accusations, c'est le nourrisson qui parle : <em>« Je suis le serviteur d'Allah. Il m'a donné le Livre et m'a fait prophète »</em> [[19:30]].</p>
+<p>Sa mission déborde de signes — par une permission sans cesse rappelée : il façonne de l'argile un oiseau qui s'envole, guérit l'aveugle-né et le lépreux, ranime les morts — <em>« par la permission d'Allah »</em> [[3:49]]. Ses apôtres se déclarent <em>« ansâr d'Allah »</em> [[3:52]] ; une table servie descend du ciel comme fête et signe [[5:114-115]].</p>
+<p>Face au complot, le Coran tranche l'histoire : <em>« ils ne l'ont ni tué ni crucifié, mais ce n'était qu'un faux-semblant… Allah l'a élevé vers Lui »</em> [[4:157-158]]. Et lui-même remet toute chose à sa place, dans une parole d'une humilité parfaite : <em>« Je ne leur ai dit que ce que Tu m'as commandé : Adorez Allah, mon Seigneur et votre Seigneur »</em> [[5:117]].</p>`,"Ulul ʿAzm"),
+P("Muhammad ﷺ","مُحَمَّد ﷺ","Le sceau des prophètes — miséricorde pour les mondes",
+["« Muhammad… est le Messager d'Allah et le sceau des prophètes » : la chaîne se referme sur lui.","« Nous ne t'avons envoyé qu'en miséricorde pour les mondes » — et son message, le Coran, est entre tes mains.","« Vous avez dans le Messager d'Allah un excellent modèle. »"],
+[["33:40","33/40"],["21:107","21/107"],["33:21","33/21"]],"Le Coran entier est sa preuve",
+`<p>Orphelin avant de naître, berger, puis marchand réputé pour n'avoir jamais menti — la préparation dura quarante ans, et Allah la résume avec tendresse : <em>« Ne t'a-t-Il pas trouvé orphelin ? Alors Il t'a accueilli. Il t'a trouvé égaré : alors Il t'a guidé. Il t'a trouvé pauvre : alors Il t'a enrichi »</em> [[93:6-8]].</p>
+<p>Dans la grotte de Hirâ', la première parole de la dernière révélation : <em>« Lis, au nom de ton Seigneur qui a créé »</em> [[96:1]]. Suivront vingt-trois ans à porter le Coran — moqueries, embargo, exil ; dans la grotte de la hijra, la certitude nue : <em>« Ne t'attriste pas, Allah est avec nous »</em> [[9:40]]. Un voyage nocturne le mène de la Mosquée sacrée à la mosquée al-Aqsâ [[17:1]] ; et à la victoire finale, il entre à La Mecque front baissé, en pardonneur — <em>« et célèbre la louange de ton Seigneur et implore Son pardon »</em> [[110:3]].</p>
+<p>Allah atteste de lui ce qu'Il n'a dit de nul autre : <em>« tu es d'un caractère immense »</em> [[68:4]] ; <em>« Nous ne t'avons envoyé qu'en miséricorde pour les mondes »</em> [[21:107]] ; <em>« le Messager d'Allah et le sceau des prophètes »</em> [[33:40]]. La chaîne commencée avec Adam se referme sur lui — et son héritage n'est pas un tombeau mais un Livre, intact, entre tes mains : <em>« Aujourd'hui J'ai parachevé pour vous votre religion »</em> [[5:3]]. Dans le Messager d'Allah, tu as un excellent modèle [[33:21]].</p>`,"Ulul ʿAzm"),
+];
+
+/* ============ RENDU TIMELINE ============ */
+const tl=document.getElementById("tl");
+const linkRefs=h=>h.replace(/\[\[([\d]+:[\d\-,]+)\]\]/g,(_,t)=>`<a class="iref" href="https://quran.com/${t.replace(":","/")}" target="_blank" rel="noopener">${t}</a>`);
+PROPHETES.forEach((p,i)=>{
+  if(ERAS[i]!==undefined){const e=document.createElement("div");e.className="era";e.innerHTML=`<span>${ERAS[i]}</span>`;tl.appendChild(e);}
+  const s=document.createElement("article");
+  s.className="station "+(i%2?"d":"g");s.dataset.name=p.fr;s.dataset.num=i+1;
+  s.innerHTML=`
+    <span class="dot" aria-hidden="true"></span>
+    <p class="num">${String(i+1).padStart(2,"0")} / 25</p>
+    <p class="ar" lang="ar">${p.ar}</p>
+    <h2>${p.fr}</h2>
+    <p class="epoque">${p.epoque}</p>
+    ${p.badge?`<span class="badge">${p.badge} · doué de fermeté</span>`:""}
+    <ul>${p.faits.map(f=>`<li>${f}</li>`).join("")}</ul>
+    <div class="refs">${p.refs.map(([t,u])=>`<a href="https://quran.com/${u}" target="_blank" rel="noopener">Coran ${t} ↗</a>`).join("")}</div>
+    <p class="mentions">${p.mentions}</p>
+    <button class="lire" data-i="${i}">Lire son histoire
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>`;
+  tl.appendChild(s);
+});
+
+/* ============ LECTEUR ============ */
+const reader=document.getElementById("reader"),panel=document.getElementById("panel"),pbody=document.getElementById("pbody"),
+pprev=document.getElementById("pprev"),pnext=document.getElementById("pnext"),pcount=document.getElementById("pcount");
+let cur=-1;
+function openReader(i){
+  cur=i;const p=PROPHETES[i];
+  pbody.innerHTML=`
+    <span class="wm" aria-hidden="true">${p.ar}</span>
+    <p class="p-num">${String(i+1).padStart(2,"0")} / 25 — La Chaîne des Prophètes</p>
+    <h3>${p.fr}</h3>
+    <p class="p-ar" lang="ar">${p.ar}</p>
+    <p class="p-epoque">${p.epoque}${p.badge?` · <strong style="color:var(--or)">${p.badge}</strong>`:""}</p>
+    <p class="orn">۞ ۞ ۞</p>
+    <div class="histoire">${linkRefs(p.histoire)}</div>
+    <p class="p-mentions">${p.mentions} — chaque référence ouvre le verset sur quran.com (traduction française disponible sur place).</p>`;
+  pcount.textContent=`${i+1} / 25`;
+  pprev.disabled=i===0;pnext.disabled=i===PROPHETES.length-1;
+  reader.classList.add("open");requestAnimationFrame(()=>reader.classList.add("show"));
+  document.body.style.overflow="hidden";panel.scrollTop=0;panel.focus?.();
+}
+function closeReader(){
+  reader.classList.remove("show");document.body.style.overflow="";
+  setTimeout(()=>reader.classList.remove("open"),450);cur=-1;
+}
+tl.addEventListener("click",e=>{const b=e.target.closest(".lire");if(b)openReader(+b.dataset.i)});
+document.getElementById("pclose").addEventListener("click",closeReader);
+document.getElementById("veil").addEventListener("click",closeReader);
+pprev.addEventListener("click",()=>{if(cur>0)openReader(cur-1)});
+pnext.addEventListener("click",()=>{if(cur<PROPHETES.length-1)openReader(cur+1)});
+addEventListener("keydown",e=>{
+  if(cur<0)return;
+  if(e.key==="Escape")closeReader();
+  else if(e.key==="ArrowLeft"&&cur>0)openReader(cur-1);
+  else if(e.key==="ArrowRight"&&cur<PROPHETES.length-1)openReader(cur+1);
+});
+
+/* ============ RÉVÉLATIONS + HUD ============ */
+const hud=document.getElementById("hud"),hudName=document.getElementById("hudName"),hudNum=document.getElementById("hudNum");
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){
+    e.target.classList.add("vis");
+    if(e.target.dataset.name){hudName.textContent=e.target.dataset.name;hudNum.textContent=e.target.dataset.num+" / 25";}
+  }
+}),{threshold:.25,rootMargin:"0px 0px -10% 0px"});
+document.querySelectorAll(".station,.era").forEach(el=>io.observe(el));
+
+/* fil d'or + comète + barre + hud */
+const tfill=document.getElementById("tfill"),comet=document.getElementById("comet"),pfill=document.getElementById("pfill");
+function onScroll(){
+  const r=tl.getBoundingClientRect(),vh=innerHeight;
+  const prog=Math.min(1,Math.max(0,(vh*.5-r.top)/r.height));
+  tfill.style.transform=`scaleY(${prog})`;
+  comet.style.top=(prog*100)+"%";
+  comet.style.opacity=prog>0&&prog<1?1:0;
+  const total=document.documentElement.scrollHeight-vh;
+  pfill.style.width=(scrollY/Math.max(1,total)*100)+"%";
+  hud.classList.toggle("on",r.top<vh*.5&&r.bottom>vh*.5);
+}
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+
+/* ============ CIEL ÉTOILÉ + ÉTOILES FILANTES ============ */
+const cv=document.getElementById("stars"),cx=cv.getContext("2d");
+let stars=[],meteors=[],lastMeteor=0;
+function resize(){cv.width=innerWidth;cv.height=innerHeight;
+  stars=Array.from({length:Math.min(170,innerWidth/8)},()=>({
+    x:Math.random()*cv.width,y:Math.random()*cv.height,
+    r:Math.random()*1.3+.3,p:Math.random()*Math.PI*2,s:.4+Math.random()*.8}));
+}
+resize();addEventListener("resize",resize);
+const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function draw(t){
+  cx.clearRect(0,0,cv.width,cv.height);
+  for(const st of stars){
+    const a=.25+.45*Math.abs(Math.sin(t/1600*st.s+st.p));
+    cx.beginPath();cx.arc(st.x,st.y,st.r,0,7);
+    cx.fillStyle=`rgba(232,213,163,${a})`;cx.fill();
+  }
+  if(t-lastMeteor>4500+Math.random()*4000&&meteors.length<2){
+    lastMeteor=t;
+    meteors.push({x:Math.random()*cv.width*.8+cv.width*.15,y:Math.random()*cv.height*.3,
+      vx:-(3.5+Math.random()*3),vy:2+Math.random()*1.6,life:1});
+  }
+  meteors=meteors.filter(m=>m.life>0);
+  for(const m of meteors){
+    const g=cx.createLinearGradient(m.x,m.y,m.x-m.vx*16,m.y-m.vy*16);
+    g.addColorStop(0,`rgba(245,238,223,${.85*m.life})`);
+    g.addColorStop(1,"rgba(201,169,98,0)");
+    cx.strokeStyle=g;cx.lineWidth=1.6;
+    cx.beginPath();cx.moveTo(m.x,m.y);cx.lineTo(m.x-m.vx*16,m.y-m.vy*16);cx.stroke();
+    m.x+=m.vx;m.y+=m.vy;m.life-=.016;
+  }
+  if(!reduced)requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+</script>
+</body>
+</html>
