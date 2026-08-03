@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Vie du Prophète ﷺ — Institut Yahdi Qalbah</title>
+<meta name="description" content="La Seerah, la vie du Prophète Muhammad ﷺ, racontée épisode par épisode : ses noms, ses spécificités, son enfance, son caractère — 100 % sourcé, offert en sadaqa jariya.">
+<meta property="og:title" content="La Vie du Prophète ﷺ — Institut Yahdi Qalbah">
+<meta property="og:description" content="La Seerah, épisode par épisode. Épisode 1 : Ses spécificités.">
+<meta property="og:type" content="article">
+<link rel="icon" href="../assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --noir:#0D0B07; --noir-2:#161209; --or:#C9A962; --or-vif:#E8D5A3; --or-sombre:#8a7038;
+  --creme:#F5EEDF; --muted:#9c937e; --line:rgba(201,169,98,.25);
+  --serif:'Cormorant Garamond',serif; --sans:'Plus Jakarta Sans',sans-serif; --ar:'Amiri',serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--noir);color:var(--creme);font-family:var(--sans);font-weight:300;line-height:1.7;overflow-x:hidden}
+::selection{background:var(--or);color:var(--noir)}
+::-webkit-scrollbar{width:9px}
+::-webkit-scrollbar-track{background:var(--noir)}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--or-sombre),var(--or));border-radius:99px}
+#stars{position:fixed;inset:0;z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1}
+a{color:var(--or);text-decoration:none}
+
+.home{position:fixed;top:1rem;left:1rem;z-index:40;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+  border:1px solid var(--line);background:rgba(13,11,7,.72);backdrop-filter:blur(6px);
+  padding:.5rem 1rem;border-radius:999px;color:var(--or);transition:border-color .3s,background .3s}
+.home:hover{border-color:var(--or);background:rgba(201,169,98,.12)}
+
+header.hero{text-align:center;padding:7rem 1.5rem 3rem;max-width:820px;margin:0 auto}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+header.hero>*{animation:fadeUp 1s cubic-bezier(.16,1,.3,1) both}
+.kicker{font-size:.72rem;letter-spacing:.35em;text-transform:uppercase;color:var(--muted)}
+.hero .ha{animation-delay:.15s;font-family:var(--ar);font-size:clamp(1.8rem,5vw,2.8rem);color:var(--or);line-height:1.9;margin-top:.6rem}
+h1{animation-delay:.3s;font-family:var(--serif);font-weight:600;font-size:clamp(2.2rem,6vw,4rem);line-height:1.05;
+  background:linear-gradient(110deg,var(--creme) 15%,var(--or) 40%,var(--or-vif) 50%,var(--or) 60%,var(--creme) 85%);
+  background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:fadeUp 1s cubic-bezier(.16,1,.3,1) .3s both,shimmer 9s ease-in-out 2s infinite}
+@keyframes shimmer{0%,100%{background-position:0% 0}50%{background-position:100% 0}}
+.hero p.sub{animation-delay:.45s;margin:1.4rem auto 0;max-width:56ch;color:var(--muted)}
+.ep-badge{animation-delay:.6s;display:inline-block;margin-top:1.6rem;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;
+  border:1px solid var(--line);padding:.5rem 1.1rem;border-radius:999px;color:var(--or)}
+
+/* ---------- ARTICLE ---------- */
+article{max-width:720px;margin:0 auto;padding:1rem 1.5rem 4rem}
+article h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.4rem,4vw,1.85rem);color:var(--or);
+  margin:2.6rem 0 1.1rem;padding-top:.2rem;border-top:1px solid var(--line)}
+article h3:first-of-type{border-top:0;margin-top:1.2rem}
+article p{font-size:1.02rem;color:#dcd3bd;margin-top:1.1rem}
+article p i{color:var(--creme);font-style:italic}
+article ol{margin:1.1rem 0 0;padding-left:1.4rem;counter-reset:none}
+article ol li{font-size:1.02rem;color:#dcd3bd;margin-top:1.2rem;padding-left:.3rem}
+article ol li::marker{color:var(--or);font-family:var(--serif);font-weight:600}
+article ol li p{margin-top:.9rem}
+article ol li p:first-child{margin-top:0}
+article blockquote{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--creme);
+  border-left:2px solid var(--or-sombre);padding-left:1.2rem;margin-top:1.1rem}
+.source{margin-top:3rem;padding:1.6rem 1.7rem;border:1px solid var(--line);border-radius:16px;
+  background:linear-gradient(160deg,rgba(26,20,9,.6),rgba(15,12,6,.45))}
+.source p{font-size:.85rem;color:var(--muted);margin-top:.4rem}
+.source p:first-child{margin-top:0}
+.next-ep{max-width:720px;margin:0 auto 4rem;padding:0 1.5rem}
+.next-ep p{font-size:.9rem;color:var(--muted);text-align:center;font-style:italic;font-family:var(--serif)}
+
+footer{padding:3rem 1.5rem 3rem;text-align:center;font-size:.78rem;color:var(--muted);
+  border-top:1px solid rgba(201,169,98,.14)}
+footer .f-ar{font-family:var(--ar);font-size:1.5rem;color:var(--or)}
+footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-top:.3rem}
+footer .fnote{max-width:62ch;margin:.8rem auto 0}
+
+@media (max-width:760px){ header.hero{padding-top:5.5rem} }
+@media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} }
+</style>
+</head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<a class="home" href="/">← Accueil</a>
+
+<div class="wrap">
+<header class="hero">
+  <p class="kicker">Institut Yahdi Qalbah</p>
+  <p class="ha" lang="ar" dir="rtl">السِّيرَةُ النَّبَوِيَّة</p>
+  <h1>La Vie du Prophète ﷺ</h1>
+  <p class="sub">Sa vie et son époque, racontées épisode par épisode — pour connaître Celui qui nous a transmis le Coran, avant d'aimer ce qu'il a transmis.</p>
+  <span class="ep-badge">Épisode 1 · Ses spécificités — partie 1</span>
+</header>
+
+<article>
+<p>Ceci est le début d'une série d'articles au sujet de la vie et de l'époque du plus grand être humain qui n'ait jamais marché, jamais vécu sur la surface de la terre.</p>
+<p>Dans ce premier épisode, je voulais commencer par évoquer quelques-unes des caractéristiques spécifiques et uniques de notre Prophète ﷺ.</p>
+
+<h3>Ses noms</h3>
+<p>Alors par où commencer quand nous décrivons Celui qu'Allah a choisi au-dessus de la création entière ? Comment pouvons-nous Le traiter comme Il le mérite, alors qu'Allah ʿazza wa jal Lui-même a dit : « Nous avons exalté ta renommée » (Coran 94 : 4) ?</p>
+<p>Et en effet, chaque fois qu'Allah est mentionné, le Prophète ﷺ est presque toujours mentionné juste après. C'est si vrai ! Que ce soit dans notre chahâda — « Il n'est de dieu qu'Allah et Muhammad est le messager d'Allah » —, dans l'adhân, dans la prière, dans le Coran lui-même : il y a rarement un prêche que nous donnons sans que nous ne louions Allah et que nous n'envoyions paix et bénédictions sur le Prophète Muhammad ﷺ.</p>
+<p>Allah Lui-même l'a appelé <i>« rahmatul-lil-ʿâlamîn »</i> — la miséricorde de l'univers —, l'incarnation de la <i>rahma</i>. En effet, l'envoi du Prophète ﷺ est miséricorde, son message est miséricorde, ses enseignements sont miséricorde, et croire et agir selon ce qu'il a apporté est une miséricorde. Tout ce qui est associé à lui est une miséricorde.</p>
+<p>Nous commençons par mentionner certains de ses noms — il en avait beaucoup. Certains érudits en ont recensé jusqu'à 250 pour le Prophète ﷺ.</p>
+<p>Le nom de Muhammad est mentionné 4 fois dans le Coran. Le nom Ahmad est mentionné sur la langue d'ʿÎsâ ʿalayhi-s-salâm : « Je vais vous annoncer un prophète qui viendra après moi, son nom est Ahmad » (Coran 61 : 6).</p>
+<p>Les deux noms viennent de la racine <i>« hamada »</i>. Et <i>hamd</i> signifie louer — mais pas n'importe quel type de louange. <i>Hamd</i> signifie faire l'éloge, non pas en retour d'un service rendu, mais le plus haut niveau d'éloge possible : un éloge qui vient du fait qu'on mérite d'être félicité pour ce qu'on est, un objet de perfection digne d'éloges. Il porte ces deux noms, Muhammad et Ahmad, tous deux venus de <i>hamd</i>, parce qu'Allah, les anges, tous les prophètes, tout le monde le loue. Les musulmans le louent sans arrêt, à chaque seconde ; et les non-musulmans eux-mêmes louent son caractère et ses qualités. Il est loué par toute la création — il n'y a pas d'humain, avant, maintenant ou après, qui soit loué davantage que le Prophète ﷺ.</p>
+
+<h3>L'intercession, au Jour du Jugement</h3>
+<p>Dans un long hadith rapporté par al-Bukhârî et Muslim, il est raconté que le Jour du Jugement, tout le monde saura que l'islam est la vérité — mais il sera trop tard pour y croire. Les gens iront voir Âdam ʿalayhi-s-salâm et lui diront : « Ô Âdam, tu es notre père, Allah t'a créé de Ses mains et a soufflé en toi Son esprit. Ne vois-tu pas la situation dans laquelle se trouvent tes enfants ? Pourquoi n'irais-tu pas voir Allah et Le supplier de commencer le Jugement, pour que nous puissions continuer ? » Mais Âdam aura une excuse : « J'ai commis un péché que je n'aurais pas dû commettre, et je m'inquiète pour moi-même » — <i>« nafsî, nafsî »</i>, qui signifie renvoyer à quelqu'un d'autre.</p>
+<p>L'humanité ira ensuite à Nûh ʿalayhi-s-salâm, qui dira lui aussi : « Allah m'a dit de ne demander à sauver personne, et j'ai demandé à sauver mon fils, et je Lui ai désobéi » — <i>« nafsî »</i>. Puis à Ibrâhîm ʿalayhi-s-salâm, qui donnera la même réponse à cause de trois paroles qui l'inquiètent, même si ce ne sont pas des mensonges : quand il a dit « c'est la plus grande idole qui l'a fait » après avoir détruit les idoles de son peuple (il ne mentait pas, il cherchait à faire comprendre son propos et à donner la daʿwa) ; quand il a dit « je suis malade » pour ne pas accompagner son peuple hors de la ville, uniquement pour pouvoir détruire les idoles ; et quand il a appelé son épouse « ma sœur » — ce qui est vrai dans la foi —, uniquement pour la protéger d'un roi. Puis à Mûsâ ʿalayhi-s-salâm, qui s'excusera : « J'ai tué quelqu'un dans un moment de colère. » Puis à ʿÎsâ ʿalayhi-s-salâm, qui ne se jugera pas digne à cause de ceux qui, parmi ses disciples, ont cru en sa divinité.</p>
+<p>Tous iront enfin voir le Prophète ﷺ, et le prieront d'intercéder auprès d'Allah pour commencer le Jugement — seulement le commencer, tant la tension sera insupportable. Et il dira : <i>« Anâ lahâ, anâ lahâ »</i> — « c'est mon rôle ». C'est pour cela que toute l'humanité le louera, et qu'il recevra <i>al-maqâm al-mahmûd</i>, le plus haut poste de louange de tous les temps.</p>
+<p>Pour être précis : Ahmad signifie la plus haute <i>qualité</i> de louange, Muhammad une plus grande <i>quantité</i> de louange — ensemble, la louange la plus haute et la plus continue.</p>
+<p>Le nom Muhammad a été donné en référence aux Banî Isrâʾîl, la plus grande umma de vrais croyants après la nôtre — un peuple nombreux. Le nom Ahmad a été associé à ʿÎsâ, dont la nation de vrais disciples était très petite, mais d'une très grande qualité de foi : ils ont été torturés et persécutés, les Romains les ont tués, ont peigné leur peau avec des peignes de fer — et pourtant, ils sont restés dévoués.</p>
+
+<h3>D'autres noms, d'autres missions</h3>
+<p>Al-Mâhî — « celui qui efface ». Le Prophète ﷺ l'explique lui-même : Allah, par son biais, effacera la mécréance. La péninsule arabique était noyée dans la mécréance, et en l'espace de sa propre vie, elle a baigné dans l'islam. En 20 à 30 ans, des bastions majeurs de la mécréance s'y sont convertis. En 60 à 70 ans, l'islam avait atteint les frontières de la Chine et l'Andalousie. Si l'on regarde une carte d'histoire-géographie, on voit cette expansion se développer par paliers de 5, 10, 15, 20, 30, 40 ans.</p>
+<p>Al-Hâshir — celui aux pieds de qui l'humanité sera ressuscitée, juste après lui. Cela montre que le Prophète est la signalisation du Jour du Jugement : son envoi en est le premier signe. Une autre interprétation veut qu'il soit la première personne ressuscitée, suivie des autres — d'abord les prophètes, puis les bienfaisants et les martyrs, puis le reste de la umma.</p>
+<p>Al-ʿÂqib — le successeur : il n'y a pas de prophète après lui, ce qui signifie qu'il est le dernier.</p>
+<p>Nabî-ur-Rahma — le prophète de la miséricorde.</p>
+<p>Nabî-ut-Tawba — le prophète du repentir : croire en lui et le suivre permet aux gens d'être pardonnés.</p>
+<p>Nabî-ul-Malâhim — le prophète qui annonce de nombreuses épreuves. Les plus grandes que le monde connaîtra — le Dajjâl, les trois grands tremblements de terre, la venue du Mahdî et d'ʿÎsâ ibn Maryam — se produiront dans cette umma et signaleront la fin des temps.</p>
+<p>Il y a d'autres noms mentionnés dans la sunna, et d'autres descriptions dans le Coran — nous y reviendrons, in shâʾ Allah, au fil des prochains épisodes.</p>
+
+<h3>Ses spécificités (khasâʾis)</h3>
+<p>Les <i>khasâʾis</i> sont ce que lui seul a reçu, ce qu'aucun autre prophète n'a eu — ses caractéristiques uniques. Certains chercheurs en ont énuméré jusqu'à 50. En voici quelques-unes :</p>
+<ol>
+<li>Il est, évidemment, le dernier prophète : Allah l'a choisi pour être « le sceau et la fin des prophètes ».</li>
+<li>Sa prophétie avait été décrétée avant même qu'Âdam n'existe — avant que l'esprit ne soit soufflé dans l'argile. Un compagnon lui a demandé : « Quand as-tu été désigné prophète par Allah ? » Il a répondu : « Quand Âdam était encore entre la boue et l'esprit » — autrement dit, avant même qu'Âdam ne soit formé, Allah avait déjà décrété.</li>
+<li>Il est le seul prophète envoyé pour toute l'humanité — et même pour les djinns. On pourrait objecter qu'Âdam et Nûh ont eux aussi été envoyés à toute l'humanité, mais c'était par une coïncidence de l'histoire : Âdam était le seul être humain, et toute l'humanité était naturellement sa descendance ; de même, à l'époque de Nûh, son peuple était le seul qui existait sur terre.</li>
+<li>« Allah m'a aidé par le <i>rūʿb</i> » — la terreur qu'Allah inflige à ses ennemis avant même qu'il ne les atteigne, sur une distance équivalente à un mois de voyage. Ce privilège n'appartient qu'à lui.</li>
+<li><p>Il a reçu la plus grande umma. Dans un hadith rapporté par al-Bukhârî, il raconte avoir vu une communauté à perte de vue et avoir demandé : « Est-ce ma umma ? » — « Non, lui a-t-on répondu, c'est la umma de Mûsâ. » Puis il en a vu une autre, plus grande encore, qui bloquait l'horizon : « C'est la tienne. »</p>
+<p>Dans un autre hadith, il a demandé à ses compagnons : « Aimeriez-vous que votre communauté constitue un tiers du Paradis ? » Ils ont dit : « Allâhu akbar ! » — car il y a eu des centaines de communautés, et un tiers du Paradis pour une seule d'entre elles serait déjà immense. Il est resté silencieux, puis a demandé : « Et la moitié ? » Même réponse. Il est resté silencieux, puis a déclaré : « Par Allah, mon espoir est que ma communauté constitue les deux tiers des gens du Paradis. » Cela ne signifie pas que les autres communautés en seront écartées — elles l'obtiendront si elles le méritent — mais que la nôtre sera immense. Il y a aujourd'hui près de deux milliards de musulmans sur terre. Comparez ce nombre à tous les musulmans venus avant nous depuis l'époque du Prophète ﷺ, puis aux vrais chrétiens — non ceux qui croient en la divinité de ʿÎsâ, mais ceux qui le tiennent pour un messager d'Allah, sans doute très peu nombreux —, puis aux vrais Banî Isrâʾîl du temps de Mûsâ et des prophètes qui l'ont précédé. Et rappelons-nous qu'il a prononcé ces mots à une époque où il n'existait qu'une seule ville musulmane, Médine, avec peut-être 1 500 musulmans sur terre, face à deux ou trois millions de chrétiens et des centaines de milliers de juifs. Ce qui nous semble aujourd'hui une évidence était, au moment où il l'a dit, un miracle en soi — un miracle que nous voyons aujourd'hui de nos propres yeux.</p></li>
+<li>Il a reçu le miracle le plus puissant : le Coran. Aucun miracle ne lui est comparable. Tout autre miracle — la mer Rouge fendue, ʿÎsâ ressuscitant un mort par la permission d'Allah — nous est inaccessible : nous n'avons pas vu la mer se fendre, nous n'étions pas là quand ʿÎsâ a ressuscité un mort. Ce n'est un miracle pour nous que par la foi. Le Coran, lui, est un miracle que je peux tendre à un non-musulman : « Voici le miracle de notre Prophète » — un miracle que l'on peut réciter, que les gens peuvent entendre, un miracle vivant, accessible à toute l'humanité.</li>
+<li>Le voyage nocturne, des cieux et de la terre : aucun autre prophète vivant sur terre n'a eu le privilège d'un tel voyage. Même quand Allah a parlé à Mûsâ, le discours divin lui a été donné alors qu'il se trouvait sur terre, sur le mont Sinaï. Le Prophète ﷺ, lui, fut le seul humain amené jusqu'à Allah ʿazza wa jal — un voyage qu'aucune autre création n'a accompli, à notre connaissance. Il est monté jusqu'à une station où Jibrîl ʿalayhi-s-salâm lui-même a déclaré : « Ma permission s'arrête ici, tu dois y aller seul. » Et notre Prophète ﷺ est monté, « et fut à deux portées d'arc, ou plus près encore » (Coran 53 : 9), selon une interprétation — nous y reviendrons plus en détail, in shâʾ Allah.</li>
+<li>Il est le meneur de toute l'humanité. Il l'a dit lui-même, dans un hadith rapporté par al-Bukhârî et Muslim : « Je suis le <i>sayyid</i> des enfants d'Âdam. » <i>Sayyid</i> signifie ici qu'il est le maître, la perfection au sein de l'humanité, celui qui mérite d'en être le chef — et il le sera, au Jour du Jugement.</li>
+<li>Le Prophète ﷺ sera le premier ressuscité (al-Bukhârî). Sa tombe sera la première à s'ouvrir à la seconde sonnerie de la trompe, et il sera le premier revêtu. C'est ce qu'explique son nom Al-Hâshir.</li>
+<li>Il recevra le plus grand bassin, mentionné dans la sourate Al-Kawthar : un bassin carré, si grand qu'un seul côté équivaut à la distance entre La Mecque et Sanaa — soit toute la péninsule arabique.</li>
+<li>Al-Kawthar est le fleuve principal du Paradis, d'où proviennent toutes ses rivières. C'est comme si les gens du Paradis buvaient leur eau grâce à ce don fait au Prophète ﷺ. « Nous t'avons certes accordé Al-Kawthar » (Coran 108 : 1).</li>
+<li><p>Il sera le premier à franchir le Sirât, le premier à guider sa umma vers le Paradis, le premier à frapper à ses portes — et le premier être humain à y entrer après que notre père Âdam l'a quitté. C'est en son nom que les portes du Paradis s'ouvriront : l'ange qui en a la garde demandera « Qui est-ce ? », il répondra « Muhammad », et l'ange dira : « Il m'a été ordonné de n'ouvrir qu'à toi. »</p>
+<p>Le tout premier pas posé au Paradis sera celui du pied droit du Prophète ﷺ, suivi de sa communauté — même si, chronologiquement, nous sommes la dernière umma. Allah nous bénira et nous honorera, non pas grâce à nous, mais grâce au Prophète ﷺ.</p></li>
+<li><p>Allah l'a béni du plus haut niveau du Paradis, <i>al-Firdaws al-ʿalâ</i> — le sommet. Certains érudits comparent le Paradis à une pyramide : plus on monte, moins il y a de monde, et le bas sera le plus peuplé — il n'y aura pas de surpopulation, al-hamdu lillâh. Un niveau entier, immédiatement sous le Trône d'Allah, est réservé à une seule personne : on l'appelle Al-Fadîla. Le Prophète ﷺ a déclaré : « Cette Fadîla est un rang du Paradis choisi par Allah pour un seul de Ses serviteurs », avant d'ajouter, avec modestie : « J'espère être cette personne. » Aucun autre humain n'a le rang pour mériter cette place — c'est pourquoi il a simplement dit qu'il espérait l'être, et c'est pourquoi il veut que nous priions pour qu'Allah lui accorde cette proximité et cette intercession. C'est ce que l'on dit à chaque adhân :</p>
+<blockquote>« Ô Allah, Maître de cet appel parfait et de la prière que nous allons accomplir, donne à Muhammad Al-Wasîla et Al-Fadîla, et ressuscite-le au Jour du Jugement dans la position glorieuse que Tu lui as promise. »</blockquote></li>
+</ol>
+
+<p>Tout cela n'est qu'une partie des spécificités de notre Prophète ﷺ. Le prochain article parlera, in shâʾ Allah, de ses caractéristiques, de ce à quoi il ressemblait, de sa façon d'agir, de son style de vie.</p>
+
+<div class="source">
+  <p>D'après un enseignement du Cheikh Dr. Yasir Qadhi.</p>
+  <p><a href="https://www.youtube.com/watch?v=H8dzFGR9aoY&amp;list=PLYZxc42QNctXvxDw9LaQk02Nskb2iJTmd" target="_blank" rel="noopener">Source (playlist YouTube) ↗</a></p>
+  <p>Transcription et traduction : équipe Yahdi Qalbah.</p>
+</div>
+</article>
+
+<div class="next-ep"><p>Le prochain épisode paraîtra dès qu'il sera prêt et vérifié — jamais avant.</p></div>
+
+<footer>
+  <p class="f-ar" lang="ar">وَلِلَّهِ الأَسْمَاءُ الحُسْنَىٰ فَادْعُوهُ بِهَا</p>
+  <p class="flogo">Institut Yahdi Qalbah</p>
+  <p class="fnote">Que la paix d'Allah soit sur lui, sur tous les prophètes, et sur l'ensemble de sa famille et de ses compagnons.</p>
+</footer>
+</div>
+
+<script>
+const cv=document.getElementById("stars"),cx=cv.getContext("2d");
+let stars=[];
+function resize(){cv.width=innerWidth;cv.height=innerHeight;
+  stars=Array.from({length:Math.min(170,innerWidth/8)},()=>({
+    x:Math.random()*cv.width,y:Math.random()*cv.height,
+    r:Math.random()*1.3+.3,p:Math.random()*Math.PI*2,s:.4+Math.random()*.8}));
+}
+resize();addEventListener("resize",resize);
+const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function draw(t){
+  cx.clearRect(0,0,cv.width,cv.height);
+  for(const st of stars){
+    const a=.25+.45*Math.abs(Math.sin(t/1600*st.s+st.p));
+    cx.beginPath();cx.arc(st.x,st.y,st.r,0,7);
+    cx.fillStyle=`rgba(232,213,163,${a})`;cx.fill();
+  }
+  if(!reduced)requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+</script>
+</body>
+</html>
