@@ -26,14 +26,6 @@ a{color:var(--or);text-decoration:none}
 /* ---------- COUCHE 1 : motif géométrique (rub el hizb / étoile à 8 branches) ---------- */
 .geo{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.16}
 
-/* ---------- COUCHE 2 : calligraphie en fond ---------- */
-.calligraphy{position:absolute;top:50%;left:50%;transform:translate(-50%,-54%);z-index:2;
-  font-family:var(--ar);font-size:clamp(16rem,46vw,34rem);line-height:1;pointer-events:none;
-  color:transparent;background:linear-gradient(180deg,rgba(201,169,98,.16),rgba(201,169,98,.05) 60%,transparent);
-  background-clip:text;-webkit-background-clip:text;
-  animation:calliglow 7s ease-in-out infinite}
-@keyframes calliglow{0%,100%{opacity:.7}50%{opacity:1}}
-
 .wrap{position:relative;z-index:3}
 
 /* ---------- HERO (copie fidèle de l'accueil actuel) ---------- */
@@ -60,7 +52,7 @@ a{color:var(--or);text-decoration:none}
 </style>
 </head>
 <body>
-<div class="test-banner">TEST — pas en production, pas de lien dessus. Juger le fond du hero uniquement, le reste (texte, logo) est inchangé.</div>
+<div class="test-banner">TEST v2 — calligraphie retirée (elle recouvrait le contenu avec le Nom d'Allah). Reste : le motif géométrique seul.</div>
 <canvas id="stars" aria-hidden="true"></canvas>
 
 <svg class="geo" aria-hidden="true" width="100%" height="100%">
@@ -76,8 +68,6 @@ a{color:var(--or);text-decoration:none}
   </defs>
   <rect width="100%" height="100%" fill="url(#rubhizb)"/>
 </svg>
-
-<p class="calligraphy" lang="ar" dir="rtl" aria-hidden="true">الله</p>
 
 <div class="wrap">
 <header class="hero">
