@@ -123,6 +123,30 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 
 @media (max-width:760px){ header.hero{padding-top:5.5rem} .sheet{padding:2rem 1.3rem} }
 @media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} }
+
+/* ---------- LECTURE CLAIRE ---------- */
+/* Sombre a l'entree (la grille), clair a la lecture (la notice).
+   Palette identique a .lecture dans assets/site.css. */
+.sheet{background:var(--creme);border-color:rgba(13,11,7,.14);color:var(--encre)}
+.sheet .rnum{color:#8a7038}
+.sheet .ra{color:#5c4715}
+.sheet h3{color:var(--encre)}
+.sheet .rf{color:#5a5140}
+.sheet hr{background:linear-gradient(90deg,transparent,rgba(13,11,7,.22),transparent)}
+.body h4{color:#7a5f1f}
+.body p{color:var(--encre)}
+.body p.va{color:#5c4715}
+.body b,.body strong{color:inherit}
+.body i{color:inherit}
+.body blockquote{color:#3b2f18;border-left-color:#b89a54}
+.body .verset{border-color:rgba(13,11,7,.16);background:rgba(201,169,98,.16)}
+.body .verset figcaption{color:#7a5f1f}
+.body .sens{color:#7a5f1f}
+.body ol li{color:var(--encre)}
+.body ol li::marker{color:#7a5f1f}
+.body .dua{color:#3b2f18;border-left-color:#b89a54}
+.body a{color:#7a5f1f}
+.pending{color:#5a5140;border-color:rgba(13,11,7,.28)}
 </style>
 </head>
 <body>

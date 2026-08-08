@@ -150,6 +150,29 @@ footer .note{max-width:64ch;margin:.8rem auto 0}
   .scroll-cue::after,.station.vis .dot::after{animation:none}
   .hero>*,.hero h1{animation:none}
 }
+
+/* ---------- LECTURE CLAIRE ---------- */
+/* Sombre a l'entree (la frise), clair a la lecture (le recit).
+   Palette identique a .lecture dans assets/site.css. */
+.panel{background:var(--creme);border-color:rgba(13,11,7,.16);
+  box-shadow:0 30px 90px rgba(0,0,0,.7)}
+.panel .wm{color:rgba(122,95,31,.09)}
+.panel .p-num{color:#8a7038}
+.panel h3{color:var(--encre)}
+.panel .p-ar{color:#5c4715}
+.panel .p-epoque{color:#5a5140}
+.panel .orn{color:#7a5f1f}
+.histoire p{color:var(--encre)}
+.histoire p:first-of-type::first-letter{color:#7a5f1f}
+.histoire em{color:#3b2f18}
+.histoire a{color:#7a5f1f}
+.iref{color:#7a5f1f;border-color:rgba(13,11,7,.22)}
+.iref:hover{border-color:#7a5f1f;background:rgba(201,169,98,.18)}
+.panel .p-mentions{color:#5a5140;border-top-color:rgba(13,11,7,.16)}
+.p-nav button{color:#7a5f1f;border-color:rgba(13,11,7,.22)}
+.p-nav button:hover:not(:disabled){border-color:#7a5f1f;background:rgba(201,169,98,.16)}
+.p-close{color:#7a5f1f;border-color:rgba(13,11,7,.22);background:rgba(245,238,223,.85)}
+.p-close:hover{border-color:#7a5f1f;background:rgba(201,169,98,.16)}
 </style>
 </head>
 <body>
