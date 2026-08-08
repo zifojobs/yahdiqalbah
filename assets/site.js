@@ -16,3 +16,15 @@
     }, 300);
   });
 })();
+
+/* Bouton copier : le numero est deja lisible en clair a cote,
+   ceci n'est qu'un confort pour ne pas le recopier a la main. */
+document.querySelectorAll("[data-copier]").forEach(function (b) {
+  b.addEventListener("click", function () {
+    navigator.clipboard.writeText(b.dataset.copier).then(function () {
+      var avant = b.textContent;
+      b.textContent = "Copié";
+      setTimeout(function () { b.textContent = avant; }, 1500);
+    });
+  });
+});
