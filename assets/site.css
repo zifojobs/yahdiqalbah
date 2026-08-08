@@ -112,6 +112,79 @@
   text-align:center;font-size:.78rem;
 }
 
+/* ---------- GABARIT DE LECTURE CLAIR ---------- */
+/* Sombre a l'entree, clair a la lecture : les episodes font 24 000 a
+   74 000 caracteres, et l'or sur noir est eprouvant sur cette longueur.
+   Le bloc se lit comme une feuille posee sur le fond sombre. */
+.lecture{
+  background:var(--creme);
+  color:var(--encre);
+  font-family:var(--serif);
+  font-size:1.08rem;
+  line-height:1.78;
+  /* la mesure qui decide qu'on finit un texte de 70 000 signes */
+  max-width:65ch;
+  margin-inline:auto;
+  padding:clamp(2.2rem,6vw,3.6rem) clamp(1.35rem,5vw,3rem);
+  border-radius:4px;
+  box-shadow:0 30px 90px rgba(0,0,0,.6);
+}
+.lecture p,
+.lecture li{color:var(--encre)}
+.lecture p{margin-block-start:1.15rem}
+.lecture i,
+.lecture em{color:inherit;font-style:italic}
+.lecture b,
+.lecture strong{color:inherit;font-weight:600}
+.lecture h3,
+.lecture h4{
+  font-family:var(--serif);font-weight:600;
+  color:#7a5f1f;                       /* l'or ne tient pas sur creme : on descend */
+  line-height:1.2;
+  margin-block:2.6rem 1rem;
+  padding-block-start:1.4rem;
+  border-block-start:1px solid rgba(13,11,7,.13);
+}
+.lecture h3:first-of-type{border-block-start:0;padding-block-start:0;margin-block-start:.4rem}
+.lecture ol,.lecture ul{margin-block-start:1.15rem;padding-inline-start:1.5rem}
+.lecture li{margin-block-start:1.15rem}
+.lecture li::marker{color:#7a5f1f;font-weight:600}
+.lecture blockquote{
+  font-style:italic;
+  border-inline-start:2px solid #b89a54;
+  padding-inline-start:1.2rem;
+  margin-block-start:1.3rem;
+  color:#3b2f18;
+}
+.lecture a{color:#7a5f1f;text-decoration:underline;text-underline-offset:.2em}
+
+/* Versets et hadiths : detaches, jamais noyes dans le paragraphe francais. */
+.lecture-ar{
+  font-family:var(--ar);
+  direction:rtl;
+  font-size:1.35em;
+  line-height:2.1;
+  margin-block:1.5em;
+  color:#5c4715;
+  text-align:center;
+}
+
+/* Les sources sont le meilleur signal d'institution disponible :
+   elles doivent etre visibles, pas discretes. */
+.sources{
+  font-family:var(--sans);
+  font-size:.86rem;
+  color:#5a5140;
+  border-block-start:1px solid rgba(13,11,7,.18);
+  margin-block-start:2.8rem;
+  padding-block-start:1.2rem;
+}
+.lecture .sources h3{
+  font-family:var(--sans);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#7a5f1f;border:0;padding:0;margin:0 0 .6rem;
+}
+.lecture .sources p{color:#5a5140;font-family:var(--sans);font-size:.86rem;margin-block-start:.45rem}
+
 @media (prefers-reduced-motion:reduce){
   .btn-or,.site-nav a,.site-brand{transition:none}
 }
