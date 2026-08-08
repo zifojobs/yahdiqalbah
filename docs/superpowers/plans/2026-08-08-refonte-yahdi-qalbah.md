@@ -4,6 +4,46 @@
 > (`- [ ]`). Spec de référence :
 > `docs/superpowers/specs/2026-08-08-refonte-yahdi-qalbah-design.md` — **le lire avant de commencer.**
 
+## État d'avancement — 08/08/2026, 23 h 20
+
+| Task | État | Commit |
+|---|---|---|
+| 1 — coquille partagée | ✅ **en production, vérifiée en direct** | `98d22ad` |
+| 2 — accueil sombre + volumes | ✅ **en production, vérifiée en direct** | `9416053` |
+| 3 — gabarit de lecture clair | 🔴 **pas commencée — le plan la sous-estime, voir ci-dessous** | — |
+| 4 — une page par épisode Seerah | ✅ **en production, vérifiée en direct** | `f6371d7` |
+| 5 — page de participation | ⏸️ bloquée : libellé validé + vrais numéros | — |
+
+🔴 **Deux corrections apportées au plan par le code réel :**
+
+1. **`noms/` et `prophetes/` ne servent aucun contenu en HTML.** `<div class="grid" id="grid">`
+   est vide ; les 52 notices et les 25 récits vivent dans des tableaux JavaScript
+   (`const NOMS = […]`, `const PROPHETES=[…]`) injectés à l'exécution et lus dans un modal
+   `#reader`. ⇒ **le critère V4 (« les 3 pages restent lisibles avec JS désactivé ») est
+   infaisable en Task 3** — et l'était déjà avant la refonte. Il est reformulé en « la page
+   reste **navigable** sans JS » (vrai, livré en Task 1). « Contenu servi sans JS » relève du
+   chantier de **découpage des 99 Noms**, déjà prévu après cette refonte.
+2. **La Task 3 n'est pas un conteneur à ajouter, c'est repeindre trois lecteurs.** Chacun porte
+   20 à 30 règles de couleur sombres en dur (`.sheet h3`, `.panel .p-ar`, `article p{color:#dcd3bd}`…).
+   Les cibles correctes de `.lecture` sont `#sheet` (noms), `#pbody` (prophetes) et l'`<article>`
+   de `seerah/001/`. ⚠️ **Piège de cascade** : `site.css` est chargé **avant** le `<style>` de
+   chaque page ⇒ à égalité de spécificité, la page gagne. Prévoir des sélecteurs composés
+   (`#sheet.lecture`) ou déplacer le lien après le `<style>`.
+
+**Écarts assumés par rapport au plan écrit :**
+- Les cartes de l'accueil gardent la classe `.card` existante (le JS de révélation en dépend) ;
+  `.espace-volume` y est simplement ajouté. Les 5 cartes sont conservées — supprimer celle du
+  cours d'arabe aurait retiré la seule couche qui rapporte.
+- Le lien flottant « ← Accueil » des 3 sous-pages a été retiré (markup + CSS) : en
+  `position:fixed;top:1rem;left:1rem`, il recouvrait le logo du nouvel en-tête.
+- Le pied de page propre à chaque page est **conservé** (il porte du contenu spécifique) ;
+  le pied institutionnel s'ajoute après.
+
+🔶 **Signalé, pas corrigé** — le pied de `seerah/index.html` porte le verset **7:180**
+(« les plus beaux noms »), qui est celui des 99 Noms. Contenu religieux : arbitrage de Saïbo.
+
+---
+
 **But :** donner au site une allure institutionnelle — navigation permanente, cohérence entre
 les 4 pages, lecture confortable sur les textes longs, et une page de participation.
 
