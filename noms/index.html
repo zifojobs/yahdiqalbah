@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
   --noir:#0D0B07; --noir-2:#161209; --or:#C9A962; --or-vif:#E8D5A3; --or-sombre:#8a7038;
@@ -29,10 +30,6 @@ body{background:var(--noir);color:var(--creme);font-family:var(--sans);font-weig
 .wrap{position:relative;z-index:1}
 a{color:var(--or);text-decoration:none}
 
-.home{position:fixed;top:1rem;left:1rem;z-index:40;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
-  border:1px solid var(--line);background:rgba(13,11,7,.72);backdrop-filter:blur(6px);
-  padding:.5rem 1rem;border-radius:999px;color:var(--or);transition:border-color .3s,background .3s}
-.home:hover{border-color:var(--or);background:rgba(201,169,98,.12)}
 
 header.hero{text-align:center;padding:7rem 1.5rem 3rem;max-width:900px;margin:0 auto}
 @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
@@ -128,8 +125,19 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 </style>
 </head>
 <body>
+<header class="site-header">
+  <a class="site-brand" href="/">
+    <img src="/assets/logo.png" alt="" width="36" height="36">
+    <span>Yahdi Qalbah</span>
+  </a>
+  <nav class="site-nav" aria-label="Espaces">
+    <a href="/prophetes/">Les Prophètes</a>
+    <a href="/noms/" aria-current="page">Les 99 Noms</a>
+    <a href="/seerah/">La Seerah</a>
+    <a href="/participer/" class="btn-or">Participer</a>
+  </nav>
+</header>
 <canvas id="stars" aria-hidden="true"></canvas>
-<a class="home" href="/">← Accueil</a>
 
 <div class="wrap">
 <header class="hero">
@@ -252,5 +260,29 @@ function draw(t){
 }
 requestAnimationFrame(draw);
 </script>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <h2>Institut Yahdi Qalbah</h2>
+      <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
+      <p class="site-footer-contact"><a href="https://wa.me/221775277164">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
+    </div>
+    <div>
+      <h2>Les espaces</h2>
+      <ul>
+        <li><a href="/prophetes/">La Chaîne des Prophètes</a></li>
+        <li><a href="/noms/">Les 99 Noms d’Allah</a></li>
+        <li><a href="/seerah/">La Vie du Prophète ﷺ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sadaqa jariya</h2>
+      <p>Tout le contenu est gratuit et le restera. La participation est libre et ne débloque aucun accès.</p>
+      <p><a href="/participer/">Participer →</a></p>
+    </div>
+  </div>
+  <p class="site-footer-sources">Chaque affirmation de ce site renvoie à ses sources — Coran, hadiths et ouvrages cités.</p>
+</footer>
 </body>
 </html>

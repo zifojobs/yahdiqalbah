@@ -1,0 +1,117 @@
+/* ============================================================
+   Yahdi Qalbah — coquille partagée
+   En-tête, navigation, pied de page, boutons.
+   Chargée par les 4 espaces ; chaque page garde ensuite son
+   CSS propre pour ce qui lui est spécifique.
+   Aucune dépendance externe.
+   ============================================================ */
+
+:root{
+  /* Reprises telles quelles des pages existantes — ne pas changer les polices. */
+  --encre:#0D0B07;      /* le fond sombre, et l'encre sur fond clair */
+  --encre-2:#161209;
+  --creme:#F5EEDF;      /* le fond clair de lecture (crème chaud, jamais #fff) */
+  --or:#C9A962;
+  --or-vif:#E8D5A3;
+  --or-sombre:#8a7038;
+  --muted:#9c937e;
+  --line:rgba(201,169,98,.25);
+  --serif:'Cormorant Garamond',serif;
+  --sans:'Plus Jakarta Sans',sans-serif;
+  --ar:'Amiri',serif;
+}
+
+/* Remise à zéro minimale — pour les pages sans style propre. */
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* ---------- EN-TÊTE ---------- */
+/* Non collant au défilement : sur un texte de 70 000 caractères lu au
+   téléphone, une barre fixe coûte une bande d'écran en permanence.
+   z-index élevé car les pages posent un canvas d'étoiles en fixed. */
+.site-header{
+  position:relative;z-index:50;
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+  gap:.9rem 1.4rem;
+  padding:1rem clamp(1rem,4vw,2.5rem);
+  background:var(--encre);
+  border-block-end:1px solid var(--line);
+  font-family:var(--sans);
+}
+.site-brand{
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-family:var(--serif);font-size:1.15rem;letter-spacing:.02em;
+  color:var(--creme);text-decoration:none;
+}
+.site-brand img{border-radius:8px}
+.site-brand:hover{color:var(--or)}
+
+/* Sur mobile la navigation passe à la ligne — pas de hamburger : quatre
+   liens ne justifient pas d'être cachés, et il dépendrait du JavaScript. */
+.site-nav{
+  display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.35rem;
+  font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;
+}
+.site-nav a{
+  color:var(--muted);text-decoration:none;
+  padding-block:.3rem;
+  border-block-end:1px solid transparent;
+  transition:color .25s,border-color .25s;
+}
+.site-nav a:hover{color:var(--creme)}
+.site-nav a[aria-current="page"]{color:var(--or);border-block-end-color:var(--or)}
+
+/* ---------- BOUTON OR ---------- */
+/* Le sélecteur composé bat `.site-nav a` sans recourir à !important. */
+.btn-or,
+.site-nav a.btn-or{
+  display:inline-block;
+  padding:.5rem 1.1rem;
+  border:0;border-radius:999px;
+  background:linear-gradient(135deg,var(--or),var(--or-vif));
+  color:var(--encre);
+  font-family:var(--sans);font-size:.72rem;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;
+  text-decoration:none;cursor:pointer;
+  transition:transform .25s,box-shadow .25s;
+}
+.btn-or:hover,
+.site-nav a.btn-or:hover{
+  color:var(--encre);
+  transform:translateY(-1px);
+  box-shadow:0 8px 24px rgba(201,169,98,.25);
+}
+
+/* ---------- PIED DE PAGE ---------- */
+/* Classes préfixées `site-` : les pages définissent déjà `footer .logo`,
+   `.note`, `.fnote`… — les noms distincts évitent toute collision. */
+.site-footer{
+  background:var(--encre);
+  border-block-start:1px solid var(--line);
+  padding:2.8rem clamp(1rem,4vw,2.5rem) 2.4rem;
+  font-family:var(--sans);font-size:.84rem;line-height:1.65;
+  color:var(--muted);text-align:start;
+}
+.site-footer-inner{
+  max-width:1080px;margin-inline:auto;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));
+  gap:2rem;
+}
+.site-footer h2{
+  font-family:var(--serif);font-size:1.05rem;font-weight:600;
+  color:var(--creme);letter-spacing:.02em;
+  margin-block-end:.6rem;
+}
+.site-footer a{color:var(--or);text-decoration:none}
+.site-footer a:hover{text-decoration:underline}
+.site-footer ul{list-style:none;display:grid;gap:.35rem}
+.site-footer-contact{margin-block-start:.7rem}
+.site-footer-sources{
+  max-width:1080px;margin:2.2rem auto 0;
+  padding-block-start:1.2rem;
+  border-block-start:1px solid rgba(201,169,98,.14);
+  text-align:center;font-size:.78rem;
+}
+
+@media (prefers-reduced-motion:reduce){
+  .btn-or,.site-nav a,.site-brand{transition:none}
+}

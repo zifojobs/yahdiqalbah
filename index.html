@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
   --noir:#0D0B07; --noir-2:#161209; --or:#C9A962; --or-vif:#E8D5A3; --or-sombre:#8a7038;
@@ -92,6 +93,19 @@ footer .contact{margin-top:1rem}
 </head>
 <body>
 <canvas id="stars" aria-hidden="true"></canvas>
+
+<header class="site-header">
+  <a class="site-brand" href="/" aria-current="page">
+    <img src="/assets/logo.png" alt="" width="36" height="36">
+    <span>Yahdi Qalbah</span>
+  </a>
+  <nav class="site-nav" aria-label="Espaces">
+    <a href="/prophetes/">Les Prophètes</a>
+    <a href="/noms/">Les 99 Noms</a>
+    <a href="/seerah/">La Seerah</a>
+    <a href="/participer/" class="btn-or">Participer</a>
+  </nav>
+</header>
 
 <div class="wrap">
 <header class="hero">
@@ -179,6 +193,30 @@ footer .contact{margin-top:1rem}
   <p class="contact"><a href="https://wa.me/221775277164">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
 </footer>
 </div>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <h2>Institut Yahdi Qalbah</h2>
+      <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
+      <p class="site-footer-contact"><a href="https://wa.me/221775277164">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
+    </div>
+    <div>
+      <h2>Les espaces</h2>
+      <ul>
+        <li><a href="/prophetes/">La Chaîne des Prophètes</a></li>
+        <li><a href="/noms/">Les 99 Noms d'Allah</a></li>
+        <li><a href="/seerah/">La Vie du Prophète ﷺ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sadaqa jariya</h2>
+      <p>Tout le contenu est gratuit et le restera. La participation est libre et ne débloque aucun accès.</p>
+      <p><a href="/participer/">Participer →</a></p>
+    </div>
+  </div>
+  <p class="site-footer-sources">Chaque affirmation de ce site renvoie à ses sources — Coran, hadiths et ouvrages cités.</p>
+</footer>
 
 <script>
 /* Révélation des cartes */
