@@ -10,9 +10,22 @@
 |---|---|---|
 | 1 — coquille partagée | ✅ **en production, vérifiée en direct** | `98d22ad` |
 | 2 — accueil sombre + volumes | ✅ **en production, vérifiée en direct** | `9416053` |
-| 3 — gabarit de lecture clair | 🔴 **pas commencée — le plan la sous-estime, voir ci-dessous** | — |
+| 3 — gabarit de lecture clair | ✅ **en production, validée par Saïbo** | `a066e5d` + `9983050` |
 | 4 — une page par épisode Seerah | ✅ **en production, vérifiée en direct** | `f6371d7` |
 | 5 — page de participation | ⏸️ bloquée : libellé validé + vrais numéros | — |
+
+**Comment la Task 3 a été menée** — d'abord sur **un seul écran** (`seerah/001/`, `a066e5d`),
+validé par Saïbo, *puis* propagée (`9983050`). C'est la règle du 01/08 : un registre visuel se
+tranche sur une page, pas après seize heures de propagation.
+
+Deux traitements distincts, et c'est voulu :
+- `seerah/001/` reçoit le **gabarit complet** `.lecture` (feuille crème, mesure 65ch, serif,
+  bloc `.sources` visible). C'est le gabarit que reproduiront les épisodes 002 à 005.
+- `noms/` et `prophetes/` reçoivent **la palette seulement**, en bloc ajouté à la fin de leur
+  `<style>` (à spécificité égale, le dernier gagne). Leur typographie et leur structure propres
+  sont conservées : ce sont des lecteurs modaux, pas des articles. **47 lignes ajoutées, zéro
+  supprimée** — les règles sombres sont recouvertes, donc réversibles en un commit.
+- Le **voile du modal reste sombre** dans les deux cas : seule la feuille passe au crème.
 
 🔴 **Deux corrections apportées au plan par le code réel :**
 
