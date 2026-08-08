@@ -31,10 +31,12 @@ body{background:var(--noir);color:var(--creme);font-family:var(--sans);font-weig
 a{color:var(--or);text-decoration:none}
 
 /* ---------- HERO ---------- */
-.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:5rem 1.5rem 4rem;position:relative}
+/* La hauteur retranche l'en-tete partage, sinon l'amorce de defilement
+   passe sous la ligne de flottaison. */
+.hero{min-height:calc(100svh - 4.6rem);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:4rem 1.5rem 4.5rem;position:relative}
 @keyframes fadeUp{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
 .hero>*{animation:fadeUp 1.1s cubic-bezier(.16,1,.3,1) both}
-.hero .logo{animation-delay:.05s;width:min(190px,44vw);height:auto;filter:drop-shadow(0 0 34px rgba(201,169,98,.35));border-radius:18px}
+.hero .logo{animation-delay:.05s;width:min(190px,44vw);height:auto;filter:drop-shadow(0 0 34px rgba(201,169,98,.22));border-radius:18px}
 .hero .kicker{animation-delay:.2s;margin-top:2rem;font-size:.75rem;letter-spacing:.35em;text-transform:uppercase;color:var(--muted)}
 .hero h1{animation-delay:.35s;margin-top:.9rem;font-family:var(--serif);font-weight:600;font-size:clamp(2.6rem,7vw,5.2rem);line-height:1.05;letter-spacing:-.01em;max-width:18ch;
   background:linear-gradient(110deg,var(--creme) 15%,var(--or) 40%,var(--or-vif) 50%,var(--or) 60%,var(--creme) 85%);
@@ -64,6 +66,8 @@ a.card:hover{border-color:var(--or);box-shadow:0 18px 50px rgba(0,0,0,.5),0 0 34
 .card .c-ar{font-family:var(--ar);font-size:2rem;color:var(--or);line-height:1.6}
 .card h3{font-family:var(--serif);font-weight:600;font-size:1.55rem;line-height:1.15;margin-top:.4rem;color:var(--creme)}
 .card p{font-size:.93rem;color:#cfc6b0;margin-top:.7rem;flex:1}
+/* Le volume reel du fonds : ce que le site contient vraiment, dit en 3 secondes. */
+.card p.espace-volume{flex:0;margin-top:.45rem;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--or)}
 .badge{position:absolute;top:1.15rem;right:1.15rem;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;padding:.28rem .7rem;border-radius:999px;font-weight:600}
 .badge.live{color:var(--noir);background:linear-gradient(135deg,var(--or),var(--or-vif))}
 .badge.soon{color:var(--muted);border:1px solid var(--line)}
@@ -76,6 +80,10 @@ a.card:hover{border-color:var(--or);box-shadow:0 18px 50px rgba(0,0,0,.5),0 0 34
 .principes .orn{color:var(--or);font-size:1.3rem}
 .principes h3{font-family:var(--serif);font-weight:600;font-size:1.4rem;margin-top:.5rem}
 .principes p{font-size:.92rem;color:var(--muted);margin-top:.5rem;max-width:34ch;margin-left:auto;margin-right:auto}
+
+/* La participation vient APRES les engagements, jamais avant. */
+.participation{text-align:center;padding-top:4rem}
+.participation-cta{margin-top:2rem}
 
 footer{padding:3rem 1.5rem 2.6rem;text-align:center;font-size:.78rem;color:var(--muted)}
 footer .f-ar{font-family:var(--ar);font-size:1.5rem;color:var(--or)}
@@ -130,6 +138,7 @@ footer .contact{margin-top:1rem}
       <span class="badge live">En ligne</span>
       <p class="c-ar" lang="ar">سِلْسِلَةُ الأَنْبِيَاء</p>
       <h3>La Chaîne des Prophètes</h3>
+      <p class="espace-volume">25 récits sourcés</p>
       <p>De Adam à Muhammad ﷺ : un voyage interactif à travers les 25 prophètes cités dans le Coran. Récits complets, ~140 références cliquables — lisez, puis vérifiez à la source.</p>
       <span class="go">Descendre le fil →</span>
     </a>
@@ -137,6 +146,7 @@ footer .contact{margin-top:1rem}
       <span class="badge live">En ligne</span>
       <p class="c-ar" lang="ar">الأَسْمَاءُ الحُسْنَى</p>
       <h3>Les 99 Noms d'Allah</h3>
+      <p class="espace-volume">52 notices publiées sur 99</p>
       <p>Connaître Celui que l'on adore : les plus beaux Noms, un par un, expliqués à la source — pour que chaque Nom change quelque chose dans le cœur.</p>
       <span class="go">Parcourir les Noms →</span>
     </a>
@@ -144,6 +154,7 @@ footer .contact{margin-top:1rem}
       <span class="badge live">En ligne</span>
       <p class="c-ar" lang="ar">السِّيرَةُ النَّبَوِيَّة</p>
       <h3>La Vie du Prophète ﷺ</h3>
+      <p class="espace-volume">la série, épisode par épisode</p>
       <p>Sa vie et son époque, racontées épisode par épisode — pour connaître Celui qui nous a transmis le Coran, avant d'aimer ce qu'il a transmis.</p>
       <span class="go">Lire l'épisode 1 →</span>
     </a>
@@ -184,6 +195,13 @@ footer .contact{margin-top:1rem}
       <p>Yahdi Qalbah transmet ce que les savants ont établi, et chemine avec vous — pas au-dessus de vous.</p>
     </div>
   </div>
+</section>
+
+<section class="participation">
+  <p class="sec-kicker">Sadaqa jariya</p>
+  <h2 class="sec-title">Tout est gratuit, et le restera.</h2>
+  <p class="sec-sub">Ce site ne vend rien, ne demande aucun compte et ne réserve rien. Si vous souhaitez prendre part à ce qui s'y construit, la participation est libre — elle ne débloque aucun accès.</p>
+  <p class="participation-cta"><a class="btn-or" href="/participer/">Participer</a></p>
 </section>
 
 <footer>
@@ -236,11 +254,11 @@ const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
 function draw(t){
   cx.clearRect(0,0,cv.width,cv.height);
   for(const st of stars){
-    const a=.25+.45*Math.abs(Math.sin(t/1600*st.s+st.p));
+    const a=.18+.34*Math.abs(Math.sin(t/1600*st.s+st.p));
     cx.beginPath();cx.arc(st.x,st.y,st.r,0,7);
     cx.fillStyle=`rgba(232,213,163,${a})`;cx.fill();
   }
-  if(t-lastMeteor>4500+Math.random()*4000&&meteors.length<2){
+  if(t-lastMeteor>7000+Math.random()*5000&&meteors.length<2){
     lastMeteor=t;
     meteors.push({x:Math.random()*cv.width*.8+cv.width*.15,y:Math.random()*cv.height*.3,
       vx:-(3.5+Math.random()*3),vy:2+Math.random()*1.6,life:1});
