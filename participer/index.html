@@ -46,10 +46,11 @@ article.lecture{margin:.5rem auto 3rem}
   background:rgba(201,169,98,.10)}
 .moyen-nom{font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#7a5f1f}
 .moyen-val{font-family:var(--sans);font-size:1.05rem;letter-spacing:.03em;color:var(--encre)}
-.moyen button{font-family:var(--sans);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
+.moyen .moyen-btn{display:inline-block;text-decoration:none}
+.moyen button,.moyen .moyen-btn{font-family:var(--sans);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
   color:#7a5f1f;background:none;border:1px solid rgba(13,11,7,.22);border-radius:999px;
   padding:.42rem .95rem;cursor:pointer;transition:border-color .3s,background .3s}
-.moyen button:hover{border-color:#7a5f1f;background:rgba(201,169,98,.18)}
+.moyen button:hover,.moyen .moyen-btn:hover{border-color:#7a5f1f;background:rgba(201,169,98,.18)}
 
 /* Sous 520px les deux lignes s'empilent de la meme facon,
    sinon la longueur de la valeur decide seule de la mise en page. */
@@ -117,8 +118,8 @@ footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-t
   </div>
   <div class="moyen">
     <span class="moyen-nom">PayPal — diaspora</span>
-    <span class="moyen-val">zifojobs@gmail.com</span>
-    <button type="button" data-copier="zifojobs@gmail.com">Copier</button>
+    <span class="moyen-val"><a href="https://paypal.me/zifo" target="_blank" rel="noopener">paypal.me/zifo</a></span>
+    <a class="moyen-btn" href="https://paypal.me/zifo" target="_blank" rel="noopener">Ouvrir</a>
   </div>
 </div>
 
