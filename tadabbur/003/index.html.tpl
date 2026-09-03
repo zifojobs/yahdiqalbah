@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>De quoi se réjouir vraiment — Sourate Yunus 10 : 58 — Tadabbur</title>
-<meta name="description" content="Sourate Yunus 10 : 58 — « Voilà de quoi ils devraient se réjouir. » Un contrat signé, un salaire qui arrive : la joie est légitime. Le verset déplace seulement ce qui la mérite le plus.">
-<meta property="og:title" content="De quoi se réjouir vraiment — Sourate Yunus 10 : 58">
-<meta property="og:description" content="La joie est légitime. Le verset déplace seulement ce qui la mérite le plus.">
+<title>La pluie n'était pas pour la terre — Sourate Al-Anfâl 8 : 11 — Tadabbur</title>
+<meta name="description" content="À Badr, le Coran ne dit pas qu'il a plu. Il dit ce que la pluie était venue faire. Une averse ordinaire, et trois finalités annoncées d'avance.">
+<meta property="og:title" content="La pluie n'était pas pour la terre — Sourate Al-Anfâl 8 : 11">
+<meta property="og:description" content="Le Coran ne dit pas qu'il a plu. Il dit ce que la pluie était venue faire.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://yahdiqalbah.com/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/002/">
-<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/002/">
+<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/003/">
+<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/003/">
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
@@ -55,7 +55,7 @@ article{max-width:720px;margin:0 auto;padding:1rem 1.5rem 3rem}
 /* le verset */
 .ayah{border:1px solid var(--line);border-radius:18px;padding:2rem 1.8rem;text-align:center;
   background:linear-gradient(160deg,rgba(26,20,9,.6),rgba(15,12,6,.45))}
-.ayah .v-ar{font-family:var(--ar);font-size:clamp(1.5rem,5.4vw,2.3rem);color:var(--or-vif);line-height:2.15;direction:rtl}
+.ayah .v-ar{font-family:var(--ar);font-size:clamp(1.35rem,4.6vw,2rem);color:var(--or-vif);line-height:2.15;direction:rtl}
 .ayah .v-fr{font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,3vw,1.3rem);color:var(--creme);margin-top:1.2rem}
 .ayah .v-ref{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--or-sombre);margin-top:1rem}
 
@@ -64,6 +64,18 @@ article h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.4rem,4vw,1
 article p{font-size:1.02rem;color:#dcd3bd;margin-top:1.1rem}
 article p strong{color:var(--creme);font-weight:500}
 article p i{color:var(--creme);font-style:italic}
+
+/* dans la langue */
+.langue{margin-top:1.2rem;border:1px dashed var(--line);border-radius:16px;padding:1.5rem 1.6rem;
+  background:linear-gradient(160deg,rgba(20,16,8,.55),rgba(12,10,5,.4))}
+.langue p{margin-top:.9rem}
+.langue p:first-child{margin-top:0}
+.l-paire{display:flex;flex-wrap:wrap;gap:.6rem 1.8rem;
+  margin:1.3rem 0;padding:1.1rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.l-mot{flex:1 1 190px}
+.l-ar{display:block;font-family:var(--ar);font-size:clamp(1.4rem,4.6vw,1.9rem);color:var(--or-vif);line-height:2;direction:rtl}
+.l-note{display:block;font-size:.8rem;letter-spacing:.05em;color:var(--muted);margin-top:.15rem}
+.langue .l-chute{font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--or-vif)}
 
 /* le geste du jour */
 .aujourdhui{margin-top:1.4rem;border-left:2px solid var(--or-sombre);padding:.2rem 0 .2rem 1.3rem}
@@ -110,66 +122,109 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 
 <div class="wrap">
 <header class="hero">
-  <p class="kicker">Tadabbur · Verset 2</p>
-  <p class="ha" lang="ar" dir="rtl">يونس</p>
-  <h1>De quoi se réjouir vraiment</h1>
-  <span class="ep-badge">Sourate Yunus, 10 : 58</span>
+  <p class="kicker">Tadabbur · Verset 3</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:8@@</p>
+  <h1>La pluie n'était pas pour la terre</h1>
+  <span class="ep-badge">Sourate Al-Anfâl, 8 : 11</span>
 </header>
 
 <article>
 
   <div class="ayah">
-    <p class="v-ar" lang="ar" dir="rtl">قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌ مِّمَّا يَجْمَعُونَ</p>
-    <p class="v-fr">« Dis : "[Ceci provient] de la grâce d’Allah et de Sa miséricorde ; Voilà de quoi ils devraient se réjouir. C’est bien mieux que tout ce qu’ils amassent." »</p>
-    <p class="v-ref">Sourate Yunus, 10 : 58</p>
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:8:11@@</p>
+    <p class="v-fr">« Et quand Il vous enveloppa d'un sommeil comme d'une sécurité de Sa part,
+    et du ciel Il fit descendre de l'eau sur vous afin de vous en purifier, d'ôter de vous la
+    souillure du Diable (Satan), de renforcer les cœurs et d'en raffermir les pas [vos pas] ! »</p>
+    <p class="v-ref">Sourate Al-Anfâl, 8 : 11</p>
   </div>
 
   <h2>Ce que le verset ouvre</h2>
 
-  <p>Le verset ne s'attaque pas à la joie. Il ne dit pas qu'il faudrait cesser de se réjouir
-  d'un contrat signé, d'un salaire qui tombe, d'une chose longtemps espérée et enfin obtenue.
-  Cette joie-là est humaine, et elle est permise.</p>
+  <p>C'est la veille de Badr. Un groupe en infériorité de nombre, campé sur du sable meuble où
+  le pied s'enfonce, et le point d'eau du côté de l'adversaire. Tout ce qu'il faut pour ne pas
+  dormir.</p>
 
-  <p><strong>Il déplace seulement ce qui la mérite le plus.</strong> Ce dont il faudrait se
-  réjouir d'abord, dit le verset, c'est de la grâce et de la miséricorde — et il ajoute que
-  cela vaut mieux que tout ce qu'on peut amasser.</p>
+  <p>Et il pleut.</p>
 
-  <p>Un client qui accorde sa confiance. Une santé qui tient encore. Une famille où l'on rentre.
-  Un cœur qui bat toujours de foi, après tout ce qu'il a traversé. <strong>Rien de tout cela
-  n'est seulement le fruit d'un effort</strong> — et pourtant c'est précisément ce qu'on oublie
-  de compter quand on fait ses comptes.</p>
+  <p><strong>Le verset ne dit pas qu'il a plu.</strong> Il dit ce que la pluie était venue
+  faire — et il l'énumère : vous purifier, ôter la souillure, raffermir les cœurs, raffermir
+  les pas. Quatre effets pour une seule averse. Le sable détrempé devient ferme. Les outres se
+  remplissent. Ceux qui avaient besoin de se laver le peuvent. Et la peur recule.</p>
 
-  <p>Le verset ne demande pas de moins se réjouir. Il demande de se réjouir de la bonne chose,
-  et dans le bon ordre.</p>
+  <p>Voilà ce qui est renversant : le ciel s'ouvre, l'eau tombe, et rien de tout cela n'est
+  raconté comme un hasard météorologique. La pluie <strong>a un ordre de mission</strong>, et
+  le Coran le lit à voix haute.</p>
+
+  <p>Nous, nous vivons l'inverse. Il pleut le jour où l'on avait justement besoin d'eau, et
+  l'on dit : <i>quelle chance</i>. La chose arrive à l'heure exacte où elle sert, et l'on
+  appelle ça une coïncidence. Le verset propose un autre mot : une <strong>finalité</strong>.</p>
+
+  <p>Ce n'est pas une invitation à voir des signes partout. C'est plus modeste, et plus
+  exigeant : se demander, devant ce qui tombe sur nous, non pas <i>pourquoi moi</i>, mais
+  <i>pour quoi faire</i>.</p>
+
+  <h2>Dans la langue</h2>
+
+  <div class="langue">
+    <p>Deux fois dans ce verset, un mot commence par la lettre <strong>lām</strong> — un simple
+    trait vertical collé devant le verbe. En arabe, ce lām-là ne raconte pas ce qui s'est passé
+    ensuite. Il dit <strong>pour</strong>.</p>
+
+    <div class="l-paire">
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@W:8:11:10@@</span>
+        <span class="l-note">pour vous purifier — <i>li-yuṭahhirakum</i></span>
+      </span>
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@W:8:11:16@@</span>
+        <span class="l-note">et pour raffermir — <i>wa-li-yarbiṭa</i></span>
+      </span>
+    </div>
+
+    <p>Sans ce lām, la phrase serait une chronique : il a plu, puis ils se sont purifiés, puis
+    leurs cœurs se sont raffermis. Avec lui, l'ordre s'inverse : <strong>la purification et
+    l'assurance ne sont pas les conséquences de la pluie, elles en sont la raison.</strong>
+    L'eau descend déjà chargée de ce qu'elle vient accomplir.</p>
+
+    <p>Le français ne peut pas garder le trait, mais il garde le sens : Hamidullah traduit
+    <i>« afin de vous en purifier »</i>. C'est exactement cela — sauf qu'en arabe, cette
+    intention tient dans une seule lettre.</p>
+
+    <p class="l-chute">Une lettre, et l'averse cesse d'être un événement pour devenir une réponse.</p>
+  </div>
 
   <h2>Aujourd'hui</h2>
 
   <div class="aujourdhui">
-    <p>Prends un moment pour te réjouir de ce qu'Allah t'a donné — pas seulement de ce que
-    tu as réussi à obtenir. Les deux listes ne se ressemblent pas.</p>
+    <p>La prochaine fois qu'il pleut, ne la subis pas et ne la commente pas. Reste une minute
+    à la regarder, et demande-toi ce qu'elle est venue faire — dans la ville, et dans ta
+    journée.</p>
   </div>
 
-  <p class="dua">Qu'Allah nous fasse voir Sa grâce là où nous ne voyons<br>que le résultat de nos efforts. 🤲</p>
+  <p class="dua">Qu'Allah nous donne de lire ce qu'Il envoie,<br>et pas seulement de le recevoir. 🤲</p>
 
   <div class="source">
     <h2>Sources</h2>
-    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Yunus (10), verset 58.</p>
+    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Anfâl (8), verset 11 — repris tel quel depuis quran.com, sans saisie manuelle.</p>
     <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot, sans reformulation.</p>
-    <p><a href="https://quran.com/fr/10/58?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
-    <p>La réflexion qui précède est une méditation personnelle. Elle n'est pas un commentaire
-    savant (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Aucun avis juridique n'y est rendu.</p>
+    <p><a href="https://quran.com/fr/8/11?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
+    <p>Le contexte de Badr est celui que rapportent les recueils de <i>sīra</i> pour ce verset.
+    La réflexion qui précède est une méditation personnelle : elle n'est pas un commentaire
+    savant (<i>tafsīr</i>) et ne prétend pas en tenir lieu. La note « Dans la langue » décrit
+    une forme grammaticale ; elle ne propose aucune traduction concurrente. Aucun avis juridique
+    n'y est rendu.</p>
   </div>
 
 </article>
 
 <nav class="serie-nav" aria-label="Dans la série">
-  <a href="/tadabbur/001/">← Verset précédent</a>
+  <a href="/tadabbur/002/">← Verset précédent</a>
   <a href="/tadabbur/">Tous les versets</a>
-  <a href="/tadabbur/003/">Verset suivant →</a>
+  <a href="/tadabbur/004/">Verset suivant →</a>
 </nav>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>

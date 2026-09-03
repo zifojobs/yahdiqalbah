@@ -111,7 +111,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 <div class="wrap">
 <header class="hero">
   <p class="kicker">Tadabbur · Verset 2</p>
-  <p class="ha" lang="ar" dir="rtl">يونس</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:10@@</p>
   <h1>De quoi se réjouir vraiment</h1>
   <span class="ep-badge">Sourate Yunus, 10 : 58</span>
 </header>
@@ -119,7 +119,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 <article>
 
   <div class="ayah">
-    <p class="v-ar" lang="ar" dir="rtl">قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌ مِّمَّا يَجْمَعُونَ</p>
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:10:58@@</p>
     <p class="v-fr">« Dis : "[Ceci provient] de la grâce d’Allah et de Sa miséricorde ; Voilà de quoi ils devraient se réjouir. C’est bien mieux que tout ce qu’ils amassent." »</p>
     <p class="v-ref">Sourate Yunus, 10 : 58</p>
   </div>
@@ -169,7 +169,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 </nav>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>

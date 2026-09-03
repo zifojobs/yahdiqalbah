@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>De quoi se réjouir vraiment — Sourate Yunus 10 : 58 — Tadabbur</title>
-<meta name="description" content="Sourate Yunus 10 : 58 — « Voilà de quoi ils devraient se réjouir. » Un contrat signé, un salaire qui arrive : la joie est légitime. Le verset déplace seulement ce qui la mérite le plus.">
-<meta property="og:title" content="De quoi se réjouir vraiment — Sourate Yunus 10 : 58">
-<meta property="og:description" content="La joie est légitime. Le verset déplace seulement ce qui la mérite le plus.">
+<title>Le wifi qui marche bien — Sourate At-Takathur 102 : 8 — Tadabbur</title>
+<meta name="description" content="Le dernier verset de Sourate At-Takathur : « Puis, assurément, vous serez interrogés, ce jour-là, sur les délices. » Ce qui sera demandé n'est pas ce qu'on a raté, c'est ce dont on a profité.">
+<meta property="og:title" content="Le wifi qui marche bien — Sourate At-Takathur 102 : 8">
+<meta property="og:description" content="Ce qui sera demandé n'est pas ce qu'on a raté, c'est ce dont on a profité.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://yahdiqalbah.com/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/002/">
-<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/002/">
+<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/001/">
+<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/001/">
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
@@ -110,52 +110,51 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 
 <div class="wrap">
 <header class="hero">
-  <p class="kicker">Tadabbur · Verset 2</p>
-  <p class="ha" lang="ar" dir="rtl">يونس</p>
-  <h1>De quoi se réjouir vraiment</h1>
-  <span class="ep-badge">Sourate Yunus, 10 : 58</span>
+  <p class="kicker">Tadabbur · Verset 1</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:102@@</p>
+  <h1>Le wifi qui marche bien</h1>
+  <span class="ep-badge">Sourate At-Takathur, 102 : 8</span>
 </header>
 
 <article>
 
   <div class="ayah">
-    <p class="v-ar" lang="ar" dir="rtl">قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌ مِّمَّا يَجْمَعُونَ</p>
-    <p class="v-fr">« Dis : "[Ceci provient] de la grâce d’Allah et de Sa miséricorde ; Voilà de quoi ils devraient se réjouir. C’est bien mieux que tout ce qu’ils amassent." »</p>
-    <p class="v-ref">Sourate Yunus, 10 : 58</p>
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:102:8@@</p>
+    <p class="v-fr">« Puis, assurément, vous serez interrogés, ce jour-là, sur les délices. »</p>
+    <p class="v-ref">Sourate At-Takathur, 102 : 8 — le dernier verset</p>
   </div>
 
   <h2>Ce que le verset ouvre</h2>
 
-  <p>Le verset ne s'attaque pas à la joie. Il ne dit pas qu'il faudrait cesser de se réjouir
-  d'un contrat signé, d'un salaire qui tombe, d'une chose longtemps espérée et enfin obtenue.
-  Cette joie-là est humaine, et elle est permise.</p>
+  <p>La sourate entière parle d'une course : accumuler des biens, du statut, des chiffres —
+  jusqu'à ce que la mort interrompe le décompte. Et elle se termine sur cette phrase, qui ne
+  demande pas ce qu'on a raté.</p>
 
-  <p><strong>Il déplace seulement ce qui la mérite le plus.</strong> Ce dont il faudrait se
-  réjouir d'abord, dit le verset, c'est de la grâce et de la miséricorde — et il ajoute que
-  cela vaut mieux que tout ce qu'on peut amasser.</p>
+  <p><strong>Elle demande ce dont on a profité.</strong> Le bon repas. La maison où l'on rentre
+  le soir. Une nuit de sommeil sans douleur. La santé, tant qu'elle tient. Le wifi qui marche
+  bien. Tout cela sera questionné — non pas reproché, mais questionné.</p>
 
-  <p>Un client qui accorde sa confiance. Une santé qui tient encore. Une famille où l'on rentre.
-  Un cœur qui bat toujours de foi, après tout ce qu'il a traversé. <strong>Rien de tout cela
-  n'est seulement le fruit d'un effort</strong> — et pourtant c'est précisément ce qu'on oublie
-  de compter quand on fait ses comptes.</p>
+  <p>La différence compte. Le verset ne dit pas que les bienfaits sont un piège, ni qu'il
+  faudrait s'en priver. Il dit qu'ils ont une <strong>provenance</strong>, et que cette
+  provenance sera rappelée. Ce qui est demandé, au fond, c'est si l'on a su d'où ça venait.</p>
 
-  <p>Le verset ne demande pas de moins se réjouir. Il demande de se réjouir de la bonne chose,
-  et dans le bon ordre.</p>
+  <p>C'est un renversement discret : nous passons nos journées à compter ce qui nous manque,
+  et le verset annonce qu'on nous interrogera sur ce que nous avions déjà.</p>
 
   <h2>Aujourd'hui</h2>
 
   <div class="aujourdhui">
-    <p>Prends un moment pour te réjouir de ce qu'Allah t'a donné — pas seulement de ce que
-    tu as réussi à obtenir. Les deux listes ne se ressemblent pas.</p>
+    <p>Ce soir, avant de dormir, arrête-toi sur un seul bienfait de ta journée — un vrai,
+    précis, pas une liste. Et dis <i>Alhamdoulillah</i> pour celui-là, sincèrement.</p>
   </div>
 
-  <p class="dua">Qu'Allah nous fasse voir Sa grâce là où nous ne voyons<br>que le résultat de nos efforts. 🤲</p>
+  <p class="dua">Qu'Allah nous facilite de rendre compte de Ses faveurs<br>avec le sourire, et non avec le regret. 🤲</p>
 
   <div class="source">
     <h2>Sources</h2>
-    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Yunus (10), verset 58.</p>
+    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate At-Takathur (102), verset 8.</p>
     <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot, sans reformulation.</p>
-    <p><a href="https://quran.com/fr/10/58?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
+    <p><a href="https://quran.com/fr/102/8?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
     <p>La réflexion qui précède est une méditation personnelle. Elle n'est pas un commentaire
     savant (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Aucun avis juridique n'y est rendu.</p>
   </div>
@@ -163,13 +162,12 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 </article>
 
 <nav class="serie-nav" aria-label="Dans la série">
-  <a href="/tadabbur/001/">← Verset précédent</a>
-  <a href="/tadabbur/">Tous les versets</a>
-  <a href="/tadabbur/003/">Verset suivant →</a>
+  <a href="/tadabbur/">← Tous les versets</a>
+  <a href="/tadabbur/002/">Verset suivant →</a>
 </nav>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>

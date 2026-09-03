@@ -132,31 +132,31 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
   <a class="episode-card" href="/tadabbur/001/">
     <span class="episode-num">Verset 1 · Sourate At-Takathur 102 : 8</span>
     <h3>Le wifi qui marche bien</h3>
-    <p class="card-ar" lang="ar" dir="rtl">ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ</p>
+    <p class="card-ar" lang="ar" dir="rtl">@@AR:102:8@@</p>
     <p>Le dernier verset d'une sourate sur l'accumulation. Ce qui sera demandé n'est pas ce qu'on a raté — c'est ce dont on a profité.</p>
   </a>
   <a class="episode-card" href="/tadabbur/002/">
     <span class="episode-num">Verset 2 · Sourate Yunus 10 : 58</span>
     <h3>De quoi se réjouir vraiment</h3>
-    <p class="card-ar" lang="ar" dir="rtl">قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟</p>
+    <p class="card-ar" lang="ar" dir="rtl">@@S:10:58:0:6@@</p>
     <p>Un contrat signé, un salaire qui arrive : la joie est légitime. Le verset ne l'interdit pas — il déplace ce qui la mérite le plus.</p>
   </a>
   <a class="episode-card" href="/tadabbur/003/">
     <span class="episode-num">Verset 3 · Sourate Al-Anfâl 8 : 11</span>
     <h3>La pluie n'était pas pour la terre</h3>
-    <p class="card-ar" lang="ar" dir="rtl">مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ</p>
+    <p class="card-ar" lang="ar" dir="rtl">@@S:8:11:7:12@@</p>
     <p>À Badr, le Coran ne dit pas qu'il a plu. Il dit ce que la pluie était venue faire &mdash; et une seule lettre suffit à le dire.</p>
   </a>
   <a class="episode-card" href="/tadabbur/004/">
     <span class="episode-num">Verset 4 · Sourate Al-Kahf 18 : 82</span>
     <h3>Une lettre qui attend que tu grandisses</h3>
-    <p class="card-ar" lang="ar" dir="rtl">تَحْتَهُۥ كَنزٌ لَّهُمَا</p>
+    <p class="card-ar" lang="ar" dir="rtl">@@S:18:82:8:11@@</p>
     <p>Le mur ne tenait pas : il attendait. Entre le début et la fin du verset, le trésor change de nom.</p>
   </a>
   <a class="episode-card" href="/tadabbur/005/">
     <span class="episode-num">Verset 5 · Sourate Al-Baqarah 2 : 35</span>
     <h3>Habite</h3>
-    <p class="card-ar" lang="ar" dir="rtl">ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ</p>
+    <p class="card-ar" lang="ar" dir="rtl">@@S:2:35:2:6@@</p>
     <p>Le premier ordre donné au premier homme n'est pas un ordre de faire. Et sa racine est celle de la tranquillité.</p>
   </a>
 </div>
@@ -164,7 +164,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 <div class="next-ep"><p>Un verset paraît quand il est médité et vérifié — jamais avant.</p></div>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>

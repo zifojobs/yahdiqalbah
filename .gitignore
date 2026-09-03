@@ -2,3 +2,5 @@
 
 .vercel
 .env*
+.coran-cache/
+__pycache__/

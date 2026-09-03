@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>De quoi se réjouir vraiment — Sourate Yunus 10 : 58 — Tadabbur</title>
-<meta name="description" content="Sourate Yunus 10 : 58 — « Voilà de quoi ils devraient se réjouir. » Un contrat signé, un salaire qui arrive : la joie est légitime. Le verset déplace seulement ce qui la mérite le plus.">
-<meta property="og:title" content="De quoi se réjouir vraiment — Sourate Yunus 10 : 58">
-<meta property="og:description" content="La joie est légitime. Le verset déplace seulement ce qui la mérite le plus.">
+<title>Habite — Sourate Al-Baqarah 2 : 35 — Tadabbur</title>
+<meta name="description" content="Le premier ordre donné au premier homme n'est pas un ordre de faire, c'est un ordre d'habiter. Et le mot employé porte la même racine que la tranquillité.">
+<meta property="og:title" content="Habite — Sourate Al-Baqarah 2 : 35">
+<meta property="og:description" content="Le premier ordre donné à l'homme n'est pas de faire. C'est d'habiter.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://yahdiqalbah.com/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/002/">
-<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/002/">
+<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/005/">
+<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/005/">
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
@@ -55,7 +55,7 @@ article{max-width:720px;margin:0 auto;padding:1rem 1.5rem 3rem}
 /* le verset */
 .ayah{border:1px solid var(--line);border-radius:18px;padding:2rem 1.8rem;text-align:center;
   background:linear-gradient(160deg,rgba(26,20,9,.6),rgba(15,12,6,.45))}
-.ayah .v-ar{font-family:var(--ar);font-size:clamp(1.5rem,5.4vw,2.3rem);color:var(--or-vif);line-height:2.15;direction:rtl}
+.ayah .v-ar{font-family:var(--ar);font-size:clamp(1.35rem,4.6vw,2rem);color:var(--or-vif);line-height:2.15;direction:rtl}
 .ayah .v-fr{font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,3vw,1.3rem);color:var(--creme);margin-top:1.2rem}
 .ayah .v-ref{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--or-sombre);margin-top:1rem}
 
@@ -64,6 +64,18 @@ article h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.4rem,4vw,1
 article p{font-size:1.02rem;color:#dcd3bd;margin-top:1.1rem}
 article p strong{color:var(--creme);font-weight:500}
 article p i{color:var(--creme);font-style:italic}
+
+/* dans la langue */
+.langue{margin-top:1.2rem;border:1px dashed var(--line);border-radius:16px;padding:1.5rem 1.6rem;
+  background:linear-gradient(160deg,rgba(20,16,8,.55),rgba(12,10,5,.4))}
+.langue p{margin-top:.9rem}
+.langue p:first-child{margin-top:0}
+.l-paire{display:flex;flex-wrap:wrap;gap:.6rem 1.8rem;
+  margin:1.3rem 0;padding:1.1rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.l-mot{flex:1 1 190px}
+.l-ar{display:block;font-family:var(--ar);font-size:clamp(1.4rem,4.6vw,1.9rem);color:var(--or-vif);line-height:2;direction:rtl}
+.l-note{display:block;font-size:.8rem;letter-spacing:.05em;color:var(--muted);margin-top:.15rem}
+.langue .l-chute{font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--or-vif)}
 
 /* le geste du jour */
 .aujourdhui{margin-top:1.4rem;border-left:2px solid var(--or-sombre);padding:.2rem 0 .2rem 1.3rem}
@@ -110,66 +122,99 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 
 <div class="wrap">
 <header class="hero">
-  <p class="kicker">Tadabbur · Verset 2</p>
-  <p class="ha" lang="ar" dir="rtl">يونس</p>
-  <h1>De quoi se réjouir vraiment</h1>
-  <span class="ep-badge">Sourate Yunus, 10 : 58</span>
+  <p class="kicker">Tadabbur · Verset 5</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:2@@</p>
+  <h1>Habite</h1>
+  <span class="ep-badge">Sourate Al-Baqarah, 2 : 35</span>
 </header>
 
 <article>
-
   <div class="ayah">
-    <p class="v-ar" lang="ar" dir="rtl">قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌ مِّمَّا يَجْمَعُونَ</p>
-    <p class="v-fr">« Dis : "[Ceci provient] de la grâce d’Allah et de Sa miséricorde ; Voilà de quoi ils devraient se réjouir. C’est bien mieux que tout ce qu’ils amassent." »</p>
-    <p class="v-ref">Sourate Yunus, 10 : 58</p>
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:2:35@@</p>
+    <p class="v-fr">« Et Nous dîmes : "Ô Adam ! Habite le Paradis toi et ton épouse, et
+    nourrissez-vous-en de partout à votre guise ; mais n'approchez pas de l'arbre que voici,
+    sinon vous seriez du nombre des injustes." »</p>
+    <p class="v-ref">Sourate Al-Baqarah, 2 : 35</p>
   </div>
 
   <h2>Ce que le verset ouvre</h2>
 
-  <p>Le verset ne s'attaque pas à la joie. Il ne dit pas qu'il faudrait cesser de se réjouir
-  d'un contrat signé, d'un salaire qui tombe, d'une chose longtemps espérée et enfin obtenue.
-  Cette joie-là est humaine, et elle est permise.</p>
+  <p>C'est le premier ordre donné au premier homme, et ce n'est pas un ordre de faire. C'est un
+  ordre d'<strong>habiter</strong>.</p>
 
-  <p><strong>Il déplace seulement ce qui la mérite le plus.</strong> Ce dont il faudrait se
-  réjouir d'abord, dit le verset, c'est de la grâce et de la miséricorde — et il ajoute que
-  cela vaut mieux que tout ce qu'on peut amasser.</p>
+  <p>Puis vient la descente sur terre, la mission, les années. Et à la fin du parcours, la
+  destination n'est pas un lieu nouveau : c'est celui du départ.</p>
 
-  <p>Un client qui accorde sa confiance. Une santé qui tient encore. Une famille où l'on rentre.
-  Un cœur qui bat toujours de foi, après tout ce qu'il a traversé. <strong>Rien de tout cela
-  n'est seulement le fruit d'un effort</strong> — et pourtant c'est précisément ce qu'on oublie
-  de compter quand on fait ses comptes.</p>
+  <p>Nous refaisons ce trajet en petit, tous, sans le remarquer. On naît dans une maison —
+  celle où l'on est en sécurité sans avoir rien fait pour le mériter. Puis il faut partir :
+  l'école, la ville, le travail, souvent le pays. On s'éloigne pour construire, et c'est bien
+  ainsi ; c'est ce qui était demandé.</p>
 
-  <p>Le verset ne demande pas de moins se réjouir. Il demande de se réjouir de la bonne chose,
-  et dans le bon ordre.</p>
+  <p>Mais quelque chose ne quitte jamais la première maison. Les années passent et le désir
+  revient : rentrer. Beaucoup rentrent vivre là où ils ont grandi. Et ceux qui ne le peuvent
+  pas demandent, presque tous, à être ramenés chez eux pour y être enterrés.
+  <strong>Personne n'apprend cela ; c'est déjà là.</strong></p>
+
+  <p>Ce n'est pas de la nostalgie. C'est la forme même du voyage : on est envoyé, on accomplit,
+  on revient. Celui qui l'a compris ne s'installe pas dans l'étape en croyant qu'elle est
+  l'arrivée.</p>
+
+  <h2>Dans la langue</h2>
+
+  <div class="langue">
+    <p>Le mot traduit par <i>« habite »</i> n'est pas un mot d'installation ordinaire.</p>
+
+    <div class="l-paire">
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@W:2:35:2@@</span>
+        <span class="l-note"><i>uskun</i> — habite</span>
+      </span>
+    </div>
+
+    <p>Il est bâti sur trois lettres — <i>s-k-n</i> — qui donnent en arabe toute une famille :
+    <i>maskan</i>, la demeure ; <i>sākin</i>, celui qui y réside ; et <i>sakīna</i>, cette
+    tranquillité que le Coran fait descendre sur les cœurs au plus fort de la peur. La même
+    racine dit le logement <strong>et</strong> l'apaisement.</p>
+
+    <p>Autrement dit, la langue ne sépare pas les deux. Un lieu où l'on habite vraiment est un
+    lieu où l'on se pose. Et le premier mot adressé à l'homme ne lui dit pas <i>reste ici</i> :
+    il lui dit <i>trouve ici ton repos</i>.</p>
+
+    <p class="l-chute">D'où l'inconfort sourd, partout ailleurs : nous cherchons un maskan, et
+    nous ne trouvons que des étapes.</p>
+  </div>
 
   <h2>Aujourd'hui</h2>
 
   <div class="aujourdhui">
-    <p>Prends un moment pour te réjouir de ce qu'Allah t'a donné — pas seulement de ce que
-    tu as réussi à obtenir. Les deux listes ne se ressemblent pas.</p>
+    <p>Demande-toi honnêtement où tu cherches ton repos en ce moment — un projet, une somme
+    d'argent, une réussite, un retour. Puis pose la question suivante : et si ce n'était qu'une
+    étape, qu'est-ce que je changerais aujourd'hui ?</p>
   </div>
 
-  <p class="dua">Qu'Allah nous fasse voir Sa grâce là où nous ne voyons<br>que le résultat de nos efforts. 🤲</p>
+  <p class="dua">Qu'Allah fasse de notre passage une route droite,<br>et de notre retour une arrivée. 🤲</p>
 
   <div class="source">
     <h2>Sources</h2>
-    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Yunus (10), verset 58.</p>
+    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Baqarah (2), verset 35 — repris tel quel depuis quran.com, sans saisie manuelle.</p>
     <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot, sans reformulation.</p>
-    <p><a href="https://quran.com/fr/10/58?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
-    <p>La réflexion qui précède est une méditation personnelle. Elle n'est pas un commentaire
-    savant (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Aucun avis juridique n'y est rendu.</p>
+    <p><a href="https://quran.com/fr/2/35?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
+    <p>La note « Dans la langue » relève une parenté de racine (<i>s-k-n</i>) entre
+    <i>uskun</i>, <i>maskan</i> et <i>sakīna</i> ; c'est une observation lexicale, non une
+    règle d'interprétation. La réflexion qui précède est une méditation personnelle : elle
+    n'est pas un commentaire savant (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Aucun avis
+    juridique n'y est rendu.</p>
   </div>
 
 </article>
 
 <nav class="serie-nav" aria-label="Dans la série">
-  <a href="/tadabbur/001/">← Verset précédent</a>
+  <a href="/tadabbur/004/">← Verset précédent</a>
   <a href="/tadabbur/">Tous les versets</a>
-  <a href="/tadabbur/003/">Verset suivant →</a>
 </nav>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>
