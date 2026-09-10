@@ -23,4 +23,14 @@ page("005",
      h1="Habite",
      ref="Sourate Al-Baqarah, 2 : 35",
      kicker="Tadabbur · Verset 5",
-     corps=corps("005"), prev="004", nxt=None)
+     corps=corps("005"), prev="004", nxt="006")
+
+page("006",
+     titre="Le désir et la chute portent le même mot — Sourate Al-Jâthiyah 45 : 23 — Tadabbur",
+     desc="Le verset ne parle pas de l'intensité d'une passion, il parle de sa place. Et le mot arabe pour le désir est bâti sur la racine qui dit tomber.",
+     og_desc="Le verset ne parle pas de la passion. Il parle de la place.",
+     sourate="@@CH:45@@",
+     h1="Le désir et la chute portent le même mot",
+     ref="Sourate Al-Jâthiyah, 45 : 23",
+     kicker="Tadabbur · Verset 6",
+     corps=corps("006"), prev="005", nxt=None)

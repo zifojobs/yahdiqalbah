@@ -15,7 +15,7 @@ def verset(cle):
                     "-o", out], check=True)
     return " ".join(json.load(io.open(out, encoding="utf-8"))["verse"]["text_uthmani"].split())
 
-PAGES = ["tadabbur/index.html"] + ["tadabbur/%03d/index.html" % n for n in range(1, 6)]
+PAGES = ["tadabbur/index.html"] + ["tadabbur/%03d/index.html" % n for n in range(1, 7)]
 
 # (fichier, classe CSS, cle) — le verset affiche doit etre le verset complet
 CIBLES = [
@@ -25,15 +25,18 @@ CIBLES = [
     ("tadabbur/003/index.html", "v-ar", "8:11"),
     ("tadabbur/004/index.html", "v-ar", "18:82"),
     ("tadabbur/005/index.html", "v-ar", "2:35"),
+    ("tadabbur/006/index.html", "v-ar", "45:23"),
 ]
-# les fragments isoles des blocs "Dans la langue" : doivent etre inclus dans leur verset
+# les fragments isoles des blocs "Dans la langue" : doivent etre inclus dans leur verset.
+# Une cle PAR fragment, dans l'ordre d'apparition : un bloc peut citer deux versets differents.
 MOTS = [
-    ("tadabbur/003/index.html", "8:11"),
-    ("tadabbur/004/index.html", "18:82"),
-    ("tadabbur/005/index.html", "2:35"),
+    ("tadabbur/003/index.html", ["8:11", "8:11"]),
+    ("tadabbur/004/index.html", ["18:82", "18:82"]),
+    ("tadabbur/005/index.html", ["2:35"]),
+    ("tadabbur/006/index.html", ["45:23", "101:9"]),
 ]
 # les cartes de l'index, dans l'ordre d'apparition
-CARTES = ["102:8", "10:58", "8:11", "18:82", "2:35"]
+CARTES = ["102:8", "10:58", "8:11", "18:82", "2:35", "45:23"]
 
 ecarts = []
 
@@ -51,14 +54,15 @@ for f, cls, cle in CIBLES:
     src = verset(cle)
     dit("%s  %s" % (f, cle), ecrit == src, ecrit, src)
 
-for f, cle in MOTS:
+for f, cles in MOTS:
     s = io.open(f, encoding="utf-8").read()
-    src = verset(cle)
     frags = re.findall(r'class="l-ar"[^>]*>([^<]+)<', s)
-    if not frags:
-        dit("  %s  bloc langue" % os.path.dirname(f), False, "(aucun fragment)", cle)
-    for i, frag in enumerate(frags):
+    if len(frags) != len(cles):
+        dit("  %s  bloc langue" % os.path.dirname(f), False,
+            "%d fragment(s)" % len(frags), "%d attendu(s)" % len(cles))
+    for i, (frag, cle) in enumerate(zip(frags, cles)):
         e = " ".join(html.unescape(frag).split())
+        src = verset(cle)
         dit("  %s  fragment %d de %s" % (os.path.dirname(f), i + 1, cle), e in src, e, src)
 
 s = io.open("tadabbur/index.html", encoding="utf-8").read()
