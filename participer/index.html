@@ -39,24 +39,30 @@ h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,6vw,3.4rem);l
 
 article.lecture{margin:.5rem auto 3rem}
 
-/* Les moyens : le numero reste lisible en clair, le bouton n'est qu'un confort. */
+/* Les moyens : le logo identifie d'un coup d'oeil, mais la valeur reste
+   TOUJOURS lisible en clair a cote — un bouton peut echouer, un numero qu'on
+   recopie ne peut pas. */
 .moyens{display:grid;gap:.9rem;margin-block-start:1.4rem}
-.moyen{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.7rem;
+.moyen{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:1rem;
   border:1px solid rgba(13,11,7,.16);border-radius:14px;padding:1rem 1.15rem;
   background:rgba(201,169,98,.10)}
-.moyen-nom{font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#7a5f1f}
-.moyen-val{font-family:var(--sans);font-size:1.05rem;letter-spacing:.03em;color:var(--encre)}
+.moyen-logo{width:118px;height:38px;display:block}
+.moyen-corps{min-width:0}
+.moyen-nom{display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#7a5f1f}
+.moyen-val{display:block;font-family:var(--sans);font-size:1.05rem;letter-spacing:.03em;color:var(--encre);
+  overflow-wrap:anywhere}
+.moyen-sous{display:block;font-family:var(--sans);font-size:.8rem;color:#5a5140;margin-block-start:.15rem}
 .moyen .moyen-btn{display:inline-block;text-decoration:none}
 .moyen button,.moyen .moyen-btn{font-family:var(--sans);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
   color:#7a5f1f;background:none;border:1px solid rgba(13,11,7,.22);border-radius:999px;
-  padding:.42rem .95rem;cursor:pointer;transition:border-color .3s,background .3s}
+  padding:.42rem .95rem;cursor:pointer;transition:border-color .3s,background .3s;white-space:nowrap}
 .moyen button:hover,.moyen .moyen-btn:hover{border-color:#7a5f1f;background:rgba(201,169,98,.18)}
 
-/* Sous 520px les deux lignes s'empilent de la meme facon,
-   sinon la longueur de la valeur decide seule de la mise en page. */
-@media (max-width:520px){
-  .moyen{flex-direction:column;align-items:flex-start;gap:.45rem}
-  .moyen button{margin-block-start:.35rem}
+/* Sous 560px la carte s'empile : le logo en haut, la valeur dessous, l'action en dernier —
+   sinon la longueur d'un NRB decide seule de la mise en page. */
+@media (max-width:560px){
+  .moyen{grid-template-columns:1fr;gap:.55rem}
+  .moyen .moyen-btn,.moyen button{justify-self:start}
 }
 .moyens-note{font-family:var(--sans);font-size:.82rem;color:#5a5140;margin-block-start:.9rem}
 .garde{border:1px solid rgba(13,11,7,.2);border-radius:14px;padding:1.1rem 1.2rem;
@@ -113,18 +119,35 @@ footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-t
 
 <div class="moyens">
   <div class="moyen">
-    <span class="moyen-nom">Wave · Orange Money</span>
-    <span class="moyen-val">77 527 71 64</span>
-    <button type="button" data-copier="775277164">Copier</button>
+    <img class="moyen-logo" src="/assets/pay-wave.svg" alt="Wave" width="200" height="64">
+    <span class="moyen-corps">
+      <span class="moyen-nom">Wave — Sénégal</span>
+      <span class="moyen-val">76 185 73 73</span>
+    </span>
+    <button type="button" data-copier="761857373">Copier le numéro</button>
   </div>
+
   <div class="moyen">
-    <span class="moyen-nom">PayPal — diaspora</span>
-    <span class="moyen-val"><a href="https://paypal.me/zifo" target="_blank" rel="noopener">paypal.me/zifo</a></span>
-    <a class="moyen-btn" href="https://paypal.me/zifo" target="_blank" rel="noopener">Ouvrir</a>
+    <img class="moyen-logo" src="/assets/pay-paypal.svg" alt="PayPal" width="200" height="64">
+    <span class="moyen-corps">
+      <span class="moyen-nom">PayPal — diaspora</span>
+      <span class="moyen-val"><a href="https://paypal.me/zifo" target="_blank" rel="noopener">paypal.me/zifo</a></span>
+    </span>
+    <a class="moyen-btn" href="https://paypal.me/zifo" target="_blank" rel="noopener">Ouvrir PayPal</a>
+  </div>
+
+  <div class="moyen">
+    <img class="moyen-logo" src="/assets/pay-djamo.svg" alt="Djamo" width="200" height="64">
+    <span class="moyen-corps">
+      <span class="moyen-nom">Virement — Djamo</span>
+      <span class="moyen-val">SN08 SN191 01001 010979669755 04</span>
+      <span class="moyen-sous">DANFAKHA Saïbo — Banque de Dakar (BDK)</span>
+    </span>
+    <button type="button" data-copier="SN08SN1910100101097966975504">Copier le NRB</button>
   </div>
 </div>
 
-<p class="moyens-note">Wave et Orange Money utilisent le même numéro : celui-ci fonctionne avec les deux applications.</p>
+<p class="moyens-note">Wave fonctionne avec le numéro ci-dessus, depuis l’application Wave. PayPal est là pour la diaspora, et le virement pour ceux qui préfèrent leur banque.</p>
 
 <div class="garde">
   <p><b>Il s'agit d'une sadaqa, pas d'une zakat.</b> La zakat a des bénéficiaires définis par la Loi ; ce qui est reçu ici finance un site et un travail de transmission. Qui souhaite s'acquitter de sa zakat doit la verser à ceux qui y ont droit.</p>
@@ -149,7 +172,7 @@ footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-t
     <div>
       <h2>Institut Yahdi Qalbah</h2>
       <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
-      <p class="site-footer-contact"><a href="https://wa.me/221775277164">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
+      <p class="site-footer-contact"><a href="https://wa.me/221761857373">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
     </div>
     <div>
       <h2>Les espaces</h2>

@@ -203,7 +203,7 @@ requestAnimationFrame(draw);
     <div>
       <h2>Institut Yahdi Qalbah</h2>
       <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
-      <p class="site-footer-contact"><a href="https://wa.me/221775277164">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
+      <p class="site-footer-contact"><a href="https://wa.me/221761857373">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
     </div>
     <div>
       <h2>Les espaces</h2>
