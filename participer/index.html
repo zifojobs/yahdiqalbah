@@ -43,10 +43,12 @@ article.lecture{margin:.5rem auto 3rem}
    TOUJOURS lisible en clair a cote — un bouton peut echouer, un numero qu'on
    recopie ne peut pas. */
 .moyens{display:grid;gap:.9rem;margin-block-start:1.4rem}
-.moyen{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:1rem;
+.moyen{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:1.05rem;
   border:1px solid rgba(13,11,7,.16);border-radius:14px;padding:1rem 1.15rem;
   background:rgba(201,169,98,.10)}
-.moyen-logo{width:118px;height:38px;display:block}
+.moyen-logo{width:56px;height:56px;display:block;border-radius:13px;
+  /* le carre blanc de PayPal flotterait sur la creme sans ce filet */
+  border:1px solid rgba(13,11,7,.14)}
 .moyen-corps{min-width:0}
 .moyen-nom{display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#7a5f1f}
 .moyen-val{display:block;font-family:var(--sans);font-size:1.05rem;letter-spacing:.03em;color:var(--encre);
@@ -119,7 +121,7 @@ footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-t
 
 <div class="moyens">
   <div class="moyen">
-    <img class="moyen-logo" src="/assets/pay-wave.svg" alt="Wave" width="200" height="64">
+    <img class="moyen-logo" src="/assets/pay-wave.png" alt="Wave" width="160" height="160">
     <span class="moyen-corps">
       <span class="moyen-nom">Wave — Sénégal</span>
       <span class="moyen-val">76 185 73 73</span>
@@ -128,7 +130,7 @@ footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-t
   </div>
 
   <div class="moyen">
-    <img class="moyen-logo" src="/assets/pay-paypal.svg" alt="PayPal" width="200" height="64">
+    <img class="moyen-logo" src="/assets/pay-paypal.png" alt="PayPal" width="160" height="160">
     <span class="moyen-corps">
       <span class="moyen-nom">PayPal — diaspora</span>
       <span class="moyen-val"><a href="https://paypal.me/zifo" target="_blank" rel="noopener">paypal.me/zifo</a></span>
@@ -137,7 +139,7 @@ footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-t
   </div>
 
   <div class="moyen">
-    <img class="moyen-logo" src="/assets/pay-djamo.svg" alt="Djamo" width="200" height="64">
+    <img class="moyen-logo" src="/assets/pay-djamo.png" alt="Djamo" width="160" height="160">
     <span class="moyen-corps">
       <span class="moyen-nom">Virement — Djamo</span>
       <span class="moyen-val">SN08 SN191 01001 010979669755 04</span>
