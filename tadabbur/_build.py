@@ -33,4 +33,14 @@ page("006",
      h1="Le désir et la chute portent le même mot",
      ref="Sourate Al-Jâthiyah, 45 : 23",
      kicker="Tadabbur · Verset 6",
-     corps=corps("006"), prev="005", nxt=None)
+     corps=corps("006"), prev="005", nxt="007")
+
+page("007",
+     titre="Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216 — Tadabbur",
+     desc="On aime de toutes ses forces ce qui n'est pas à sa place, on laisse à contrecœur ce qui allait devenir un bien. Certains versets se lisent en une minute, et se comprennent en dix ans.",
+     og_desc="Certains versets se lisent en une minute, et se comprennent en dix ans.",
+     sourate="@@CH:2@@",
+     h1="Des années pour comprendre un verset",
+     ref="Sourate Al-Baqarah, 2 : 216",
+     kicker="Tadabbur · Verset 7",
+     corps=corps("007"), prev="006", nxt=None)

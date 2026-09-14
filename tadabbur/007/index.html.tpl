@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Le désir et la chute portent le même mot — Sourate Al-Jâthiyah 45 : 23 — Tadabbur</title>
-<meta name="description" content="Le verset ne parle pas de l'intensité d'une passion, il parle de sa place. Et le mot arabe pour le désir est bâti sur la racine qui dit tomber.">
-<meta property="og:title" content="Le désir et la chute portent le même mot — Sourate Al-Jâthiyah 45 : 23">
-<meta property="og:description" content="Le verset ne parle pas de la passion. Il parle de la place.">
+<title>Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216 — Tadabbur</title>
+<meta name="description" content="On aime de toutes ses forces ce qui n'est pas à sa place, on laisse à contrecœur ce qui allait devenir un bien. Certains versets se lisent en une minute, et se comprennent en dix ans.">
+<meta property="og:title" content="Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216">
+<meta property="og:description" content="Certains versets se lisent en une minute, et se comprennent en dix ans.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://yahdiqalbah.com/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/006/">
-<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/006/">
+<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/007/">
+<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/007/">
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
@@ -122,122 +122,143 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 
 <div class="wrap">
 <header class="hero">
-  <p class="kicker">Tadabbur · Verset 6</p>
-  <p class="ha" lang="ar" dir="rtl">الجاثية</p>
-  <h1>Le désir et la chute portent le même mot</h1>
-  <span class="ep-badge">Sourate Al-Jâthiyah, 45 : 23</span>
+  <p class="kicker">Tadabbur · Verset 7</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:2@@</p>
+  <h1>Des années pour comprendre un verset</h1>
+  <span class="ep-badge">Sourate Al-Baqarah, 2 : 216</span>
 </header>
 
 <article>
   <div class="ayah">
-    <p class="v-ar" lang="ar" dir="rtl">أَفَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَـٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍ وَخَتَمَ عَلَىٰ سَمْعِهِۦ وَقَلْبِهِۦ وَجَعَلَ عَلَىٰ بَصَرِهِۦ غِشَـٰوَةً فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ ۚ أَفَلَا تَذَكَّرُونَ</p>
-    <p class="v-fr">« Vois-tu celui qui prend sa passion pour sa propre divinité ? Et Allah
-    l'égare sciemment et scelle son ouïe et son cœur et étend un voile sur sa vue. Qui donc
-    peut le guider après Allah ? Ne vous rappelez-vous donc pas ? »</p>
-    <p class="v-ref">Sourate Al-Jâthiyah, 45 : 23</p>
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:2:216@@</p>
+    <p class="v-fr">« Le combat vous a été prescrit alors qu’il vous est désagréable. Or, il se peut
+    que vous ayez de l’aversion pour une chose alors qu’elle vous est un bien. Et il se peut que
+    vous aimiez une chose alors qu’elle vous est mauvaise. Allah sait, tandis que vous, vous ne
+    savez pas. »</p>
+    <p class="v-ref">Sourate Al-Baqarah, 2 : 216</p>
   </div>
 
   <h2>Ce que le verset ouvre</h2>
 
-  <p>Un terrain en fin d'après-midi, le soleil qui descend, une passion à laquelle on a déjà
-  donné des années. Beaucoup de choses ont été mises de côté pour elle — des études, du
-  travail, des présences ailleurs. Rien de tout cela n'est un péché. Le football n'est pas une
-  idole.</p>
+  <p>Un adolescent choisit le football, et le place au-dessus de tout. Il y croit, il y met ses
+  meilleures années. Ce qu'il laisse de côté pour lui — des cours qui demandaient de la patience,
+  un métier qui s'apprend lentement, le Coran qu'il avait commencé à apprendre — lui paraît
+  secondaire, parfois même pesant.</p>
 
-  <p><strong>Le verset ne parle pas de la passion. Il parle de la place.</strong></p>
+  <p>Des années plus tard, il revient exactement à ce qu'il avait laissé. Et c'est en
+  mémorisant la sourate Al-Baqarah qu'il tombe sur ce verset, et qu'il s'y reconnaît.</p>
 
-  <p>Il ne dit pas « celui qui aime trop », il dit <i>celui qui prend sa passion pour sa
-  propre divinité</i>. Ce n'est pas une question d'intensité, c'est une question de rang : ce
-  qui décide en dernier. Ce devant quoi tout le reste s'écarte. Ce qu'on ne coupe jamais, même
-  quand il faudrait.</p>
+  <p><strong>Certains versets se lisent en une minute, et se comprennent en dix ans.</strong></p>
 
-  <p>Et le test est simple, presque trop simple : au moment où l'appel à la prière traverse le
-  bruit du jeu, qu'est-ce qui cède ? Si c'est le jeu, la passion reste une passion. Si c'est la
-  prière, quelque chose a changé de rang, sans qu'on l'ait décidé un seul jour.</p>
+  <p>Le verset commence par une prescription lourde, et il ne l'adoucit pas : le combat est
+  prescrit, <i>alors qu'il vous est désagréable</i>. Le Coran nomme la répugnance avant de
+  demander quoi que ce soit. Puis la phrase s'élargit : elle ne parle plus du combat, elle dit
+  <i>une chose</i>. Et chacun peut alors y poser la sienne.</p>
 
-  <p>Voilà ce qui rend le verset redoutable : il ne décrit pas un homme qui a choisi une idole.
-  Il décrit un homme dont le désir a <strong>pris</strong> la place — le verbe est actif, et ce
-  n'est pas lui qui l'a posé là.</p>
+  <p>Ce que le verset ne dit pas compte autant que ce qu'il dit. Il ne dit pas que ce qu'on
+  aime est mauvais, ni que ce qu'on fuit est bon. Il dit <i>il se peut</i>. Il retire seulement
+  à nos goûts et à nos aversions le droit d'avoir le dernier mot sur ce qui nous fait du
+  bien.</p>
 
-  <p>La suite du verset ne parle plus de faute, elle parle de dégâts : l'ouïe scellée, le cœur
-  scellé, un voile sur la vue. Ce sont les trois organes par lesquels on se corrige. Quand ce
-  qu'on veut passe en premier, ce ne sont pas les règles qu'on perd d'abord, c'est la capacité
-  d'entendre qu'on est en train de dériver.</p>
+  <p>Et c'est pour cela que les années du détour ne sont pas des années perdues. Sans elles, la
+  phrase serait restée une phrase lue. Avec elles, elle est devenue une phrase vécue : on a aimé
+  de toutes ses forces ce qui n'était pas à sa place, on a laissé à contrecœur ce qui allait
+  devenir un bien, et on l'a su après.</p>
 
-  <p>Ce n'est donc pas un verset qui demande de moins aimer. C'est un verset qui demande de
-  vérifier l'ordre, de temps en temps, pendant qu'on entend encore.</p>
+  <p>Le verset ne demande donc pas de ne plus rien aimer ni de ne plus rien fuir. Il demande de
+  tenir ses choix avec un peu moins de certitude, parce qu'un autre savoir voit la fin du
+  chemin.</p>
 
   <h2>Dans la langue</h2>
 
   <div class="langue">
-    <p>Deux mots se suivent dans le verset, et c'est leur voisinage qui frappe :</p>
+    <p>Le verset commence par nommer ce que ressentent ceux à qui le combat est prescrit — et il
+    le nomme avec <strong>un nom</strong> :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">إِلَـٰهَهُۥ هَوَىٰهُ</span>
-        <span class="l-note"><i>ilāhahu hawāhu</i> — sa divinité, son désir</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@W:2:216:4@@</span>
+        <span class="l-note"><i>kurhun</i> — « désagréable » ; un nom (<i>ism</i>)</span>
       </span>
     </div>
 
-    <p>Le second, <i>hawā</i>, est le mot du Coran pour le penchant, l'envie, le caprice. Il
-    est bâti sur trois lettres — <i>h-w-y</i> — et cette racine ne dit pas d'abord le désir.
-    Elle dit <strong>la chute</strong> : <i>hawā</i>, c'est aussi tomber, dévaler, plonger vers
-    le bas.</p>
+    <p>La rhétorique arabe distingue les deux formes : le nom dit ce qui est
+    <strong>installé</strong>, un état qui demeure ; le verbe dit ce qui
+    <strong>survient</strong>, dans le temps, et peut passer. L'aversion pour le combat est posée
+    comme un état : le verset ne promet pas qu'elle disparaîtra quand on obéit, et il ne la
+    reproche pas.</p>
 
-    <p>La même racine donne le nom d'un abîme, à la fin d'une sourate qui pèse les actes :</p>
+    <p>Quelques mots plus loin, la même racine <i>k-r-h</i> revient — mais cette fois pour
+    <i>une chose</i>, et en <strong>verbe</strong> :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">هَاوِيَةٌ</span>
-        <span class="l-note"><i>hāwiya</i> — « un abîme très profond » (101 : 9)</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@W:2:216:9@@</span>
+        <span class="l-note"><i>takrahū</i> — « vous avez de l'aversion » ; un verbe (<i>fiʿl</i>)</span>
       </span>
     </div>
 
-    <p>Autrement dit, la langue a rangé le désir et la chute dans la même famille. Les
-    lexicographes classiques l'expliquaient ainsi : on l'appelle <i>hawā</i> parce qu'il fait
-    tomber celui qui le suit.</p>
+    <p>Ici l'aversion n'est plus un état : c'est quelque chose qui arrive, à un moment de la vie.
+    On déteste une chose, puis le temps passe, et l'on découvre qu'elle était un bien. La forme
+    même du mot laisse la place à ce retournement.</p>
 
-    <p class="l-chute">Le mot le disait avant nous : ce qu'on suit sans le peser ne nous
-    élève pas — il nous emmène vers le bas.</p>
+    <p>Et le verset se ferme sur un seul verbe, <i>ʿ-l-m</i>, savoir, employé deux fois de
+    suite :</p>
+
+    <div class="l-paire">
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@S:2:216:23:28@@</span>
+        <span class="l-note"><i>wa-llāhu yaʿlamu wa-antum lā taʿlamūn</i> — « Allah sait, tandis
+        que vous, vous ne savez pas »</span>
+      </span>
+    </div>
+
+    <p>Le texte ne compare pas deux savoirs, l'un plus grand que l'autre. Il pose <strong>le
+    même verbe</strong>, affirmé d'un côté et nié de l'autre.</p>
+
+    <p class="l-chute">Le nom dit ce qui pèse et demeure, le verbe ce qui passe. Entre les deux,
+    il y a le temps — et c'est souvent lui qui fait comprendre.</p>
   </div>
 
   <h2>Aujourd'hui</h2>
 
   <div class="aujourdhui">
-    <p>Prends la chose qui compte le plus pour toi en ce moment — un projet, un sport, un
-    téléphone, une personne, une somme d'argent. Ne te demande pas si tu l'aimes trop.
-    Demande-toi ce qui s'arrête quand elle appelle, et ce qu'elle fait, elle, quand la prière
-    appelle. La réponse dit le rang, et le rang est la seule chose que le verset demande de
-    corriger.</p>
+    <p>Pense à une chose que tu as poursuivie de toutes tes forces, ou à une chose que tu as
+    laissée à contrecœur. Ne te demande pas trop vite si tu as eu tort. Demande-toi ce que ce
+    chemin t'a appris que tu n'aurais pas su autrement — et si ce qui te pèse aujourd'hui ne
+    mérite pas, lui aussi, un peu de patience avant d'être jugé.</p>
   </div>
 
-  <p class="dua">Qu'Allah nous garde d'aimer ce qui nous éloigne,<br>et nous rende chère la
-  chose qui nous rapproche. 🤲</p>
+  <p class="dua">Qu'Allah nous fasse aimer ce qui est un bien pour nous,<br>et nous rende légère
+  la route qui y mène. 🤲</p>
 
   <div class="source">
     <h2>Sources</h2>
-    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Jâthiyah (45), verset 23, et
-    Sourate Al-Qâriʿah (101), verset 9 — repris tels quels depuis quran.com, sans saisie
-    manuelle.</p>
+    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Baqarah (2), verset 216 — repris
+    tel quel depuis quran.com, sans saisie manuelle.</p>
     <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot, sans
     reformulation.</p>
-    <p><a href="https://quran.com/fr/45/23?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
-    <p>La note « Dans la langue » relève une parenté de racine (<i>h-w-y</i>) entre <i>hawā</i>
-    et <i>hāwiya</i> ; c'est une observation lexicale, non une règle d'interprétation. La
-    réflexion qui précède est une méditation personnelle : elle n'est pas un commentaire savant
-    (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Aucun avis juridique n'y est rendu.</p>
+    <p><a href="https://quran.com/fr/2/216?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
+    <p>La note « Dans la langue » relève deux reprises visibles dans le texte arabe lui-même :
+    la racine <i>k-r-h</i>, d'abord en nom (<i>kurhun</i>) puis en verbe (<i>takrahū</i>), et le
+    verbe <i>ʿ-l-m</i> (<i>yaʿlamu</i>, <i>lā taʿlamūn</i>). La distinction entre le nom, qui
+    exprime la stabilité, et le verbe, qui exprime ce qui survient, est une règle de la
+    rhétorique arabe ; son application à ce verset est une méditation, non une règle
+    d'interprétation. Le parcours évoqué est un témoignage réel, rapporté sans nom. La
+    réflexion est une méditation personnelle : elle n'est pas un commentaire savant
+    (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Le verset porte sur la prescription du
+    combat ; aucun avis juridique n'est rendu sur ce sujet.</p>
   </div>
 
 </article>
 
 <nav class="serie-nav" aria-label="Dans la série">
-  <a href="/tadabbur/005/">← Verset précédent</a>
+  <a href="/tadabbur/006/">← Verset précédent</a>
   <a href="/tadabbur/">Tous les versets</a>
-  <a href="/tadabbur/007/">Verset suivant →</a>
 </nav>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>
