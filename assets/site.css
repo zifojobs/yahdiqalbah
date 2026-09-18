@@ -81,6 +81,16 @@
   box-shadow:0 8px 24px rgba(201,169,98,.25);
 }
 
+/* Sur telephone, tout l'en-tete se centre : le logo sur sa propre ligne, les
+   liens centres dessous. `space-between` plaquait les liens contre les deux
+   bords en creusant un vide au milieu — d'autant plus visible depuis que le
+   menu est passe a six entrees (18/09/2026). */
+@media (max-width:640px){
+  .site-header{justify-content:center;text-align:center;gap:.8rem}
+  .site-brand{flex:1 0 100%;justify-content:center}
+  .site-nav{flex:1 0 100%;justify-content:center;gap:.55rem 1.1rem}
+}
+
 /* ---------- PIED DE PAGE ---------- */
 /* Classes préfixées `site-` : les pages définissent déjà `footer .logo`,
    `.note`, `.fnote`… — les noms distincts évitent toute collision. */
@@ -158,8 +168,10 @@
 }
 .lecture a{color:#7a5f1f;text-decoration:underline;text-underline-offset:.2em}
 
-/* Versets et hadiths : detaches, jamais noyes dans le paragraphe francais. */
-.lecture-ar{
+/* Versets et hadiths : detaches, jamais noyes dans le paragraphe francais.
+   Scope sur .lecture a dessein : sans lui, `.lecture p` (0,1,1) bat `.lecture-ar`
+   (0,1,0) et l'arabe repasse en noir. Constate le 18/09/2026, 1re utilisation. */
+.lecture .lecture-ar{
   font-family:var(--ar);
   direction:rtl;
   font-size:1.35em;
