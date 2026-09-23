@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216 — Tadabbur</title>
-<meta name="description" content="On aime de toutes ses forces ce qui n'est pas à sa place, on laisse à contrecœur ce qui allait devenir un bien. Certains versets se lisent en une minute, et se comprennent en dix ans.">
-<meta property="og:title" content="Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216">
-<meta property="og:description" content="Certains versets se lisent en une minute, et se comprennent en dix ans.">
+<title>Le souffle qu'on ne programme pas — Sourate Al-Isrâ' 17 : 85 — Tadabbur</title>
+<meta name="description" content="Un personnage pleure à l'écran, une machine répond avec chaleur. Les signes de l'émotion s'imitent ; le verset ne décrit pas l'âme, il dit de quoi elle relève — et combien peu nous en savons.">
+<meta property="og:title" content="Le souffle qu'on ne programme pas — Sourate Al-Isrâ' 17 : 85">
+<meta property="og:description" content="On imite les larmes. On ne programme pas le souffle.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://yahdiqalbah.com/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/007/">
-<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/007/">
+<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/008/">
+<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/008/">
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
@@ -122,144 +122,152 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 
 <div class="wrap">
 <header class="hero">
-  <p class="kicker">Tadabbur · Verset 7</p>
-  <p class="ha" lang="ar" dir="rtl">البقرة</p>
-  <h1>Des années pour comprendre un verset</h1>
-  <span class="ep-badge">Sourate Al-Baqarah, 2 : 216</span>
+  <p class="kicker">Tadabbur · Verset 8</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:17@@</p>
+  <h1>Le souffle qu'on ne programme pas</h1>
+  <span class="ep-badge">Sourate Al-Isrâ', 17 : 85</span>
 </header>
 
 <article>
   <div class="ayah">
-    <p class="v-ar" lang="ar" dir="rtl">كُتِبَ عَلَيْكُمُ ٱلْقِتَالُ وَهُوَ كُرْهٌ لَّكُمْ ۖ وَعَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا وَهُوَ خَيْرٌ لَّكُمْ ۖ وَعَسَىٰٓ أَن تُحِبُّوا۟ شَيْـًٔا وَهُوَ شَرٌّ لَّكُمْ ۗ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ</p>
-    <p class="v-fr">« Le combat vous a été prescrit alors qu’il vous est désagréable. Or, il se peut
-    que vous ayez de l’aversion pour une chose alors qu’elle vous est un bien. Et il se peut que
-    vous aimiez une chose alors qu’elle vous est mauvaise. Allah sait, tandis que vous, vous ne
-    savez pas. »</p>
-    <p class="v-ref">Sourate Al-Baqarah, 2 : 216</p>
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:17:85@@</p>
+    <p class="v-fr">« Et ils t’interrogent au sujet de l’âme. Dis : “L’âme relève de l’Ordre de
+    mon Seigneur.” Et on ne vous en a donné que peu de science. »</p>
+    <p class="v-ref">Sourate Al-Isrâ', 17 : 85</p>
   </div>
 
   <h2>Ce que le verset ouvre</h2>
 
-  <p>Un adolescent choisit le football, et le place au-dessus de tout. Il y croit, il y met ses
-  meilleures années. Ce qu'il laisse de côté pour lui — des cours qui demandaient de la patience,
-  un métier qui s'apprend lentement, le Coran qu'il avait commencé à apprendre — lui paraît
-  secondaire, parfois même pesant.</p>
+  <p>Sur un écran, un personnage apprend une mauvaise nouvelle. Les sourcils tombent, la voix se
+  casse, une larme descend. Tout y est, et c'est très bien fait. Il manque pourtant une chose, et
+  celui qui joue le sait sans pouvoir la nommer : ce visage n'a personne derrière.</p>
 
-  <p>Des années plus tard, il revient exactement à ce qu'il avait laissé. Et c'est en
-  mémorisant la sourate Al-Baqarah qu'il tombe sur ce verset, et qu'il s'y reconnaît.</p>
+  <p>La question n'est plus réservée aux jeux. Des machines écrivent, parlent d'une voix chaude,
+  répondent <i>je comprends ce que tu ressens</i>. Elles reproduisent les signes de l'émotion, et
+  elles le font chaque année un peu mieux. Alors la vieille question revient, intacte : qu'est-ce
+  qui nous sépare d'une imitation parfaite ?</p>
 
-  <p><strong>Certains versets se lisent en une minute, et se comprennent en dix ans.</strong></p>
+  <p>Le verset arrive exactement là. On interroge le Prophète ﷺ sur l'âme, et la réponse qui lui
+  est donnée tient en une phrase — une phrase qui ne décrit rien.</p>
 
-  <p>Le verset commence par une prescription lourde, et il ne l'adoucit pas : le combat est
-  prescrit, <i>alors qu'il vous est désagréable</i>. Le Coran nomme la répugnance avant de
-  demander quoi que ce soit. Puis la phrase s'élargit : elle ne parle plus du combat, elle dit
-  <i>une chose</i>. Et chacun peut alors y poser la sienne.</p>
+  <p><strong>« L'âme relève de l'Ordre de mon Seigneur. »</strong> Le verset ne dit pas de quoi
+  l'âme est faite, ni où elle se loge, ni comment elle entre. Il dit de quoi elle relève. Ce n'est
+  pas un refus de répondre : c'est une réponse qui donne la place de la chose au lieu de sa
+  composition — et la place suffit à trancher la question.</p>
 
-  <p>Ce que le verset ne dit pas compte autant que ce qu'il dit. Il ne dit pas que ce qu'on
-  aime est mauvais, ni que ce qu'on fuit est bon. Il dit <i>il se peut</i>. Il retire seulement
-  à nos goûts et à nos aversions le droit d'avoir le dernier mot sur ce qui nous fait du
-  bien.</p>
+  <p>Puis la fin du verset élargit, et elle est étonnamment mesurée : <i>on ne vous en a donné que
+  peu de science</i>. Ce n'est pas « vous ne savez rien ». C'est <i>peu</i>. Ce que l'on observe,
+  mesure et soigne est vrai ; le verset ne l'efface pas, il en dit la taille.</p>
 
-  <p>Et c'est pour cela que les années du détour ne sont pas des années perdues. Sans elles, la
-  phrase serait restée une phrase lue. Avec elles, elle est devenue une phrase vécue : on a aimé
-  de toutes ses forces ce qui n'était pas à sa place, on a laissé à contrecœur ce qui allait
-  devenir un bien, et on l'a su après.</p>
+  <p>Ailleurs, le Coran nomme ce que l'homme a reçu :</p>
 
-  <p>Le verset ne demande donc pas de ne plus rien aimer ni de ne plus rien fuir. Il demande de
-  tenir ses choix avec un peu moins de certitude, parce qu'un autre savoir voit la fin du
-  chemin.</p>
+  <div class="ayah">
+    <p class="v-fr">« … puis Il lui donna sa forme parfaite et lui insuffla de Son Esprit. Et Il
+    vous a assigné l'ouïe, les yeux et le cœur. Que vous êtes peu reconnaissants ! »</p>
+    <p class="v-ref">Sourate As-Sajda, 32 : 9</p>
+  </div>
+
+  <p>Entendre, voir, sentir : c'est précisément la liste de ce que l'on sait aujourd'hui imiter. Un
+  micro entend, une caméra voit, un programme répond juste. Mais le verset ne commence pas par
+  cette liste — il la place <strong>après</strong> le souffle. L'imitation reprend l'ordre à
+  l'envers : elle fabrique les organes, et espère que le reste suivra.</p>
+
+  <p>Et le verset ne vise pas que les laboratoires. Celui qui le lit ne sait pas non plus ce qui
+  l'habite : d'où lui vient ce chagrin sans cause, pourquoi un verset le remue un jour et le laisse
+  froid le lendemain, ce qui reste de lui quand le sommeil le prend. On vit toute une vie avec son
+  âme sans jamais la voir.</p>
 
   <h2>Dans la langue</h2>
 
   <div class="langue">
-    <p>Le verset commence par nommer ce que ressentent ceux à qui le combat est prescrit — et il
-    le nomme avec <strong>un nom</strong> :</p>
+    <p>Le verset s'ouvre sur un verbe à l'<strong>inaccompli</strong> — la forme qui dit ce qui est
+    en train de se faire, et qui recommence :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">كُرْهٌ</span>
-        <span class="l-note"><i>kurhun</i> — « désagréable » ; un nom (<i>ism</i>)</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@W:17:85:0@@</span>
+        <span class="l-note"><i>wa-yasʾalūnaka</i> — « et ils t'interrogent » ; un inaccompli
+        (<i>muḍāriʿ</i>)</span>
       </span>
     </div>
 
-    <p>La rhétorique arabe distingue les deux formes : le nom dit ce qui est
-    <strong>installé</strong>, un état qui demeure ; le verbe dit ce qui
-    <strong>survient</strong>, dans le temps, et peut passer. L'aversion pour le combat est posée
-    comme un état : le verset ne promet pas qu'elle disparaîtra quand on obéit, et il ne la
-    reproche pas.</p>
+    <p>Le Coran n'a pas dit « ils t'ont interrogé », une fois, un jour. La forme laisse la question
+    ouverte : elle a été posée, elle se repose, et quatorze siècles plus tard on la pose encore —
+    aux philosophes, aux médecins, aux machines.</p>
 
-    <p>Quelques mots plus loin, la même racine <i>k-r-h</i> revient — mais cette fois pour
-    <i>une chose</i>, et en <strong>verbe</strong> :</p>
+    <p>La réponse, elle, emploie une forme toute différente. Le savoir n'y est pas conquis, il est
+    <strong>reçu</strong> :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">تَكْرَهُوا۟</span>
-        <span class="l-note"><i>takrahū</i> — « vous avez de l'aversion » ; un verbe (<i>fiʿl</i>)</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@W:17:85:10@@</span>
+        <span class="l-note"><i>ūtītum</i> — « on vous a donné » ; un passif (<i>majhūl</i>), sans
+        auteur nommé</span>
       </span>
     </div>
 
-    <p>Ici l'aversion n'est plus un état : c'est quelque chose qui arrive, à un moment de la vie.
-    On déteste une chose, puis le temps passe, et l'on découvre qu'elle était un bien. La forme
-    même du mot laisse la place à ce retournement.</p>
-
-    <p>Et le verset se ferme sur un seul verbe, <i>ʿ-l-m</i>, savoir, employé deux fois de
-    suite :</p>
+    <p>La tournure ne dit pas « vous n'avez pas trouvé », ce qui serait un reproche. Elle dit que
+    ce que l'on sait a été <i>donné</i> — y compris le peu. Et ce peu est nommé :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ</span>
-        <span class="l-note"><i>wa-llāhu yaʿlamu wa-antum lā taʿlamūn</i> — « Allah sait, tandis
-        que vous, vous ne savez pas »</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@S:17:85:13:15@@</span>
+        <span class="l-note"><i>illā qalīlan</i> — « que peu »</span>
       </span>
     </div>
 
-    <p>Le texte ne compare pas deux savoirs, l'un plus grand que l'autre. Il pose <strong>le
-    même verbe</strong>, affirmé d'un côté et nié de l'autre.</p>
+    <p>Le même mot, <i>qalīlan</i>, revient dans le verset cité plus haut sur l'insufflation — mais
+    il n'y qualifie plus la science :</p>
 
-    <p class="l-chute">Le nom dit ce qui pèse et demeure, le verbe ce qui passe. Entre les deux,
-    il y a le temps — et c'est souvent lui qui fait comprendre.</p>
+    <div class="l-paire">
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@S:32:9:13:16@@</span>
+        <span class="l-note"><i>qalīlan mā tashkurūn</i> — « que vous êtes peu reconnaissants »
+        (Coran 32 : 9)</span>
+      </span>
+    </div>
+
+    <p class="l-chute">Peu de science d'un côté, peu de gratitude de l'autre. Le premier « peu »
+    nous est imposé ; le second ne dépend que de nous.</p>
   </div>
 
   <h2>Aujourd'hui</h2>
 
   <div class="aujourdhui">
-    <p>Pense à une chose que tu as poursuivie de toutes tes forces, ou à une chose que tu as
-    laissée à contrecœur. Ne te demande pas trop vite si tu as eu tort. Demande-toi ce que ce
-    chemin t'a appris que tu n'aurais pas su autrement — et si ce qui te pèse aujourd'hui ne
-    mérite pas, lui aussi, un peu de patience avant d'être jugé.</p>
+    <p>Aujourd'hui, un écran te parlera avec chaleur — un personnage, une voix, un assistant. Ne
+    t'en moque pas : c'est du travail d'homme, et c'est bien fait. Remarque seulement la
+    différence, puis va donner à quelqu'un de vivant, près de toi, dix minutes de la même
+    attention. Et si tu te surprends à croire que tu sais ce que tu portes, relis la fin du
+    verset.</p>
   </div>
 
-  <p class="dua">Qu'Allah nous fasse aimer ce qui est un bien pour nous,<br>et nous rende légère
-  la route qui y mène. 🤲</p>
+  <p class="dua">Qu'Allah nous accorde un savoir qui profite,<br>et nous garde de croire que nous
+  savons. 🤲</p>
 
   <div class="source">
     <h2>Sources</h2>
-    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Baqarah (2), verset 216 — repris
-    tel quel depuis quran.com, sans saisie manuelle.</p>
-    <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot, sans
-    reformulation.</p>
-    <p><a href="https://quran.com/fr/2/216?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
-    <p>La note « Dans la langue » relève deux reprises visibles dans le texte arabe lui-même :
-    la racine <i>k-r-h</i>, d'abord en nom (<i>kurhun</i>) puis en verbe (<i>takrahū</i>), et le
-    verbe <i>ʿ-l-m</i> (<i>yaʿlamu</i>, <i>lā taʿlamūn</i>). La distinction entre le nom, qui
-    exprime la stabilité, et le verbe, qui exprime ce qui survient, est une règle de la
-    rhétorique arabe ; son application à ce verset est une méditation, non une règle
-    d'interprétation. Le parcours évoqué est un témoignage réel, rapporté sans nom. La
-    réflexion est une méditation personnelle : elle n'est pas un commentaire savant
-    (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Le verset porte sur la prescription du
-    combat ; aucun avis juridique n'est rendu sur ce sujet.</p>
+    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Isrâ' (17), verset 85 — repris tel
+    quel depuis quran.com, sans saisie manuelle.</p>
+    <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot (seule la
+    ponctuation de l'incise a été normalisée). Le verset 32 : 9 est cité dans la même traduction.</p>
+    <p><a href="https://quran.com/fr/17/85?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
+    <p>La note « Dans la langue » ne relève que des formes visibles dans le texte arabe lui-même :
+    l'inaccompli de <i>yasʾalūnaka</i>, le passif de <i>ūtītum</i>, et la reprise du mot
+    <i>qalīlan</i> en 17 : 85 et 32 : 9. Ce qu'on en tire est une méditation, non une règle
+    d'interprétation. La réflexion n'est pas un commentaire savant (<i>tafsīr</i>) et ne prétend
+    pas en tenir lieu : aucun avis n'est rendu ici sur ce qu'est l'âme, ni sur ce que sont ou ne
+    sont pas les machines qui imitent la parole.</p>
   </div>
 
 </article>
 
 <nav class="serie-nav" aria-label="Dans la série">
-  <a href="/tadabbur/006/">← Verset précédent</a>
+  <a href="/tadabbur/007/">← Verset précédent</a>
   <a href="/tadabbur/">Tous les versets</a>
-  <a href="/tadabbur/008/">Verset suivant →</a>
 </nav>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>

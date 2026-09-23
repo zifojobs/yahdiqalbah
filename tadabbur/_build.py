@@ -43,4 +43,14 @@ page("007",
      h1="Des années pour comprendre un verset",
      ref="Sourate Al-Baqarah, 2 : 216",
      kicker="Tadabbur · Verset 7",
-     corps=corps("007"), prev="006", nxt=None)
+     corps=corps("007"), prev="006", nxt="008")
+
+page("008",
+     titre="Le souffle qu'on ne programme pas — Sourate Al-Isrâ' 17 : 85 — Tadabbur",
+     desc="Un personnage pleure à l'écran, une machine répond avec chaleur. Les signes de l'émotion s'imitent ; le verset ne décrit pas l'âme, il dit de quoi elle relève — et combien peu nous en savons.",
+     og_desc="On imite les larmes. On ne programme pas le souffle.",
+     sourate="@@CH:17@@",
+     h1="Le souffle qu'on ne programme pas",
+     ref="Sourate Al-Isrâ', 17 : 85",
+     kicker="Tadabbur · Verset 8",
+     corps=corps("008"), prev="007", nxt=None)
