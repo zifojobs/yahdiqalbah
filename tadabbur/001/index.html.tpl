@@ -91,6 +91,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 @media (max-width:760px){ header.hero{padding-top:5.5rem} }
 @media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} }
 </style>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <header class="site-header">
