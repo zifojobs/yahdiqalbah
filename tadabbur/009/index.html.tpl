@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Le souffle qu'on ne programme pas — Sourate Al-Isrâ' 17 : 85 — Tadabbur</title>
-<meta name="description" content="Un personnage pleure à l'écran, une machine répond avec chaleur. Les signes de l'émotion s'imitent ; le verset ne décrit pas l'âme, il dit de quoi elle relève — et combien peu nous en savons.">
-<meta property="og:title" content="Le souffle qu'on ne programme pas — Sourate Al-Isrâ' 17 : 85">
-<meta property="og:description" content="On imite les larmes. On ne programme pas le souffle.">
+<title>Le cri qui disait : viens — Sourate Yûnus 10 : 25 — Tadabbur</title>
+<meta name="description" content="Une mère crie le nom de son enfant qui marche vers le feu. Le verset dit d'Allah ce geste : Il appelle — vers une demeure, et sans dire qui.">
+<meta property="og:title" content="Le cri qui disait : viens — Sourate Yûnus 10 : 25">
+<meta property="og:description" content="Allah appelle à la Demeure de la paix : un appel qui nomme une destination, et ne dit pas qui est appelé.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://yahdiqalbah.com/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/008/">
-<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/008/">
+<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/009/">
+<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/009/">
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 :root{
@@ -122,153 +122,131 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 
 <div class="wrap">
 <header class="hero">
-  <p class="kicker">Tadabbur · Verset 8</p>
-  <p class="ha" lang="ar" dir="rtl">الإسراء</p>
-  <h1>Le souffle qu'on ne programme pas</h1>
-  <span class="ep-badge">Sourate Al-Isrâ', 17 : 85</span>
+  <p class="kicker">Tadabbur · Verset 9</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:10@@</p>
+  <h1>Le cri qui disait : viens</h1>
+  <span class="ep-badge">Sourate Yûnus, 10 : 25</span>
 </header>
 
 <article>
   <div class="ayah">
-    <p class="v-ar" lang="ar" dir="rtl">وَيَسْـَٔلُونَكَ عَنِ ٱلرُّوحِ ۖ قُلِ ٱلرُّوحُ مِنْ أَمْرِ رَبِّى وَمَآ أُوتِيتُم مِّنَ ٱلْعِلْمِ إِلَّا قَلِيلًا</p>
-    <p class="v-fr">« Et ils t’interrogent au sujet de l’âme. Dis : “L’âme relève de l’Ordre de
-    mon Seigneur.” Et on ne vous en a donné que peu de science. »</p>
-    <p class="v-ref">Sourate Al-Isrâ', 17 : 85</p>
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:10:25@@</p>
+    <p class="v-fr">«&nbsp;Allah appelle à la Demeure de la paix et guide qui Il veut vers un droit
+    chemin.&nbsp;»</p>
+    <p class="v-ref">Sourate Yûnus, 10 : 25</p>
   </div>
 
   <h2>Ce que le verset ouvre</h2>
 
-  <p>Sur un écran, un personnage apprend une mauvaise nouvelle. Les sourcils tombent, la voix se
-  casse, une larme descend. Tout y est, et c'est très bien fait. Il manque pourtant une chose, et
-  celui qui joue le sait sans pouvoir la nommer : ce visage n'a personne derrière.</p>
+  <p>Une cour, en fin d'après-midi. Un petit garçon marche droit vers la marmite posée sur le feu ;
+  il a vu quelque chose briller et il veut le toucher. Sa mère, à l'autre bout, ne court pas
+  d'abord : elle crie son nom. Fort, plus fort qu'elle ne parle jamais. L'enfant s'arrête, lève la
+  tête, et revient vers elle sans savoir pourquoi.</p>
 
-  <p>La question n'est plus réservée aux jeux. Des machines écrivent, parlent d'une voix chaude,
-  répondent <i>je comprends ce que tu ressens</i>. Elles reproduisent les signes de l'émotion, et
-  elles le font chaque année un peu mieux. Alors la vieille question revient, intacte : qu'est-ce
-  qui nous sépare d'une imitation parfaite ?</p>
+  <p>Un passant aurait entendu un cri. L'enfant, lui, a entendu sa mère. Il n'a pas compris le
+  danger — il ne le comprendra que des années plus tard — mais il a reconnu la voix, et cela a
+  suffi. Ce cri-là n'était pas une colère. C'était la forme la plus urgente de l'amour.</p>
 
-  <p>Le verset arrive exactement là. On interroge le Prophète ﷺ sur l'âme, et la réponse qui lui
-  est donnée tient en une phrase — une phrase qui ne décrit rien.</p>
+  <p>Le verset dit d'Allah exactement ce geste : <strong>Il appelle</strong>.</p>
 
-  <p><strong>« L'âme relève de l'Ordre de mon Seigneur. »</strong> Le verset ne dit pas de quoi
-  l'âme est faite, ni où elle se loge, ni comment elle entre. Il dit de quoi elle relève. Ce n'est
-  pas un refus de répondre : c'est une réponse qui donne la place de la chose au lieu de sa
-  composition — et la place suffit à trancher la question.</p>
+  <p>Et il faut regarder ce que l'appel contient, et ce qu'il ne contient pas. Le verset ne dit
+  pas «&nbsp;Allah détourne du feu&nbsp;», ni «&nbsp;Allah interdit&nbsp;». Il nomme une destination :
+  <i>la Demeure de la paix</i>. La mère, elle non plus, n'a pas crié «&nbsp;ne touche pas&nbsp;» ; elle a
+  crié le nom de l'enfant, ce qui veut dire : <i>viens ici</i>. L'appel montre où aller avant de
+  montrer ce qu'il faut fuir.</p>
 
-  <p>Puis la fin du verset élargit, et elle est étonnamment mesurée : <i>on ne vous en a donné que
-  peu de science</i>. Ce n'est pas « vous ne savez rien ». C'est <i>peu</i>. Ce que l'on observe,
-  mesure et soigne est vrai ; le verset ne l'efface pas, il en dit la taille.</p>
+  <p>Il ne dit pas non plus qui est appelé. Pas «&nbsp;les croyants&nbsp;», pas «&nbsp;les justes&nbsp;», pas
+  «&nbsp;ceux qui l'ont mérité&nbsp;». L'appel est lancé, et la phrase s'arrête. Celui qui l'entend,
+  quel qu'il soit et quoi qu'il ait fait, est dans la cour.</p>
 
-  <p>Ailleurs, le Coran nomme ce que l'homme a reçu :</p>
-
-  <div class="ayah">
-    <p class="v-fr">« … puis Il lui donna sa forme parfaite et lui insuffla de Son Esprit. Et Il
-    vous a assigné l'ouïe, les yeux et le cœur. Que vous êtes peu reconnaissants ! »</p>
-    <p class="v-ref">Sourate As-Sajda, 32 : 9</p>
-  </div>
-
-  <p>Entendre, voir, sentir : c'est précisément la liste de ce que l'on sait aujourd'hui imiter. Un
-  micro entend, une caméra voit, un programme répond juste. Mais le verset ne commence pas par
-  cette liste — il la place <strong>après</strong> le souffle. L'imitation reprend l'ordre à
-  l'envers : elle fabrique les organes, et espère que le reste suivra.</p>
-
-  <p>Et le verset ne vise pas que les laboratoires. Celui qui le lit ne sait pas non plus ce qui
-  l'habite : d'où lui vient ce chagrin sans cause, pourquoi un verset le remue un jour et le laisse
-  froid le lendemain, ce qui reste de lui quand le sommeil le prend. On vit toute une vie avec son
-  âme sans jamais la voir.</p>
+  <p>C'est souvent ainsi qu'on court vers ce qui brûle : un écran qui ne laisse pas dormir, une
+  colère qu'on nourrit, un gain qui coûte trop cher. On ne voit pas le feu, on voit ce qui brille.
+  Et l'appel, lui, continue.</p>
 
   <h2>Dans la langue</h2>
 
   <div class="langue">
-    <p>Le verset s'ouvre sur un verbe à l'<strong>inaccompli</strong> — la forme qui dit ce qui est
-    en train de se faire, et qui recommence :</p>
+    <p>Le verset tient en deux verbes, et ils ne sont pas construits de la même façon. Le premier
+    va vers un lieu, sans personne à qui s'adresser :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">وَيَسْـَٔلُونَكَ</span>
-        <span class="l-note"><i>wa-yasʾalūnaka</i> — « et ils t'interrogent » ; un inaccompli
-        (<i>muḍāriʿ</i>)</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@S:10:25:1:5@@</span>
+        <span class="l-note"><i>yadʿū ilā dāri s-salām</i> — «&nbsp;Il appelle à la Demeure de la
+        paix&nbsp;» ; aucun complément ne dit qui est appelé</span>
       </span>
     </div>
 
-    <p>Le Coran n'a pas dit « ils t'ont interrogé », une fois, un jour. La forme laisse la question
-    ouverte : elle a été posée, elle se repose, et quatorze siècles plus tard on la pose encore —
-    aux philosophes, aux médecins, aux machines.</p>
-
-    <p>La réponse, elle, emploie une forme toute différente. Le savoir n'y est pas conquis, il est
-    <strong>reçu</strong> :</p>
+    <p>Le second, lui, a un complément, et il est précis :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">أُوتِيتُم</span>
-        <span class="l-note"><i>ūtītum</i> — « on vous a donné » ; un passif (<i>majhūl</i>), sans
-        auteur nommé</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@S:10:25:5:8@@</span>
+        <span class="l-note"><i>wa-yahdī man yashāʾ</i> — «&nbsp;et Il guide qui Il veut&nbsp;»</span>
       </span>
     </div>
 
-    <p>La tournure ne dit pas « vous n'avez pas trouvé », ce qui serait un reproche. Elle dit que
-    ce que l'on sait a été <i>donné</i> — y compris le peu. Et ce peu est nommé :</p>
+    <p>L'appel est pour tous ; la guidée se donne. Entre les deux, il y a ce que fait l'enfant
+    quand il entend sa voix : lever la tête, ou ne pas la lever.</p>
+
+    <p>Et le verbe de l'appel revient ailleurs, retourné. Celui qui appelle demande à être
+    appelé :</p>
 
     <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">إِلَّا قَلِيلًا</span>
-        <span class="l-note"><i>illā qalīlan</i> — « que peu »</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@W:10:25:1@@</span>
+        <span class="l-note"><i>yadʿū</i> — «&nbsp;Il appelle&nbsp;» (10 : 25)</span>
       </span>
-    </div>
-
-    <p>Le même mot, <i>qalīlan</i>, revient dans le verset cité plus haut sur l'insufflation — mais
-    il n'y qualifie plus la science :</p>
-
-    <div class="l-paire">
       <span class="l-mot">
-        <span class="l-ar" lang="ar" dir="rtl">قَلِيلًا مَّا تَشْكُرُونَ</span>
-        <span class="l-note"><i>qalīlan mā tashkurūn</i> — « que vous êtes peu reconnaissants »
-        (Coran 32 : 9)</span>
+        <span class="l-ar" lang="ar" dir="rtl">@@S:40:60:2:5@@</span>
+        <span class="l-note"><i>udʿūnī astajib lakum</i> — «&nbsp;Appelez-Moi, Je vous répondrai&nbsp;»
+        (40 : 60)</span>
       </span>
     </div>
 
-    <p class="l-chute">Peu de science d'un côté, peu de gratitude de l'autre. Le premier « peu »
-    nous est imposé ; le second ne dépend que de nous.</p>
+    <p class="l-chute">Même racine, même verbe en français : <i>appeler</i>. Il nous appelle vers
+    Sa demeure, et Il nous demande de L'appeler. La conversation est ouverte des deux côtés — et
+    c'est Lui qui a parlé le premier.</p>
   </div>
 
   <h2>Aujourd'hui</h2>
 
   <div class="aujourdhui">
-    <p>Aujourd'hui, un écran te parlera avec chaleur — un personnage, une voix, un assistant. Ne
-    t'en moque pas : c'est du travail d'homme, et c'est bien fait. Remarque seulement la
-    différence, puis va donner à quelqu'un de vivant, près de toi, dix minutes de la même
-    attention. Et si tu te surprends à croire que tu sais ce que tu portes, relis la fin du
-    verset.</p>
+    <p>Aujourd'hui, l'appel à la prière passera cinq fois. Il dit <i>venez</i>, lui aussi : il
+    nomme un lieu, pas une faute. À l'un de ces appels, fais ce que fait l'enfant dans la cour :
+    arrête ce que tu tiens, même si tu ne vois pas encore pourquoi, et lève la tête. Et si tu dois
+    toi-même rappeler quelqu'un que tu aimes, appelle-le vers quelque chose, avant de lui dire ce
+    qu'il doit lâcher.</p>
   </div>
 
-  <p class="dua">Qu'Allah nous accorde un savoir qui profite,<br>et nous garde de croire que nous
-  savons. 🤲</p>
+  <p class="dua">Qu'Allah nous fasse entendre Son appel,<br>et nous compte parmi ceux qui y
+  répondent. 🤲</p>
 
   <div class="source">
     <h2>Sources</h2>
-    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Isrâ' (17), verset 85 — repris tel
+    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Yûnus (10), verset 25 — repris tel
     quel depuis quran.com, sans saisie manuelle.</p>
-    <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot (seule la
-    ponctuation de l'incise a été normalisée). Le verset 32 : 9 est cité dans la même traduction.</p>
-    <p><a href="https://quran.com/fr/17/85?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
-    <p>La note « Dans la langue » ne relève que des formes visibles dans le texte arabe lui-même :
-    l'inaccompli de <i>yasʾalūnaka</i>, le passif de <i>ūtītum</i>, et la reprise du mot
-    <i>qalīlan</i> en 17 : 85 et 32 : 9. Ce qu'on en tire est une méditation, non une règle
-    d'interprétation. La réflexion n'est pas un commentaire savant (<i>tafsīr</i>) et ne prétend
-    pas en tenir lieu : aucun avis n'est rendu ici sur ce qu'est l'âme, ni sur ce que sont ou ne
-    sont pas les machines qui imitent la parole.</p>
+    <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot. Le
+    début du verset 40 : 60 est cité dans la même traduction ; seule sa première phrase est
+    reprise.</p>
+    <p><a href="https://quran.com/fr/10/25?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
+    <p>La scène de la mère est un témoignage réel, rapporté sans nom. La note «&nbsp;Dans la langue&nbsp;»
+    ne relève que des formes visibles dans le texte arabe lui-même : le verbe <i>yadʿū</i>
+    construit sans complément de personne, le verbe <i>yahdī</i> suivi de <i>man yashāʾ</i>, et
+    la reprise du verbe «&nbsp;appeler&nbsp;» en 10 : 25 et 40 : 60. Ce qu'on en tire est une méditation,
+    non une règle d'interprétation. La réflexion n'est pas un commentaire savant (<i>tafsīr</i>)
+    et ne prétend pas en tenir lieu.</p>
   </div>
 
 </article>
 
 <nav class="serie-nav" aria-label="Dans la série">
-  <a href="/tadabbur/007/">← Verset précédent</a>
+  <a href="/tadabbur/008/">← Verset précédent</a>
   <a href="/tadabbur/">Tous les versets</a>
-  <a href="/tadabbur/009/">Verset suivant →</a>
 </nav>
 
 <footer>
-  <p class="f-ar" lang="ar">كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ</p>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
   <p class="flogo">Institut Yahdi Qalbah</p>
   <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
 </footer>

@@ -53,4 +53,14 @@ page("008",
      h1="Le souffle qu'on ne programme pas",
      ref="Sourate Al-Isrâ', 17 : 85",
      kicker="Tadabbur · Verset 8",
-     corps=corps("008"), prev="007", nxt=None)
+     corps=corps("008"), prev="007", nxt="009")
+
+page("009",
+     titre="Le cri qui disait : viens — Sourate Yûnus 10 : 25 — Tadabbur",
+     desc="Une mère crie le nom de son enfant qui marche vers le feu. Le verset dit d'Allah ce geste : Il appelle — vers une demeure, et sans dire qui.",
+     og_desc="Allah appelle à la Demeure de la paix : un appel qui nomme une destination, et ne dit pas qui est appelé.",
+     sourate="@@CH:10@@",
+     h1="Le cri qui disait : viens",
+     ref="Sourate Yûnus, 10 : 25",
+     kicker="Tadabbur · Verset 9",
+     corps=corps("009"), prev="008", nxt=None)

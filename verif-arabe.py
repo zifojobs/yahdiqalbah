@@ -15,7 +15,7 @@ def verset(cle):
                     "-o", out], check=True)
     return " ".join(json.load(io.open(out, encoding="utf-8"))["verse"]["text_uthmani"].split())
 
-PAGES = ["tadabbur/index.html"] + ["tadabbur/%03d/index.html" % n for n in range(1, 9)]
+PAGES = ["tadabbur/index.html"] + ["tadabbur/%03d/index.html" % n for n in range(1, 10)]
 
 # (fichier, classe CSS, cle) — le verset affiche doit etre le verset complet
 CIBLES = [
@@ -28,6 +28,7 @@ CIBLES = [
     ("tadabbur/006/index.html", "v-ar", "45:23"),
     ("tadabbur/007/index.html", "v-ar", "2:216"),
     ("tadabbur/008/index.html", "v-ar", "17:85"),
+    ("tadabbur/009/index.html", "v-ar", "10:25"),
 ]
 # les fragments isoles des blocs "Dans la langue" : doivent etre inclus dans leur verset.
 # Une cle PAR fragment, dans l'ordre d'apparition : un bloc peut citer deux versets differents.
@@ -38,9 +39,10 @@ MOTS = [
     ("tadabbur/006/index.html", ["45:23", "101:9"]),
     ("tadabbur/007/index.html", ["2:216", "2:216", "2:216"]),
     ("tadabbur/008/index.html", ["17:85", "17:85", "17:85", "32:9"]),
+    ("tadabbur/009/index.html", ["10:25", "10:25", "10:25", "40:60"]),
 ]
 # les cartes de l'index, dans l'ordre d'apparition
-CARTES = ["102:8", "10:58", "8:11", "18:82", "2:35", "45:23", "2:216", "17:85"]
+CARTES = ["102:8", "10:58", "8:11", "18:82", "2:35", "45:23", "2:216", "17:85", "10:25"]
 
 ecarts = []
 
