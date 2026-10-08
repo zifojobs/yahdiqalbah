@@ -63,4 +63,14 @@ page("009",
      h1="Le cri qui disait : viens",
      ref="Sourate Yûnus, 10 : 25",
      kicker="Tadabbur · Verset 9",
-     corps=corps("009"), prev="008", nxt=None)
+     corps=corps("009"), prev="008", nxt="010")
+
+page("010",
+     titre="Celui qui marche ne choisit pas sa monture — Sourate Al-Qasas 28 : 24 — Tadabbur",
+     desc="Mûsâ, seul à Madyan, abreuve les bêtes de deux inconnues puis retourne à l'ombre. Sa prière ne demande rien de précis : elle dit un besoin, et laisse la forme du bien à Celui qui donne.",
+     og_desc="« J'ai grand besoin du bien que Tu feras descendre vers moi » : une prière qui ne dicte pas la réponse.",
+     sourate="@@CH:28@@",
+     h1="Celui qui marche ne choisit pas sa monture",
+     ref="Sourate Al-Qasas, 28 : 24",
+     kicker="Tadabbur · Verset 10",
+     corps=corps("010"), prev="009", nxt=None)

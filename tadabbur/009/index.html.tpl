@@ -244,6 +244,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 <nav class="serie-nav" aria-label="Dans la série">
   <a href="/tadabbur/008/">← Verset précédent</a>
   <a href="/tadabbur/">Tous les versets</a>
+  <a href="/tadabbur/010/">Verset suivant →</a>
 </nav>
 
 <footer>
