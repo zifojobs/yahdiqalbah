@@ -73,4 +73,14 @@ page("010",
      h1="Celui qui marche ne choisit pas sa monture",
      ref="Sourate Al-Qasas, 28 : 24",
      kicker="Tadabbur · Verset 10",
-     corps=corps("010"), prev="009", nxt=None)
+     corps=corps("010"), prev="009", nxt="011")
+
+page("011",
+     titre="Personne ne l'aurait su — Sourate Al-Baqarah 2 : 30 — Tadabbur",
+     desc="Les anges annoncent le désordre et le sang. La réponse ne nie rien : « Je sais ce que vous ne savez pas. » Un verset médité, Al-Baqarah 2 : 30.",
+     og_desc="Le verset ne nie pas le sang. Il dit : Je sais.",
+     sourate="@@CH:2@@",
+     h1="Personne ne l'aurait su",
+     ref="Sourate Al-Baqarah, 2 : 30",
+     kicker="Tadabbur · Verset 11",
+     corps=corps("011"), prev="010", nxt=None)

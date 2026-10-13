@@ -108,7 +108,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
   <p class="ha" lang="ar" dir="rtl">تَدَبُّر</p>
   <h1>Un verset, et ce qu'il change aujourd'hui</h1>
   <p class="sub">Le tadabbur, ce n'est pas lire le Coran. C'est le laisser descendre jusque dans la journée ordinaire — le travail, la fatigue, la reconnaissance qu'on oublie de dire.</p>
-  <span class="ep-badge">10 versets médités</span>
+  <span class="ep-badge">11 versets médités</span>
 </header>
 
 <div class="intro">
@@ -189,6 +189,12 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
     <h3>Celui qui marche ne choisit pas sa monture</h3>
     <p class="card-ar" lang="ar" dir="rtl">@@S:28:24:7:15@@</p>
     <p>Mûsâ ne demande ni toit ni travail. Il dit seulement son besoin, et laisse la forme du bien à Celui qui donne.</p>
+  </a>
+  <a class="episode-card" href="/tadabbur/011/">
+    <span class="episode-num">Verset 11 &middot; Sourate Al-Baqarah, 2 : 30</span>
+    <h3>Personne ne l'aurait su</h3>
+    <p class="card-ar" lang="ar" dir="rtl">@@S:2:30:24:30@@</p>
+    <p>Les anges annoncent le désordre et le sang. La réponse ne nie rien, et la racine du savoir passe de verset en verset.</p>
   </a>
 </div>
 
