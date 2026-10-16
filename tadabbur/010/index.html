@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Celui qui marche ne choisit pas sa monture — Sourate Al-Qasas 28 : 24 — Tadabbur</title>
+<title>Celui qui marche ne choisit pas sa monture — Sourate Al-Qasas 28 : 24</title>
 <meta name="description" content="Mûsâ, seul à Madyan, abreuve les bêtes de deux inconnues puis retourne à l'ombre. Sa prière ne demande rien de précis : elle dit un besoin, et laisse la forme du bien à Celui qui donne.">
 <meta property="og:title" content="Celui qui marche ne choisit pas sa monture — Sourate Al-Qasas 28 : 24">
 <meta property="og:description" content="« J'ai grand besoin du bien que Tu feras descendre vers moi » : une prière qui ne dicte pas la réponse.">
@@ -294,7 +294,7 @@ requestAnimationFrame(draw);
       <h2>Institut Yahdi Qalbah</h2>
       <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
       <p class="site-footer-contact"><a href="https://wa.me/221761857373">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
-      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
+      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595313096973" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
     </div>
     <div>
       <h2>Les espaces</h2>

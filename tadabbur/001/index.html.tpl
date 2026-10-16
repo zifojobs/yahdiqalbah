@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Le wifi qui marche bien — Sourate At-Takathur 102 : 8 — Tadabbur</title>
+<title>Le wifi qui marche bien — Sourate At-Takathur 102 : 8</title>
 <meta name="description" content="Le dernier verset de Sourate At-Takathur : « Puis, assurément, vous serez interrogés, ce jour-là, sur les délices. » Ce qui sera demandé n'est pas ce qu'on a raté, c'est ce dont on a profité.">
 <meta property="og:title" content="Le wifi qui marche bien — Sourate At-Takathur 102 : 8">
 <meta property="og:description" content="Ce qui sera demandé n'est pas ce qu'on a raté, c'est ce dont on a profité.">
@@ -202,7 +202,7 @@ requestAnimationFrame(draw);
       <h2>Institut Yahdi Qalbah</h2>
       <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
       <p class="site-footer-contact"><a href="https://wa.me/221761857373">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
-      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
+      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595313096973" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
     </div>
     <div>
       <h2>Les espaces</h2>

@@ -6,7 +6,7 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 corps = lambda n: io.open(os.path.join(ICI, "%s.corps.html" % n), encoding="utf-8").read()
 
 page("004",
-     titre="Une lettre qui attend que tu grandisses — Sourate Al-Kahf 18 : 82 — Tadabbur",
+     titre="Une lettre qui attend que tu grandisses — Sourate Al-Kahf 18 : 82",
      desc="Le mur d'Al-Kahf ne tenait pas : il attendait. Et le trésor change de nom entre le début et la fin du verset — une seule lettre sépare « pour eux » de « le leur ».",
      og_desc="Le mur ne tenait pas. Il attendait.",
      sourate="@@CH:18@@",
@@ -16,7 +16,7 @@ page("004",
      corps=corps("004"), prev="003", nxt="005")
 
 page("005",
-     titre="Habite — Sourate Al-Baqarah 2 : 35 — Tadabbur",
+     titre="Habite — Sourate Al-Baqarah 2 : 35",
      desc="Le premier ordre donné au premier homme n'est pas un ordre de faire, c'est un ordre d'habiter. Et le mot employé porte la même racine que la tranquillité.",
      og_desc="Le premier ordre donné à l'homme n'est pas de faire. C'est d'habiter.",
      sourate="@@CH:2@@",
@@ -26,7 +26,7 @@ page("005",
      corps=corps("005"), prev="004", nxt="006")
 
 page("006",
-     titre="Le désir et la chute portent le même mot — Sourate Al-Jâthiyah 45 : 23 — Tadabbur",
+     titre="Le désir et la chute portent le même mot — Sourate Al-Jâthiyah 45 : 23",
      desc="Le verset ne parle pas de l'intensité d'une passion, il parle de sa place. Et le mot arabe pour le désir est bâti sur la racine qui dit tomber.",
      og_desc="Le verset ne parle pas de la passion. Il parle de la place.",
      sourate="@@CH:45@@",
@@ -36,7 +36,7 @@ page("006",
      corps=corps("006"), prev="005", nxt="007")
 
 page("007",
-     titre="Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216 — Tadabbur",
+     titre="Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216",
      desc="On aime de toutes ses forces ce qui n'est pas à sa place, on laisse à contrecœur ce qui allait devenir un bien. Certains versets se lisent en une minute, et se comprennent en dix ans.",
      og_desc="Certains versets se lisent en une minute, et se comprennent en dix ans.",
      sourate="@@CH:2@@",
@@ -46,7 +46,7 @@ page("007",
      corps=corps("007"), prev="006", nxt="008")
 
 page("008",
-     titre="Le souffle qu'on ne programme pas — Sourate Al-Isrâ' 17 : 85 — Tadabbur",
+     titre="Le souffle qu'on ne programme pas — Sourate Al-Isrâ' 17 : 85",
      desc="Un personnage pleure à l'écran, une machine répond avec chaleur. Les signes de l'émotion s'imitent ; le verset ne décrit pas l'âme, il dit de quoi elle relève — et combien peu nous en savons.",
      og_desc="On imite les larmes. On ne programme pas le souffle.",
      sourate="@@CH:17@@",
@@ -56,7 +56,7 @@ page("008",
      corps=corps("008"), prev="007", nxt="009")
 
 page("009",
-     titre="Le cri qui disait : viens — Sourate Yûnus 10 : 25 — Tadabbur",
+     titre="Le cri qui disait : viens — Sourate Yûnus 10 : 25",
      desc="Une mère crie le nom de son enfant qui marche vers le feu. Le verset dit d'Allah ce geste : Il appelle — vers une demeure, et sans dire qui.",
      og_desc="Allah appelle à la Demeure de la paix : un appel qui nomme une destination, et ne dit pas qui est appelé.",
      sourate="@@CH:10@@",
@@ -66,7 +66,7 @@ page("009",
      corps=corps("009"), prev="008", nxt="010")
 
 page("010",
-     titre="Celui qui marche ne choisit pas sa monture — Sourate Al-Qasas 28 : 24 — Tadabbur",
+     titre="Celui qui marche ne choisit pas sa monture — Sourate Al-Qasas 28 : 24",
      desc="Mûsâ, seul à Madyan, abreuve les bêtes de deux inconnues puis retourne à l'ombre. Sa prière ne demande rien de précis : elle dit un besoin, et laisse la forme du bien à Celui qui donne.",
      og_desc="« J'ai grand besoin du bien que Tu feras descendre vers moi » : une prière qui ne dicte pas la réponse.",
      sourate="@@CH:28@@",
@@ -76,7 +76,7 @@ page("010",
      corps=corps("010"), prev="009", nxt="011")
 
 page("011",
-     titre="Personne ne l'aurait su — Sourate Al-Baqarah 2 : 30 — Tadabbur",
+     titre="Personne ne l'aurait su — Sourate Al-Baqarah 2 : 30",
      desc="Les anges annoncent le désordre et le sang. La réponse ne nie rien : « Je sais ce que vous ne savez pas. » Un verset médité, Al-Baqarah 2 : 30.",
      og_desc="Le verset ne nie pas le sang. Il dit : Je sais.",
      sourate="@@CH:2@@",

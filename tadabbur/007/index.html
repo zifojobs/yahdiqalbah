@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216 — Tadabbur</title>
+<title>Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216</title>
 <meta name="description" content="On aime de toutes ses forces ce qui n'est pas à sa place, on laisse à contrecœur ce qui allait devenir un bien. Certains versets se lisent en une minute, et se comprennent en dix ans.">
 <meta property="og:title" content="Des années pour comprendre un verset — Sourate Al-Baqarah 2 : 216">
 <meta property="og:description" content="Certains versets se lisent en une minute, et se comprennent en dix ans.">
@@ -294,7 +294,7 @@ requestAnimationFrame(draw);
       <h2>Institut Yahdi Qalbah</h2>
       <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
       <p class="site-footer-contact"><a href="https://wa.me/221761857373">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
-      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
+      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595313096973" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
     </div>
     <div>
       <h2>Les espaces</h2>

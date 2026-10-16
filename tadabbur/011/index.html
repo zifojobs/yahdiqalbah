@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Personne ne l'aurait su — Sourate Al-Baqarah 2 : 30 — Tadabbur</title>
+<title>Personne ne l'aurait su — Sourate Al-Baqarah 2 : 30</title>
 <meta name="description" content="Les anges annoncent le désordre et le sang. La réponse ne nie rien : « Je sais ce que vous ne savez pas. » Un verset médité, Al-Baqarah 2 : 30.">
 <meta property="og:title" content="Personne ne l'aurait su — Sourate Al-Baqarah 2 : 30">
 <meta property="og:description" content="Le verset ne nie pas le sang. Il dit : Je sais.">
@@ -303,7 +303,7 @@ requestAnimationFrame(draw);
       <h2>Institut Yahdi Qalbah</h2>
       <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
       <p class="site-footer-contact"><a href="https://wa.me/221761857373">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
-      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
+      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595313096973" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
     </div>
     <div>
       <h2>Les espaces</h2>
