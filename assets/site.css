@@ -115,6 +115,7 @@
 .site-footer a:hover{text-decoration:underline}
 .site-footer ul{list-style:none;display:grid;gap:.35rem}
 .site-footer-contact{margin-block-start:.7rem}
+.site-footer-social{margin-block-start:.4rem;line-height:1.9}
 .site-footer-sources{
   max-width:1080px;margin:2.2rem auto 0;
   padding-block-start:1.2rem;
