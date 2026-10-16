@@ -83,4 +83,14 @@ page("011",
      h1="Personne ne l'aurait su",
      ref="Sourate Al-Baqarah, 2 : 30",
      kicker="Tadabbur · Verset 11",
-     corps=corps("011"), prev="010", nxt=None)
+     corps=corps("011"), prev="010", nxt="012")
+
+page("012",
+     titre="Le confort qui endort — Sourate Al-Wâqi'ah 56 : 45",
+     desc="Une ombre ni fraîche ni douce, puis une ligne : « Ils vivaient auparavant dans le luxe. » Le mot dit une aisance reçue. Un verset médité, Al-Wâqi'ah 56 : 45.",
+     og_desc="Il ne dit pas : ils étaient riches. Il dit : on les avait mis dans l'aisance.",
+     sourate="@@CH:56@@",
+     h1="Le confort qui endort",
+     ref="Sourate Al-Wâqi'ah, 56 : 45",
+     kicker="Tadabbur · Verset 12",
+     corps=corps("012"), prev="011", nxt=None)

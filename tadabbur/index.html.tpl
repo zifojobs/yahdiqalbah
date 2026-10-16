@@ -108,7 +108,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
   <p class="ha" lang="ar" dir="rtl">تَدَبُّر</p>
   <h1>Un verset, et ce qu'il change aujourd'hui</h1>
   <p class="sub">Le tadabbur, ce n'est pas lire le Coran. C'est le laisser descendre jusque dans la journée ordinaire — le travail, la fatigue, la reconnaissance qu'on oublie de dire.</p>
-  <span class="ep-badge">11 versets médités</span>
+  <span class="ep-badge">12 versets médités</span>
 </header>
 
 <div class="intro">
@@ -195,6 +195,12 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
     <h3>Personne ne l'aurait su</h3>
     <p class="card-ar" lang="ar" dir="rtl">@@S:2:30:24:30@@</p>
     <p>Les anges annoncent le désordre et le sang. La réponse ne nie rien, et la racine du savoir passe de verset en verset.</p>
+  </a>
+  <a class="episode-card" href="/tadabbur/012/">
+    <span class="episode-num">Verset 12 &middot; Sourate Al-Wâqi'ah, 56 : 45</span>
+    <h3>Le confort qui endort</h3>
+    <p class="card-ar" lang="ar" dir="rtl">@@S:56:45:0:5@@</p>
+    <p>Le verset ne dit pas : ils étaient riches. Sa racine revient huit fois dans le Coran, et l'aisance y est toujours reçue.</p>
   </a>
 </div>
 

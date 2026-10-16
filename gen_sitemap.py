@@ -3,6 +3,7 @@
 À relancer après chaque nouvelle page poussée : python gen_sitemap.py
 """
 import subprocess
+from datetime import date as jour
 from pathlib import Path
 
 RACINE = Path(__file__).parent
@@ -18,7 +19,7 @@ lignes = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for f in pages:
     url = SITE + "/" + f.removesuffix("index.html")
-    date = git("log", "-1", "--format=%cs", "HEAD", "--", f)
+    date = git("log", "-1", "--format=%cs", "HEAD", "--", f) or jour.today().isoformat()  # page pas encore commitée
     lignes.append(f"  <url><loc>{url}</loc><lastmod>{date}</lastmod></url>")
 lignes.append("</urlset>")
 (RACINE / "sitemap.xml").write_text("\n".join(lignes) + "\n", encoding="utf-8")

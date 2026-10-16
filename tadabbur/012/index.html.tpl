@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le confort qui endort — Sourate Al-Wâqi'ah 56 : 45</title>
+<meta name="description" content="Une ombre ni fraîche ni douce, puis une ligne : « Ils vivaient auparavant dans le luxe. » Le mot dit une aisance reçue. Un verset médité, Al-Wâqi'ah 56 : 45.">
+<meta property="og:title" content="Le confort qui endort — Sourate Al-Wâqi'ah 56 : 45">
+<meta property="og:description" content="Il ne dit pas : ils étaient riches. Il dit : on les avait mis dans l'aisance.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://yahdiqalbah.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Institut Yahdi Qalbah - Enseigner et faire aimer le Coran">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://yahdiqalbah.com/tadabbur/012/">
+<meta property="og:url" content="https://yahdiqalbah.com/tadabbur/012/">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+:root{
+  --noir:#0D0B07; --noir-2:#161209; --or:#C9A962; --or-vif:#E8D5A3; --or-sombre:#8a7038;
+  --creme:#F5EEDF; --muted:#9c937e; --line:rgba(201,169,98,.25);
+  --serif:'Cormorant Garamond',serif; --sans:'Plus Jakarta Sans',sans-serif; --ar:'Amiri',serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--noir);color:var(--creme);font-family:var(--sans);font-weight:300;line-height:1.7;overflow-x:hidden}
+::selection{background:var(--or);color:var(--noir)}
+::-webkit-scrollbar{width:9px}
+::-webkit-scrollbar-track{background:var(--noir)}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--or-sombre),var(--or));border-radius:99px}
+#stars{position:fixed;inset:0;z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1}
+a{color:var(--or);text-decoration:none}
+
+header.hero{text-align:center;padding:7rem 1.5rem 2.4rem;max-width:820px;margin:0 auto}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+header.hero>*{animation:fadeUp 1s cubic-bezier(.16,1,.3,1) both}
+.kicker{font-size:.72rem;letter-spacing:.35em;text-transform:uppercase;color:var(--muted)}
+.hero .ha{animation-delay:.15s;font-family:var(--ar);font-size:clamp(1.8rem,5vw,2.6rem);color:var(--or);line-height:1.9;margin-top:.6rem}
+h1{animation-delay:.3s;font-family:var(--serif);font-weight:600;font-size:clamp(2rem,5.4vw,3.4rem);line-height:1.08;
+  background:linear-gradient(110deg,var(--creme) 15%,var(--or) 40%,var(--or-vif) 50%,var(--or) 60%,var(--creme) 85%);
+  background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:fadeUp 1s cubic-bezier(.16,1,.3,1) .3s both,shimmer 9s ease-in-out 2s infinite}
+@keyframes shimmer{0%,100%{background-position:0% 0}50%{background-position:100% 0}}
+.ep-badge{animation-delay:.6s;display:inline-block;margin-top:1.4rem;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;
+  border:1px solid var(--line);padding:.5rem 1.1rem;border-radius:999px;color:var(--or)}
+
+article{max-width:720px;margin:0 auto;padding:1rem 1.5rem 3rem}
+
+/* le verset */
+.ayah{border:1px solid var(--line);border-radius:18px;padding:2rem 1.8rem;text-align:center;
+  background:linear-gradient(160deg,rgba(26,20,9,.6),rgba(15,12,6,.45))}
+.ayah .v-ar{font-family:var(--ar);font-size:clamp(1.35rem,4.6vw,2rem);color:var(--or-vif);line-height:2.15;direction:rtl}
+.ayah .v-fr{font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,3vw,1.3rem);color:var(--creme);margin-top:1.2rem}
+.ayah .v-ref{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--or-sombre);margin-top:1rem}
+
+article h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.4rem,4vw,1.85rem);color:var(--or);
+  margin:2.8rem 0 1.1rem;padding-top:.2rem;border-top:1px solid var(--line)}
+article p{font-size:1.02rem;color:#dcd3bd;margin-top:1.1rem}
+article p strong{color:var(--creme);font-weight:500}
+article p i{color:var(--creme);font-style:italic}
+
+/* dans la langue */
+.langue{margin-top:1.2rem;border:1px dashed var(--line);border-radius:16px;padding:1.5rem 1.6rem;
+  background:linear-gradient(160deg,rgba(20,16,8,.55),rgba(12,10,5,.4))}
+.langue p{margin-top:.9rem}
+.langue p:first-child{margin-top:0}
+.l-paire{display:flex;flex-wrap:wrap;gap:.6rem 1.8rem;
+  margin:1.3rem 0;padding:1.1rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.l-mot{flex:1 1 190px}
+.l-ar{display:block;font-family:var(--ar);font-size:clamp(1.4rem,4.6vw,1.9rem);color:var(--or-vif);line-height:2;direction:rtl}
+.l-note{display:block;font-size:.8rem;letter-spacing:.05em;color:var(--muted);margin-top:.15rem}
+.langue .l-chute{font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--or-vif)}
+
+/* le geste du jour */
+.aujourdhui{margin-top:1.4rem;border-left:2px solid var(--or-sombre);padding:.2rem 0 .2rem 1.3rem}
+.aujourdhui p{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--creme);margin-top:0}
+
+/* la du'a */
+.dua{margin-top:2.6rem;text-align:center;font-family:var(--serif);font-style:italic;
+  font-size:1.12rem;color:var(--or-vif)}
+
+.source{margin-top:3rem;padding:1.6rem 1.7rem;border:1px solid var(--line);border-radius:16px;
+  background:linear-gradient(160deg,rgba(26,20,9,.6),rgba(15,12,6,.45))}
+.source h2{border-top:0;margin:0 0 .6rem;font-size:1.1rem}
+.source p{font-size:.85rem;color:var(--muted);margin-top:.4rem}
+
+.serie-nav{max-width:720px;margin:0 auto 4rem;padding:0 1.5rem;display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between}
+.serie-nav a{font-size:.9rem;border:1px solid var(--line);border-radius:999px;padding:.6rem 1.2rem;transition:border-color .3s}
+.serie-nav a:hover{border-color:var(--or)}
+
+footer{padding:3rem 1.5rem 3rem;text-align:center;font-size:.78rem;color:var(--muted);
+  border-top:1px solid rgba(201,169,98,.14)}
+footer .f-ar{font-family:var(--ar);font-size:1.5rem;color:var(--or)}
+footer .flogo{font-family:var(--serif);font-size:1.1rem;color:var(--or);margin-top:.3rem}
+footer .fnote{max-width:62ch;margin:.8rem auto 0}
+
+@media (max-width:760px){ header.hero{padding-top:5.5rem} }
+@media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} }
+</style>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="site-brand" href="/">
+    <img src="/assets/logo.png" alt="" width="36" height="36">
+    <span>Yahdi Qalbah</span>
+  </a>
+  <nav class="site-nav" aria-label="Espaces">
+    <a href="/prophetes/">Les Prophètes</a>
+    <a href="/noms/">Les 99 Noms</a>
+    <a href="/seerah/">La Seerah</a>
+    <a href="/tadabbur/" aria-current="page">Tadabbur</a>
+    <a href="/participer/" class="btn-or">Participer</a>
+  </nav>
+</header>
+<canvas id="stars" aria-hidden="true"></canvas>
+
+<div class="wrap">
+<header class="hero">
+  <p class="kicker">Tadabbur · Verset 12</p>
+  <p class="ha" lang="ar" dir="rtl">@@CH:56@@</p>
+  <h1>Le confort qui endort</h1>
+  <span class="ep-badge">Sourate Al-Wâqi'ah, 56 : 45</span>
+</header>
+
+<article>
+  <div class="ayah">
+    <p class="v-ar" lang="ar" dir="rtl">@@AR:56:45@@</p>
+    <p class="v-fr">«&nbsp;Ils vivaient auparavant dans le luxe.&nbsp;»</p>
+    <p class="v-ref">Sourate Al-Wâqi'ah, 56 : 45</p>
+  </div>
+
+  <h2>Ce que le verset ouvre</h2>
+
+  <p>Le soir, la chambre est fraîche. Le ventilateur tourne, le téléphone est encore chargé, et
+  la vidéo suivante démarre toute seule avant qu'on ait choisi de la regarder. Rien de tout cela
+  n'est un mal. On s'était pourtant promis d'appeler sa mère ce soir. Il est minuit.</p>
+
+  <p>Le verset ne se lit pas seul. Juste avant lui, la sourate décrit le sort des «&nbsp;gens de
+  la gauche&nbsp;» :</p>
+
+  <div class="ayah">
+    <p class="v-fr">«&nbsp;ils seront au milieu d'un souffle brûlant et d'une eau bouillante, à
+    l'ombre d'une fumée noire. Ni fraîche, ni douce.&nbsp;»</p>
+    <p class="v-ref">Sourate Al-Wâqi'ah, 56 : 42-44</p>
+  </div>
+
+  <p>Une ombre qui ne rafraîchit pas. Puis vient l'explication, en une ligne&nbsp;: <i>ils vivaient
+  auparavant dans le luxe</i>. Le texte pose côte à côte la fraîcheur qu'ils avaient et celle
+  qu'ils n'ont plus.</p>
+
+  <p>Il faut regarder ce que le verset ne dit pas. Il ne dit pas&nbsp;: ils étaient riches. Il dit&nbsp;:
+  <i>on les avait mis dans l'aisance</i>. Et il ne s'arrête pas là. Le verset suivant ajoute
+  qu'«&nbsp;ils persistaient dans le grand péché&nbsp;» (56&nbsp;:&nbsp;46). Ce n'est pas la
+  fraîcheur de la chambre qui est en cause. C'est ce qu'elle a fini par faire oublier.</p>
+
+  <h2>Dans la langue</h2>
+
+  <div class="langue">
+    <p>Le mot du verset est un participe, et sa forme se voit&nbsp;: c'est un passif. Il ne désigne
+    pas ceux qui ont, mais ceux à qui l'on a donné.</p>
+
+    <div class="l-paire">
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@W:56:45:4@@</span>
+        <span class="l-note"><i>mutrafīn</i> — «&nbsp;mis dans l'aisance&nbsp;» ; racine
+        <i>t-r-f</i>, l'aisance, le confort</span>
+      </span>
+    </div>
+
+    <p>Cette racine revient huit fois dans le Coran. Ailleurs aussi, l'aisance est reçue&nbsp;:</p>
+
+    <div class="l-paire">
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@S:21:13:3:7@@</span>
+        <span class="l-note"><i>ilā mā utriftum fīhi</i> — «&nbsp;au grand luxe où vous étiez&nbsp;»
+        (21 : 13) ; mot à mot, «&nbsp;ce dans quoi vous aviez été mis dans l'aisance&nbsp;», encore un
+        passif</span>
+      </span>
+    </div>
+
+    <p>Une seule fois, le verbe est à l'actif. Et alors, celui qui donne parle&nbsp;:</p>
+
+    <div class="l-paire">
+      <span class="l-mot">
+        <span class="l-ar" lang="ar" dir="rtl">@@S:23:33:9:13@@</span>
+        <span class="l-note"><i>wa-atrafnāhum fī l-ḥayāti d-dunyā</i> — «&nbsp;auxquels Nous avions
+        accordé le luxe dans la vie présente&nbsp;» (23 : 33)</span>
+      </span>
+    </div>
+
+    <p class="l-chute">Huit occurrences, et pas une où l'homme se donne lui-même l'aisance. Elle est
+    toujours reçue. Le verset ne reproche pas d'avoir reçu&nbsp;: il montre ce qui arrive quand on
+    oublie qu'on a reçu.</p>
+  </div>
+
+  <h2>Aujourd'hui</h2>
+
+  <div class="aujourdhui">
+    <p>Aujourd'hui, choisis un seul confort de ta journée : l'eau fraîche, le ventilateur, le
+    téléphone chargé. Avant de t'en servir, dis à voix basse qui te l'a donné. Puis fais avec lui
+    la chose qu'il te faisait remettre à plus tard. L'appel à ta mère, avant minuit.</p>
+  </div>
+
+  <p class="dua">Qu'Allah fasse de ce qu'Il nous donne<br>un chemin vers Lui, et non un sommeil. 🤲</p>
+
+  <div class="source">
+    <h2>Sources</h2>
+    <p><strong>Texte arabe</strong> : rasm ʿuthmānī, Sourate Al-Wâqi'ah (56), verset 45, repris
+    tel quel depuis quran.com, sans saisie manuelle.</p>
+    <p><strong>Traduction française</strong> : Muhammad Hamidullah, reprise mot pour mot. Les
+    passages de 56 : 42-44, 56 : 46, 21 : 13 et 23 : 33 sont cités dans la même traduction ; les
+    mots «&nbsp;mis dans l'aisance&nbsp;» et «&nbsp;mot à mot&nbsp;» du bloc langue sont une glose de la
+    forme, non une autre traduction.</p>
+    <p><a href="https://quran.com/fr/56/45?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
+    <p>La scène de la chambre est une illustration, non un fait rapporté. La note «&nbsp;Dans la
+    langue&nbsp;» ne relève que des formes visibles dans le texte arabe : le participe passif
+    <i>mutrafīn</i>, et les huit occurrences de la racine <i>t-r-f</i> dans le Coran (relevé du
+    corpus morphologique de quran.ai), dont une seule à l'actif, en 23 : 33, avec Allah pour
+    sujet. Pour le sens du reproche, le commentaire d'as-Saʿdī sur ce verset (lisible sur
+    quran.com) parle d'une aisance qui les a distraits de bien agir. Ce qu'on en tire ici est une
+    méditation : elle n'est pas un commentaire savant (<i>tafsīr</i>) et ne prétend pas en tenir
+    lieu. Aucun avis n'est rendu ici sur ce qui est permis ou non dans le confort.</p>
+    <p><strong>Rédaction</strong> : méditation préparée avec l'aide d'un outil d'IA, puis vérifiée et validée par Saïbo Danfakha. Le texte arabe et sa traduction ne sont pas produits par cet outil.</p>
+  </div>
+
+</article>
+
+<nav class="serie-nav" aria-label="Dans la série">
+  <a href="/tadabbur/011/">← Verset précédent</a>
+  <a href="/tadabbur/">Tous les versets</a>
+</nav>
+
+<footer>
+  <p class="f-ar" lang="ar">@@S:38:29:0:6@@</p>
+  <p class="flogo">Institut Yahdi Qalbah</p>
+  <p class="fnote">Toutes les traductions françaises de ce site sont celles de Muhammad Hamidullah, reprises telles quelles.</p>
+</footer>
+</div>
+
+<script>
+const cv=document.getElementById("stars"),cx=cv.getContext("2d");
+let stars=[];
+function resize(){cv.width=innerWidth;cv.height=innerHeight;
+  stars=Array.from({length:Math.min(170,innerWidth/8)},()=>({
+    x:Math.random()*cv.width,y:Math.random()*cv.height,
+    r:Math.random()*1.3+.3,p:Math.random()*Math.PI*2,s:.4+Math.random()*.8}));
+}
+resize();addEventListener("resize",resize);
+const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function draw(t){
+  cx.clearRect(0,0,cv.width,cv.height);
+  for(const st of stars){
+    const a=.25+.45*Math.abs(Math.sin(t/1600*st.s+st.p));
+    cx.beginPath();cx.arc(st.x,st.y,st.r,0,7);
+    cx.fillStyle=`rgba(232,213,163,${a})`;cx.fill();
+  }
+  if(!reduced)requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+</script>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <h2>Institut Yahdi Qalbah</h2>
+      <p>Enseigner et faire aimer le Coran — Sénégal &amp; diaspora francophone.</p>
+      <p class="site-footer-contact"><a href="https://wa.me/221761857373">WhatsApp</a> · <a href="mailto:yahdiqalbahinstitute@gmail.com">yahdiqalbahinstitute@gmail.com</a></p>
+      <p class="site-footer-social">Suivre : <a href="https://whatsapp.com/channel/0029VajkT8J0LKZ54653vq0t" rel="noopener">Chaîne WhatsApp</a> · <a href="https://www.instagram.com/yahdiqalbah/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61595313096973" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@yahdi.qalbah" rel="noopener">TikTok</a> · <a href="https://www.youtube.com/@YahdiQalbah" rel="noopener">YouTube</a></p>
+    </div>
+    <div>
+      <h2>Les espaces</h2>
+      <ul>
+        <li><a href="/prophetes/">La Chaîne des Prophètes</a></li>
+        <li><a href="/noms/">Les 99 Noms d’Allah</a></li>
+        <li><a href="/seerah/">La Vie du Prophète ﷺ</a></li>
+        <li><a href="/tadabbur/">Tadabbur</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sadaqa jariya</h2>
+      <p>Tout le contenu est gratuit et le restera. La participation est libre et ne débloque aucun accès.</p>
+      <p><a href="/participer/">Participer →</a></p>
+    </div>
+  </div>
+  <p class="site-footer-sources">Chaque affirmation de ce site renvoie à ses sources — Coran, hadiths et ouvrages cités.</p>
+  <p class="site-footer-ia">Les textes de ce site sont préparés avec l'aide d'outils d'intelligence artificielle, puis vérifiés un à un et validés par Saïbo Danfakha. Le texte du Coran et ses traductions ne passent jamais par ces outils.</p>
+</footer>
+</body>
+</html>
