@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /docs/
+Disallow: /test-hero-premium.html
+Disallow: /*.corps.html
+Disallow: /*.tpl
+Disallow: /*.py
+
+Sitemap: https://yahdiqalbah.com/sitemap.xml
