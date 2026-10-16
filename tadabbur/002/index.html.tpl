@@ -159,6 +159,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
     <p><a href="https://quran.com/fr/10/58?translations=31" target="_blank" rel="noopener">Vérifier le verset sur quran.com →</a></p>
     <p>La réflexion qui précède est une méditation personnelle. Elle n'est pas un commentaire
     savant (<i>tafsīr</i>) et ne prétend pas en tenir lieu. Aucun avis juridique n'y est rendu.</p>
+    <p><strong>Rédaction</strong> : méditation préparée avec l'aide d'un outil d'IA, puis vérifiée et validée par Saïbo Danfakha. Le texte arabe et sa traduction ne sont pas produits par cet outil.</p>
   </div>
 
 </article>
@@ -222,6 +223,7 @@ requestAnimationFrame(draw);
     </div>
   </div>
   <p class="site-footer-sources">Chaque affirmation de ce site renvoie à ses sources — Coran, hadiths et ouvrages cités.</p>
+  <p class="site-footer-ia">Les textes de ce site sont préparés avec l'aide d'outils d'intelligence artificielle, puis vérifiés un à un et validés par Saïbo Danfakha. Le texte du Coran et ses traductions ne passent jamais par ces outils.</p>
 </footer>
 </body>
 </html>
