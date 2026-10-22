@@ -53,8 +53,10 @@ h1{animation-delay:.3s;font-family:var(--serif);font-weight:600;font-size:clamp(
   border:1px solid var(--line);padding:.5rem 1.1rem;border-radius:999px;color:var(--or)}
 
 /* ---------- INDEX DE LA SERIE ---------- */
-.episodes{max-width:720px;margin:0 auto;padding:1rem 1.5rem 4rem;display:grid;gap:1rem}
-.episode-card{display:block;border:1px solid var(--line);border-radius:18px;padding:1.6rem 1.7rem;
+.episodes{max-width:1120px;margin:0 auto;padding:1rem 1.5rem 4rem;display:grid;gap:1.2rem;grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:980px){ .episodes{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:640px){ .episodes{grid-template-columns:1fr} }
+.episode-card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:18px;padding:1.6rem 1.7rem;
   background:linear-gradient(160deg,rgba(26,20,9,.6),rgba(15,12,6,.45));
   transition:border-color .3s,transform .3s,box-shadow .3s}
 .episode-card:hover{border-color:var(--or);transform:translateY(-3px);box-shadow:0 16px 44px rgba(0,0,0,.45)}
@@ -121,55 +123,55 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
 </header>
 
 <div class="episodes">
-  <a class="episode-card" href="/seerah/001/">
-    <span class="episode-num">Épisode 1</span>
-    <h3>Ses spécificités — partie 1</h3>
-    <p>Ses noms, l'intercession au Jour du Jugement, et ce qui distingue le Prophète ﷺ de tous ceux qui l'ont précédé.</p>
-  </a>
-  <a class="episode-card" href="/seerah/002/">
-    <span class="episode-num">Épisode 2</span>
-    <h3>Ses spécificités — partie 2</h3>
-    <p>Son apparence, sa simplicité, son humilité, sa bravoure, sa générosité, son humour — et le du’â’ qu’il a gardé pour sa communauté.</p>
-  </a>
-  <a class="episode-card" href="/seerah/003/">
-    <span class="episode-num">Épisode 3</span>
-    <h3>Pourquoi étudier la Seerah</h3>
-    <p>Ce que signifie le mot Seerah, les huit raisons de l'étudier, les sept sources qui nous la transmettent — et qui étaient les Arabes avant l'islam.</p>
-  </a>
-  <a class="episode-card" href="/seerah/004/">
-    <span class="episode-num">Épisode 4</span>
-    <h3>Le statut religieux du monde avant l'Islam</h3>
-    <p>Comment le paganisme est entré en Arabie, les quatre hommes qui l'ont refusé — et l'état religieux de la Perse et de Rome à la veille de la révélation.</p>
-  </a>
-  <a class="episode-card" href="/seerah/005/">
-    <span class="episode-num">Épisode 5</span>
-    <h3>La généalogie du Prophète ﷺ et l'Année de l'Éléphant</h3>
-    <p>D'où viennent les Arabes, les vingt ancêtres établis — et les quatre hommes qui ont fait La Mecque, jusqu'à l'armée d'Abraha.</p>
-  </a>
-  <a class="episode-card" href="/seerah/006/">
-    <span class="episode-num">Épisode 6</span>
-    <h3>La naissance du Prophète ﷺ, et pourquoi l'Arabie</h3>
-    <p>Ce que croyaient les Arabes, pourquoi Allah a choisi l'Arabie — et ce qui est établi de sa naissance.</p>
-  </a>
-  <a class="episode-card" href="/seerah/007/">
-    <span class="episode-num">Épisode 7</span>
-    <h3>L'enfance du Prophète ﷺ : le désert, la poitrine ouverte, trois deuils</h3>
-    <p>Chez Halîma, la poitrine ouverte, trois fois orphelin avant neuf ans — et ce qu'il faut penser du moine Bahîrâ.</p>
-  </a>
-  <a class="episode-card" href="/seerah/008/">
-    <span class="episode-num">Épisode 8</span>
-    <h3>La jeunesse du Prophète ﷺ : le berger, la guerre de Fijâr, le pacte des vertueux</h3>
-    <p>Un berger payé quelques sous, des flèches ramassées dans la montagne, un pacte scellé au parfum pour un étranger — et la leçon d'Ibn Judʿân.</p>
+  <a class="episode-card" href="/seerah/010/">
+    <span class="episode-num">Épisode 10</span>
+    <h3>Zayd ibn Hâritha et le début de la révélation</h3>
+    <p>Un enfant volé qui choisit de rester, une grotte face à la Kaʿba, un ange qui dit «&nbsp;Lis&nbsp;!&nbsp;» — et une épouse qui rassure.</p>
   </a>
   <a class="episode-card" href="/seerah/009/">
     <span class="episode-num">Épisode 9</span>
     <h3>Le mariage avec Khadîja et la reconstruction de la Kaʿba</h3>
     <p>Un berger trop pudique, une caravane qui revient trois fois plus riche, un mariage — et la pierre noire posée sur un manteau.</p>
   </a>
-  <a class="episode-card" href="/seerah/010/">
-    <span class="episode-num">Épisode 10</span>
-    <h3>Zayd ibn Hâritha et le début de la révélation</h3>
-    <p>Un enfant volé qui choisit de rester, une grotte face à la Kaʿba, un ange qui dit «&nbsp;Lis&nbsp;!&nbsp;» — et une épouse qui rassure.</p>
+  <a class="episode-card" href="/seerah/008/">
+    <span class="episode-num">Épisode 8</span>
+    <h3>La jeunesse du Prophète ﷺ : le berger, la guerre de Fijâr, le pacte des vertueux</h3>
+    <p>Un berger payé quelques sous, des flèches ramassées dans la montagne, un pacte scellé au parfum pour un étranger — et la leçon d'Ibn Judʿân.</p>
+  </a>
+  <a class="episode-card" href="/seerah/007/">
+    <span class="episode-num">Épisode 7</span>
+    <h3>L'enfance du Prophète ﷺ : le désert, la poitrine ouverte, trois deuils</h3>
+    <p>Chez Halîma, la poitrine ouverte, trois fois orphelin avant neuf ans — et ce qu'il faut penser du moine Bahîrâ.</p>
+  </a>
+  <a class="episode-card" href="/seerah/006/">
+    <span class="episode-num">Épisode 6</span>
+    <h3>La naissance du Prophète ﷺ, et pourquoi l'Arabie</h3>
+    <p>Ce que croyaient les Arabes, pourquoi Allah a choisi l'Arabie — et ce qui est établi de sa naissance.</p>
+  </a>
+  <a class="episode-card" href="/seerah/005/">
+    <span class="episode-num">Épisode 5</span>
+    <h3>La généalogie du Prophète ﷺ et l'Année de l'Éléphant</h3>
+    <p>D'où viennent les Arabes, les vingt ancêtres établis — et les quatre hommes qui ont fait La Mecque, jusqu'à l'armée d'Abraha.</p>
+  </a>
+  <a class="episode-card" href="/seerah/004/">
+    <span class="episode-num">Épisode 4</span>
+    <h3>Le statut religieux du monde avant l'Islam</h3>
+    <p>Comment le paganisme est entré en Arabie, les quatre hommes qui l'ont refusé — et l'état religieux de la Perse et de Rome à la veille de la révélation.</p>
+  </a>
+  <a class="episode-card" href="/seerah/003/">
+    <span class="episode-num">Épisode 3</span>
+    <h3>Pourquoi étudier la Seerah</h3>
+    <p>Ce que signifie le mot Seerah, les huit raisons de l'étudier, les sept sources qui nous la transmettent — et qui étaient les Arabes avant l'islam.</p>
+  </a>
+  <a class="episode-card" href="/seerah/002/">
+    <span class="episode-num">Épisode 2</span>
+    <h3>Ses spécificités — partie 2</h3>
+    <p>Son apparence, sa simplicité, son humilité, sa bravoure, sa générosité, son humour — et le du’â’ qu’il a gardé pour sa communauté.</p>
+  </a>
+  <a class="episode-card" href="/seerah/001/">
+    <span class="episode-num">Épisode 1</span>
+    <h3>Ses spécificités — partie 1</h3>
+    <p>Ses noms, l'intercession au Jour du Jugement, et ce qui distingue le Prophète ﷺ de tous ceux qui l'ont précédé.</p>
   </a>
 </div>
 
