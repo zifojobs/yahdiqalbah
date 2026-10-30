@@ -104,6 +104,7 @@ footer .fnote{max-width:62ch;margin:.8rem auto 0}
     <a href="/noms/">Les 99 Noms</a>
     <a href="/seerah/">La Seerah</a>
     <a href="/tadabbur/" aria-current="page">Tadabbur</a>
+    <a href="/podcast/">Le Podcast</a>
     <a href="/participer/" class="btn-or">Participer</a>
   </nav>
 </header>
@@ -214,6 +215,7 @@ requestAnimationFrame(draw);
         <li><a href="/noms/">Les 99 Noms d’Allah</a></li>
         <li><a href="/seerah/">La Vie du Prophète ﷺ</a></li>
         <li><a href="/tadabbur/">Tadabbur</a></li>
+        <li><a href="/podcast/">Le Coran, aayah par aayah</a></li>
       </ul>
     </div>
     <div>
