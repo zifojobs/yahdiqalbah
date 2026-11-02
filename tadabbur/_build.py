@@ -93,4 +93,14 @@ page("012",
      h1="Le confort qui endort",
      ref="Sourate Al-Wâqi'ah, 56 : 45",
      kicker="Tadabbur · Verset 12",
-     corps=corps("012"), prev="011", nxt=None)
+     corps=corps("012"), prev="011", nxt="013")
+
+page("013",
+     titre="Une réponse sans « Dis » — Sourate Al-Baqarah 2 : 186 — Tadabbur",
+     desc="Treize fois, une question posée au Prophète reçoit sa réponse par « Dis ». Une seule fois, on l'interroge sur Allah, et la réponse commence par « Je ». Un verset médité, Al-Baqarah 2 : 186.",
+     og_desc="On parlait d'Allah. Le verset fait passer à parler à Allah.",
+     sourate="@@CH:2@@",
+     h1="Une réponse sans « Dis »",
+     ref="Sourate Al-Baqarah, 2 : 186",
+     kicker="Tadabbur · Verset 13",
+     corps=corps("013"), prev="012", nxt=None)
