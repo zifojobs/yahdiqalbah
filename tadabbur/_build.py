@@ -103,4 +103,14 @@ page("013",
      h1="Une réponse sans « Dis »",
      ref="Sourate Al-Baqarah, 2 : 186",
      kicker="Tadabbur · Verset 13",
-     corps=corps("013"), prev="012", nxt=None)
+     corps=corps("013"), prev="012", nxt="014")
+
+page("014",
+     titre="L'ordonnance dans la poche — Sourate Yûnus 10 : 57 — Tadabbur",
+     desc="Une exhortation, une guérison, un guide, une miséricorde : le verset décrit un traitement complet. Et la racine du mot « guérison » ne revient que six fois dans le Coran. Un verset médité, Yûnus 10 : 57.",
+     og_desc="Le remède est déjà venu. Reste à le prendre jusqu'au bout.",
+     sourate="@@CH:10@@",
+     h1="L'ordonnance dans la poche",
+     ref="Sourate Yûnus, 10 : 57",
+     kicker="Tadabbur · Verset 14",
+     corps=corps("014"), prev="013", nxt=None)
